@@ -11,6 +11,7 @@ net-sub generate.py — 从共享规则清单 + 节点清单生成双端产物
 import os
 import sys
 import time
+import json
 from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -42,7 +43,11 @@ def load_rules(name):
 
 
 def parse_nodes(path):
-    """读 dist/nodes.txt，解析节点为 (uri, 摘要) 列表。"""
+    """读节点文件，解析节点为 (uri, 摘要) 列表。优先 nodes-alive.txt。"""
+    alive_path = os.path.join(DIST, "nodes-alive.txt")
+    if os.path.exists(alive_path) and os.path.getsize(alive_path) > 0:
+        path = alive_path
+        print(f"📦 使用存活节点文件: {path}")
     nodes = []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
@@ -136,6 +141,63 @@ def uri_to_mihomo(uri):
                     "cipher": method,
                     "password": password,
                 }
+
+        elif proto == "vmess":
+            # vmess://base64(json)
+            import base64
+            try:
+                j = json.loads(base64.b64decode(body.split("#")[0] + "==").decode())
+            except Exception:
+                return None
+            host = j.get("add") or j.get("host")
+            if not host:
+                return None
+            entry = {
+                "name": f"vmess-{host}-{j.get('port')}",
+                "type": "vmess",
+                "server": host,
+                "port": int(j.get("port", 0)),
+                "uuid": j.get("id"),
+                "alterId": int(j.get("aid", 0) or 0),
+                "cipher": j.get("scy") or j.get("type") or "auto",
+            }
+            if j.get("tls") == "tls":
+                entry["tls"] = True
+                if j.get("sni"):
+                    entry["servername"] = j["sni"]
+            if j.get("net") == "ws":
+                entry["network"] = "ws"
+                entry["ws-opts"] = {}
+                if j.get("path"):
+                    entry["ws-opts"]["path"] = j["path"].split("#")[0]
+                if j.get("host"):
+                    entry["ws-opts"]["headers"] = {"Host": j["host"].split("#")[0]}
+            return entry
+
+        elif proto == "ssr":
+            # ssr://base64(...)
+            import base64
+            try:
+                decoded = base64.b64decode(body.split("#")[0] + "==").decode()
+            except Exception:
+                return None
+            # host:port:proto:method:obfs:obfsparam:base64(password)?params
+            parts = decoded.split(":")
+            if len(parts) < 6:
+                return None
+            host, port = parts[0], int(parts[1])
+            return {
+                "name": f"ssr-{host}-{port}",
+                "type": "ssr",
+                "server": host,
+                "port": port,
+                "cipher": parts[3],
+                "protocol": parts[2],
+                "obfs": parts[4],
+                "password": base64.b64decode(parts[6] + "==").decode() if len(parts) > 6 else "",
+                "protocol-param": "",
+                "obfs-param": "",
+            }
         return None
     except Exception:
         return None
@@ -302,6 +364,32 @@ def main():
                                 f.write(f"      \"{k}\": \"{v}\"\n")
                 if p.get("client-fingerprint"):
                     f.write(f"    client-fingerprint: \"{p['client-fingerprint']}\"\n")
+            elif p["type"] == "vmess":
+                f.write(f"    uuid: \"{p['uuid']}\"\n")
+                f.write(f"    alterId: {p.get('alterId', 0)}\n")
+                f.write(f"    cipher: \"{p.get('cipher', 'auto')}\"\n")
+                if p.get("tls"):
+                    f.write("    tls: true\n")
+                    if p.get("servername"):
+                        f.write(f"    servername: \"{p['servername']}\"\n")
+                if p.get("network") == "ws":
+                    f.write("    network: ws\n")
+                    if p.get("ws-opts"):
+                        f.write("    ws-opts:\n")
+                        for k, v in p["ws-opts"].items():
+                            if isinstance(v, dict):
+                                f.write(f"      {k}:\n")
+                                for kk, vv in v.items():
+                                    f.write(f"        \"{kk}\": \"{vv}\"\n")
+                            else:
+                                f.write(f"      \"{k}\": \"{v}\"\n")
+            elif p["type"] == "ssr":
+                f.write(f"    cipher: \"{p['cipher']}\"\n")
+                f.write(f"    protocol: \"{p['protocol']}\"\n")
+                f.write(f"    obfs: \"{p['obfs']}\"\n")
+                f.write(f"    password: \"{p['password']}\"\n")
+                f.write("    protocol-param: \"\"\n")
+                f.write("    obfs-param: \"\"\n")
             elif p["type"] == "ss":
                 f.write(f"    cipher: \"{p['cipher']}\"\n")
                 f.write(f"    password: \"{p['password']}\"\n")

@@ -18,6 +18,9 @@ jobs:
       - name: 拉取上游节点源
         run: python3 scripts/fetch_sources.py
 
+      - name: 节点存活探测（TCP）
+        run: python3 scripts/probe_nodes.py --max-workers 128 --timeout 4
+
       - name: 生成双端产物
         run: python3 scripts/generate.py
 
