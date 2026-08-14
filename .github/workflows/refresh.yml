@@ -1,0 +1,34 @@
+name: net-sub 订阅刷新
+
+on:
+  schedule:
+    # 每 6 小时刷新一次
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 拉取上游节点源
+        run: python3 scripts/fetch_sources.py
+
+      - name: 生成双端产物
+        run: python3 scripts/generate.py
+
+      - name: 提交 dist 变更
+        run: |
+          git config user.name "net-sub bot"
+          git config user.email "net-sub@users.noreply.github.com"
+          git add dist/
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore(dist): 自动刷新订阅 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
