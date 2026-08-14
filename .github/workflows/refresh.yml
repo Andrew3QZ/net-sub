@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 拉取上游节点源
+        id: fetch
         run: python3 scripts/fetch_sources.py
 
       - name: 节点存活探测（TCP）
@@ -35,3 +36,17 @@ jobs:
             git commit -m "chore(dist): 自动刷新订阅 $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Telegram 通知（成功）
+        if: success()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/telegram_notify.py || true
+
+      - name: Telegram 通知（失败）
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/telegram_notify.py --failed || true
