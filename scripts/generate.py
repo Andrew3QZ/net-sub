@@ -350,7 +350,11 @@ def main():
             f.write(f"    server: \"{p['server']}\"\n")
             f.write(f"    port: {p['port']}\n")
             if p["type"] in ("vless", "trojan"):
-                f.write(f"    uuid: \"{p['uuid']}\"\n")
+                if p["type"] == "vless":
+                    f.write(f"    uuid: \"{p['uuid']}\"\n")
+                else:
+                    # trojan 在 mihomo 里要求 password 字段（不是 uuid！）
+                    f.write(f"    password: \"{p['uuid']}\"\n")
                 if "tls" in p and p["tls"]:
                     f.write("    tls: true\n")
                     if p.get("servername"):
