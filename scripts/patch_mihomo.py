@@ -15,12 +15,12 @@ import yaml
 SUBDOMAIN = "https://sub.1919444.xyz/mihomo"
 
 PROVIDERS = {
-    "ai":            {"behavior": "domain",  "group": "🤖 国外 AI 专线"},
-    "meetings":      {"behavior": "domain",  "group": "📹 Zoom 会议"},
-    "discord":       {"behavior": "domain",  "group": "🚀 Proxy"},
-    "docker":        {"behavior": "domain",  "group": "🚀 Proxy"},
-    "direct-domains": {"behavior": "domain", "group": "DIRECT"},
-    "direct-ips":    {"behavior": "ipcidr",  "group": "DIRECT"},
+    "ai":            {"behavior": "classical", "group": "🤖 国外 AI 专线"},
+    "meetings":      {"behavior": "classical", "group": "📹 Zoom 会议"},
+    "discord":       {"behavior": "classical", "group": "🚀 Proxy"},
+    "docker":        {"behavior": "classical", "group": "🚀 Proxy"},
+    "direct-domains": {"behavior": "classical", "group": "DIRECT"},
+    "direct-ips":    {"behavior": "classical", "group": "DIRECT"},
 }
 
 

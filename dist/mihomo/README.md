@@ -13,42 +13,42 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 ```
 
-## 规则集（rule-provider）
+## 规则集（rule-provider，classical 格式）
 ```yaml
 rule-providers:
   ai:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/ai.yaml
     interval: 21600
   meetings:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/meetings.yaml
     interval: 21600
   discord:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/discord.yaml
     interval: 21600
   docker:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/docker.yaml
     interval: 21600
   direct-domains:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/direct-domains.yaml
     interval: 21600
   direct-ips:
     type: http
-    behavior: ipcidr
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/direct-ips.yaml
     interval: 21600
@@ -64,4 +64,4 @@ rules:
   - RULE-SET,direct-domains,DIRECT
   - RULE-SET,direct-ips,DIRECT,no-resolve
 ```
-生成时间: 2026-08-14 13:36 UTC
+生成时间: 2026-08-14 22:09 UTC

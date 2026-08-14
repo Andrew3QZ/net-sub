@@ -298,16 +298,20 @@ def gen_mihomo(nodes):
 
 
 def gen_rule_provider(name, domains, is_ip=False):
-    """生成 mihomo rule-provider yaml。"""
-    behavior = "ipcidr" if is_ip else "domain"
+    """生成 mihomo rule-provider yaml（classical 格式：完整规则行，后缀匹配生效）。
+
+    注意: behavior: domain 是精确匹配（DOMAIN 语义），匹配不了子域；
+    必须用 classical + DOMAIN-SUFFIX 才能让 hub.docker.com 命中 docker.com。
+    """
+    behavior = "classical"
     lines = [
         "payload:",
     ]
     for d in domains:
         if is_ip:
-            lines.append(f"  - '{d}'")
+            lines.append(f"  - 'IP-CIDR,{d},no-resolve'")
         else:
-            lines.append(f"  - '{d}'")
+            lines.append(f"  - 'DOMAIN-SUFFIX,{d}'")
     return "\n".join(lines), behavior
 
 
@@ -422,42 +426,42 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 ```
 
-## 规则集（rule-provider）
+## 规则集（rule-provider，classical 格式）
 ```yaml
 rule-providers:
   ai:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/ai.yaml
     interval: 21600
   meetings:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/meetings.yaml
     interval: 21600
   discord:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/discord.yaml
     interval: 21600
   docker:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/docker.yaml
     interval: 21600
   direct-domains:
     type: http
-    behavior: domain
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/direct-domains.yaml
     interval: 21600
   direct-ips:
     type: http
-    behavior: ipcidr
+    behavior: classical
     format: yaml
     url: https://<域名>/mihomo/rules/direct-ips.yaml
     interval: 21600
