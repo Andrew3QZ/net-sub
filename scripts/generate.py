@@ -122,25 +122,50 @@ def uri_to_mihomo(uri):
             return entry
 
         elif proto == "ss":
-            # ss://method:pass@host:port 或 ss://base64(method:pass)@host:port
+            # ss:// 三种格式：
+            #   ss://method:pass@host:port
+            #   ss://base64(method:pass@host:port)          （无 @，整体 base64）
+            #   ss://base64(method:pass)@host:port          （仅 auth base64）
+            # 均可能带 #fragment（节点名），先剥离
             import base64
+            body = body.split("#")[0]
             if "@" in body:
                 auth, hostport = body.rsplit("@", 1)
                 if ":" not in auth:
+                    # auth 是 base64(method:pass)
                     try:
                         auth = base64.b64decode(auth + "==").decode()
                     except Exception:
                         return None
+                if ":" not in auth:
+                    return None
                 method, password = auth.split(":", 1)
+                if ":" not in hostport:
+                    return None
                 host, port = hostport.rsplit(":", 1)
-                return {
-                    "name": f"ss-{host}-{port}",
-                    "type": "ss",
-                    "server": host,
-                    "port": int(port),
-                    "cipher": method,
-                    "password": password,
-                }
+            else:
+                # 整体 base64：ss://base64(method:pass@host:port)
+                try:
+                    decoded = base64.b64decode(body + "==").decode()
+                except Exception:
+                    return None
+                if "@" not in decoded or ":" not in decoded.split("@")[0]:
+                    return None
+                auth, hostport = decoded.rsplit("@", 1)
+                method, password = auth.split(":", 1)
+                if ":" not in hostport:
+                    return None
+                host, port = hostport.rsplit(":", 1)
+            if not method or not password or not host or not port:
+                return None
+            return {
+                "name": f"ss-{host}-{port}",
+                "type": "ss",
+                "server": host,
+                "port": int(port),
+                "cipher": method,
+                "password": password,
+            }
 
         elif proto == "vmess":
             # vmess://base64(json)
