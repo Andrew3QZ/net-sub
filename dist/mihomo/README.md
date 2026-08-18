@@ -5,7 +5,7 @@
 proxy-providers:
   net-sub:
     type: http
-    url: https://<域名>/mihomo/proxies.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/proxies.yaml
     interval: 21600
     health-check:
       enable: true
@@ -20,37 +20,37 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: https://<域名>/mihomo/rules/ai.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/rules/ai.yaml
     interval: 21600
   meetings:
     type: http
     behavior: classical
     format: yaml
-    url: https://<域名>/mihomo/rules/meetings.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/rules/meetings.yaml
     interval: 21600
   discord:
     type: http
     behavior: classical
     format: yaml
-    url: https://<域名>/mihomo/rules/discord.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/rules/discord.yaml
     interval: 21600
   docker:
     type: http
     behavior: classical
     format: yaml
-    url: https://<域名>/mihomo/rules/docker.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/rules/docker.yaml
     interval: 21600
   direct-domains:
     type: http
     behavior: classical
     format: yaml
-    url: https://<域名>/mihomo/rules/direct-domains.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/rules/direct-domains.yaml
     interval: 21600
   direct-ips:
     type: http
     behavior: classical
     format: yaml
-    url: https://<域名>/mihomo/rules/direct-ips.yaml
+    url: https://sub.1919444.xyz/sub/<SUB_PATH_SECRET>/mihomo/rules/direct-ips.yaml
     interval: 21600
 ```
 
@@ -64,4 +64,4 @@ rules:
   - RULE-SET,direct-domains,DIRECT
   - RULE-SET,direct-ips,DIRECT,no-resolve
 ```
-生成时间: 2026-08-18 04:06 UTC
+生成时间: 2026-08-18 07:05 UTC
