@@ -340,6 +340,44 @@ def gen_rule_provider(name, domains, is_ip=False):
     return "\n".join(lines), behavior
 
 
+
+
+def write_pages_functions():
+    """Cloudflare Pages root_dir=/dist: functions must be emitted under dist/functions."""
+    functions_dir = os.path.join(DIST, "functions")
+    os.makedirs(functions_dir, exist_ok=True)
+    middleware = r'''
+export async function onRequest(context) {
+  const req = context.request;
+  const env = context.env || {};
+  const url = new URL(req.url);
+  const secret = env.SUB_PATH_SECRET || '';
+
+  if (!secret) {
+    return new Response('Not Found', { status: 404 });
+  }
+
+  const prefix = `/sub/${secret}/`;
+  if (!url.pathname.startsWith(prefix)) {
+    return new Response('Not Found', { status: 404 });
+  }
+
+  url.pathname = '/' + url.pathname.slice(prefix.length).replace(/^\/+/, '');
+  return env.ASSETS.fetch(new Request(url.toString(), req));
+}
+'''
+    routes = '''{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": []
+}
+'''
+    with open(os.path.join(functions_dir, "_middleware.js"), "w", encoding="utf-8") as f:
+        f.write(middleware)
+    with open(os.path.join(functions_dir, "_routes.json"), "w", encoding="utf-8") as f:
+        f.write(routes)
+    print("✅ dist/functions/_middleware.js (SUB_PATH_SECRET auth)")
+
 def main():
     os.makedirs(MIHOMO, exist_ok=True)
     os.makedirs(os.path.join(MIHOMO, "rules"), exist_ok=True)
@@ -511,6 +549,9 @@ rules:
     with open(os.path.join(MIHOMO, "README.md"), "w", encoding="utf-8") as f:
         f.write(readme)
     print("✅ dist/mihomo/README.md")
+
+    # 7. Cloudflare Pages Functions auth middleware (root_dir=/dist)
+    write_pages_functions()
 
 
 if __name__ == "__main__":
