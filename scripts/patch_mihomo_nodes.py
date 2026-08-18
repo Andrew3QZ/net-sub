@@ -8,12 +8,17 @@
    - 若组已有 net-sub 则跳过
 用法: python3 patch_mihomo_nodes.py /path/to/config.yaml
 """
+import os
 import sys
 import yaml
 
+SECRET = os.environ.get("NET_SUB_PATH_SECRET", "")
+if not SECRET:
+    raise SystemExit("NET_SUB_PATH_SECRET 未设置；请在 Pi 上通过环境变量注入，不要写入 Git")
+NETSUB_BASE = f"https://sub.1919444.xyz/sub/{SECRET}"
 NETSUB_PROVIDER = {
     "type": "http",
-    "url": "https://sub.1919444.xyz/mihomo/proxies.yaml",
+    "url": f"{NETSUB_BASE}/mihomo/proxies.yaml",
     "path": "./providers/net-sub.yaml",
     "interval": 21600,
     "health-check": {

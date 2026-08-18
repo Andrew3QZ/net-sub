@@ -62,6 +62,11 @@ def run_url():
     return f"{server}/{repo}/actions"
 
 
+def protected_base_url():
+    secret = os.environ.get("NET_SUB_PATH_SECRET", "<SUB_PATH_SECRET>")
+    return f"https://sub.1919444.xyz/sub/{secret}"
+
+
 def short_sha():
     sha = os.environ.get("GITHUB_SHA", "")
     return sha[:8] if sha else "-"
@@ -104,8 +109,8 @@ def build_success_message():
         f"- 存活协议: {fmt_dict(proto_alive)}",
         "",
         "Pi / mihomo 接入:",
-        "- proxy-provider: https://sub.1919444.xyz/mihomo/proxies.yaml",
-        "- rule-provider: https://sub.1919444.xyz/mihomo/rules/*.yaml",
+        f"- proxy-provider: {protected_base_url()}/mihomo/proxies.yaml",
+        f"- rule-provider: {protected_base_url()}/mihomo/rules/*.yaml",
         "- 建议策略: 主力 UserNodeB/C；net-sub 免费池仅进 🆓 免费应急；Antigravity/AnnBot AI 组走稳定主力，免费池兜底。",
         "",
         "安全边界: 私人订阅和 token 不进 Git；Pi 本地配置只用模板/patch 固化。",

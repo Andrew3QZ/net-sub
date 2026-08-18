@@ -38,6 +38,8 @@ bash pi/health-check.sh
 
 > 默认脚本会调用仓库现有 `scripts/patch_mihomo*.py`，不会写入任何私人凭据。
 
+> 注意：`<SUB_PATH_SECRET>` 只放在 Pi 本地配置，不提交到 Git。
+
 ## Telegram 通知
 
 `refresh.yml` 每 6 小时运行一次，成功通知包含：

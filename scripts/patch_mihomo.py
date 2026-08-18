@@ -9,10 +9,14 @@
    - direct-domains/direct-ips 引用 DIRECT
 用法: python3 patch_mihomo.py /path/to/config.yaml
 """
+import os
 import sys
 import yaml
 
-SUBDOMAIN = "https://sub.1919444.xyz/mihomo"
+SECRET = os.environ.get("NET_SUB_PATH_SECRET", "")
+if not SECRET:
+    raise SystemExit("NET_SUB_PATH_SECRET 未设置；请在 Pi 上通过环境变量注入，不要写入 Git")
+SUBDOMAIN = f"https://sub.1919444.xyz/sub/{SECRET}"
 
 PROVIDERS = {
     "ai":            {"behavior": "classical", "group": "🤖 国外 AI 专线"},
