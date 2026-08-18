@@ -36,6 +36,13 @@ dist/                    # 生成产物（自动提交，勿手改）
 | direct-domains.txt | DIRECT | DIRECT |
 | direct-ips.txt | DIRECT | DIRECT |
 
+
+## Pi AI Gateway 固化
+
+`pi/` 目录固化 Pi mihomo 接入方式：GitHub Actions 每 6 小时扫描/筛选公开节点并生成 `dist/mihomo/*`，Pi 只拉取稳定产物。AnnBot/Antigravity AI 访问遵循“稳定主力节点优先，`net-sub` 免费池仅作 `🆓 免费应急`”原则。
+
+Telegram 通知由 `scripts/telegram_notify.py` 发送，成功消息包含源拉取、去重、TCP 存活率、协议分布、Actions 链接和 Pi 接入提示；需要仓库 Secrets `TELEGRAM_BOT_TOKEN` 与 `TELEGRAM_CHAT_ID`。
+
 ## 本地开发
 
 ```bash

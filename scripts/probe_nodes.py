@@ -84,12 +84,29 @@ def main():
     proto_alive = Counter(u.split("://")[0] for u in alive)
     proto_all = Counter(u.split("://")[0] for u in nodes)
 
+    duration = round(time.time() - t0, 2)
+
     with open(os.path.join(DIST, "nodes-alive.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(alive) + "\n")
 
-    print(f"\n✅ 存活 {len(alive)}/{len(nodes)} ({(len(alive)/max(len(nodes),1)*100):.1f}%) 耗时 {time.time()-t0:.0f}s")
+    probe_stats = {
+        "tested": len(nodes),
+        "alive": len(alive),
+        "alive_rate": round(len(alive) / max(len(nodes), 1), 4),
+        "duration_seconds": duration,
+        "timeout_seconds": args.timeout,
+        "max_workers": args.max_workers,
+        "alive_protocols": dict(proto_alive),
+        "all_protocols": dict(proto_all),
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+    }
+    with open(os.path.join(DIST, "probe-stats.json"), "w", encoding="utf-8") as f:
+        json.dump(probe_stats, f, ensure_ascii=False, indent=2)
+
+    print(f"\n✅ 存活 {len(alive)}/{len(nodes)} ({(len(alive)/max(len(nodes),1)*100):.1f}%) 耗时 {duration:.0f}s")
     print(f"   存活协议: {dict(proto_alive)}")
     print(f"   全部协议: {dict(proto_all)}")
+    print("   统计: dist/probe-stats.json")
 
 
 if __name__ == "__main__":
