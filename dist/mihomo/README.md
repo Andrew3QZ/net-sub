@@ -64,4 +64,4 @@ rules:
   - RULE-SET,direct-domains,DIRECT
   - RULE-SET,direct-ips,DIRECT,no-resolve
 ```
-生成时间: 2026-08-19 18:54 UTC
+生成时间: 2026-08-20 01:53 UTC
