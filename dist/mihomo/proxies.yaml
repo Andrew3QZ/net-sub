@@ -1,4 +1,669 @@
 proxies:
+  - name: "vless-198.41.219.218-443"
+    type: vless
+    server: "198.41.219.218"
+    port: 443
+    uuid: "fe273991-0514-4a16-8ec4-b15ae861c000"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2048fp=randomized"
+      headers:
+        "Host": "zyzzzoao.xn--fiqv8j.eu.org"
+  - name: "vmess-ct3.ainivp.com-33412"
+    type: vmess
+    server: "ct3.ainivp.com"
+    port: 33412
+    uuid: "9204afcd-026e-781f-1abc-c03efabd1344"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/ray"
+      headers:
+        "Host": "ct3.ainivp.com"
+  - name: "vless-176.124.223.30-8880"
+    type: vless
+    server: "176.124.223.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime38.workers.dev"
+  - name: "vless-104.26.5.134-2096"
+    type: vless
+    server: "104.26.5.134"
+    port: 2096
+    uuid: "7f50ec42-4673-41e2-94be-ae6253909def"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2048security=tls"
+      headers:
+        "Host": "joey.freen1.de5.net"
+  - name: "vless-45.131.4.30-8880"
+    type: vless
+    server: "45.131.4.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime59.workers.dev"
+  - name: "vless-114.129.43.30-8880"
+    type: vless
+    server: "114.129.43.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime04.workers.dev"
+  - name: "vless-46.149.71.46-443"
+    type: vless
+    server: "46.149.71.46"
+    port: 443
+    uuid: "0dc3fe97-73e3-4cc2-89a7-331e66540365"
+    client-fingerprint: "edge"
+  - name: "vless-104.17.25.132-80"
+    type: vless
+    server: "104.17.25.132"
+    port: 80
+    uuid: "73d17f62-d0c0-4c90-903c-a2b3f3806cca"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2048fp=chrome"
+      headers:
+        "Host": "fragrant-tooth-a5b7.cajeba6448.workers.dev"
+  - name: "vless-195.26.229.50-8880"
+    type: vless
+    server: "195.26.229.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime56.workers.dev"
+  - name: "vless-104.21.1.5-80"
+    type: vless
+    server: "104.21.1.5"
+    port: 80
+    uuid: "eb295cd7-a389-4cde-9598-ce126b0910bc"
+    network: ws
+    ws-opts:
+      "path": "/fp=chrome"
+      headers:
+        "Host": "v2configlab.v2configlab2.workers.dev"
+  - name: "vless-172.67.186.114-80"
+    type: vless
+    server: "172.67.186.114"
+    port: 80
+    uuid: "eb295cd7-a389-4cde-9598-ce126b0910bc"
+    network: ws
+    ws-opts:
+      "path": "/fp=chrome"
+      headers:
+        "Host": "v2configlab.v2configlab2.workers.dev"
+  - name: "vless-104.19.151.106-80"
+    type: vless
+    server: "104.19.151.106"
+    port: 80
+    uuid: "73d17f62-d0c0-4c90-903c-a2b3f3806cca"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2048"
+      headers:
+        "Host": "fragrant-tooth-a5b7.cajeba6448.workers.dev"
+  - name: "vmess-v45.hdacd.com-30845"
+    type: vmess
+    server: "v45.hdacd.com"
+    port: 30845
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 2
+    cipher: "auto"
+  - name: "vless-50.62.198.50-8880"
+    type: vless
+    server: "50.62.198.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime39.workers.dev"
+  - name: "vless-108.162.193.30-8880"
+    type: vless
+    server: "108.162.193.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime56.workers.dev"
+  - name: "vless-104.129.167.30-8880"
+    type: vless
+    server: "104.129.167.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime44.workers.dev"
+  - name: "vless-8.34.70.30-8880"
+    type: vless
+    server: "8.34.70.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime09.workers.dev"
+  - name: "vless-45.40.151.30-8880"
+    type: vless
+    server: "45.40.151.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime42.workers.dev"
+  - name: "vless-160.153.138.30-8880"
+    type: vless
+    server: "160.153.138.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime04.workers.dev"
+  - name: "vless-www.4chan.org-443"
+    type: vless
+    server: "www.4chan.org"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-icook.hk-443"
+    type: vless
+    server: "icook.hk"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-fbi.gov-443"
+    type: vless
+    server: "fbi.gov"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-www.gov.se-443"
+    type: vless
+    server: "www.gov.se"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-198.41.208.203-80"
+    type: vless
+    server: "198.41.208.203"
+    port: 80
+    uuid: "a22bff60-a40a-4250-bde2-4c660e363b47"
+    network: ws
+    ws-opts:
+      "path": "/mpmva3e8rtr6v7qq"
+      headers:
+        "Host": "index.harmony715.workers.dev"
+  - name: "vless-www.zsu.gov.ua-443"
+    type: vless
+    server: "www.zsu.gov.ua"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-45.40.153.30-8880"
+    type: vless
+    server: "45.40.153.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime44.workers.dev"
+  - name: "vless-www.baipiao.eu.org-443"
+    type: vless
+    server: "www.baipiao.eu.org"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-173.245.49.30-8880"
+    type: vless
+    server: "173.245.49.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime36.workers.dev"
+  - name: "vless-www.udacity.com-443"
+    type: vless
+    server: "www.udacity.com"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vmess-82.198.246.37-180"
+    type: vmess
+    server: "82.198.246.37"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+  - name: "vless-172.66.44.211-2083"
+    type: vless
+    server: "172.66.44.211"
+    port: 2083
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "wk1.f1w.de5.net"
+    client-fingerprint: "chrome"
+  - name: "trojan-blackshadow.dpdns.org-443"
+    type: trojan
+    server: "blackshadow.dpdns.org"
+    port: 443
+    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+    network: ws
+    ws-opts:
+      "path": "/195.123.218.174-443"
+      headers:
+        "Host": "support.zoom.us.blackshadow.dpdns.org"
+  - name: "vless-172.66.47.45-2083"
+    type: vless
+    server: "172.66.47.45"
+    port: 2083
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    network: ws
+    ws-opts:
+      "path": "/fp=chrome"
+      headers:
+        "Host": "wk1.f1w.de5.net"
+  - name: "vless-usr.moktana.app-443"
+    type: vless
+    server: "usr.moktana.app"
+    port: 443
+    uuid: "7841aff6-8552-4f8e-ad0c-06c3b73e6440"
+    client-fingerprint: "chrome"
+  - name: "vless-singapore.com-443"
+    type: vless
+    server: "singapore.com"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-yx.cloudflare.182682.xyz-443"
+    type: vless
+    server: "yx.cloudflare.182682.xyz"
+    port: 443
+    uuid: "5b9fa73b-b549-480b-add9-c45e650d236f"
+    network: ws
+    ws-opts:
+      "path": "/fp=firefoxsecurity=tls"
+      headers:
+        "Host": "gddy.hhlfy.de5.net"
+  - name: "vless-www.visa.com.sg-2052"
+    type: vless
+    server: "www.visa.com.sg"
+    port: 2052
+    uuid: "363a6072-05d7-48d5-8f19-312b05fdd9cd"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev"
+  - name: "vless-japan.com-443"
+    type: vless
+    server: "japan.com"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-russia.com-443"
+    type: vless
+    server: "russia.com"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-s881.ccgfw.top-443"
+    type: vless
+    server: "s881.ccgfw.top"
+    port: 443
+    uuid: "7402e534-54dc-34cc-ac5b-c85ac6e236fd"
+    client-fingerprint: "chrome"
+  - name: "vless-185.193.30.30-8880"
+    type: vless
+    server: "185.193.30.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime09.workers.dev"
+  - name: "vless-45.40.146.50-8880"
+    type: vless
+    server: "45.40.146.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime36.workers.dev"
+  - name: "vless-45.80.110.30-8880"
+    type: vless
+    server: "45.80.110.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime51.workers.dev"
+  - name: "vless-185.159.247.30-8880"
+    type: vless
+    server: "185.159.247.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime59.workers.dev"
+  - name: "vless-77.75.199.30-8880"
+    type: vless
+    server: "77.75.199.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime59.workers.dev"
+  - name: "vless-108.162.196.30-8880"
+    type: vless
+    server: "108.162.196.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime59.workers.dev"
+  - name: "vless-72.167.230.30-8880"
+    type: vless
+    server: "72.167.230.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime51.workers.dev"
+  - name: "vless-45.80.111.30-8880"
+    type: vless
+    server: "45.80.111.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime52.workers.dev"
+  - name: "vless-84.21.189.197-443"
+    type: vless
+    server: "84.21.189.197"
+    port: 443
+    uuid: "3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0"
+    client-fingerprint: "chrome"
+  - name: "vless-45.85.119.30-8880"
+    type: vless
+    server: "45.85.119.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime56.workers.dev"
+  - name: "vless-66.81.247.40-8880"
+    type: vless
+    server: "66.81.247.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime44.workers.dev"
+  - name: "vless-193.9.49.30-8880"
+    type: vless
+    server: "193.9.49.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime44.workers.dev"
+  - name: "vless-50.62.195.50-8880"
+    type: vless
+    server: "50.62.195.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime38.workers.dev"
+  - name: "vless-shopify.com-443"
+    type: vless
+    server: "shopify.com"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=random"
+      headers:
+        "Host": "misaka.cndyw.ggff.net"
+  - name: "vless-88.216.66.30-8880"
+    type: vless
+    server: "88.216.66.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime04.workers.dev"
+  - name: "vless-g10.steptofsvo.com-443"
+    type: vless
+    server: "g10.steptofsvo.com"
+    port: 443
+    uuid: "279828c6-13f2-439c-9a4e-ea7d4f470fa4"
+    client-fingerprint: "randomized"
+  - name: "vless-45.67.215.30-8880"
+    type: vless
+    server: "45.67.215.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime48.workers.dev"
+  - name: "vless-66.81.247.30-8880"
+    type: vless
+    server: "66.81.247.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime44.workers.dev"
+  - name: "vless-198.71.189.30-8880"
+    type: vless
+    server: "198.71.189.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime04.workers.dev"
+  - name: "vless-154.206.12.40-8880"
+    type: vless
+    server: "154.206.12.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime44.workers.dev"
+  - name: "vless-192.169.223.30-8880"
+    type: vless
+    server: "192.169.223.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime42.workers.dev"
+  - name: "vless-89.116.180.40-8880"
+    type: vless
+    server: "89.116.180.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime09.workers.dev"
+  - name: "vless-194.53.53.30-8880"
+    type: vless
+    server: "194.53.53.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime51.workers.dev"
+  - name: "vless-45.131.209.30-8880"
+    type: vless
+    server: "45.131.209.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime04.workers.dev"
+  - name: "vless-63.141.128.30-8880"
+    type: vless
+    server: "63.141.128.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime42.workers.dev"
+  - name: "vless-45.80.110.50-8880"
+    type: vless
+    server: "45.80.110.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560"
+      headers:
+        "Host": "vms.lifetime51.workers.dev"
+  - name: "vless-185.170.166.30-8880"
+    type: vless
+    server: "185.170.166.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime04.workers.dev"
+  - name: "vless-45.40.146.30-8880"
+    type: vless
+    server: "45.40.146.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime36.workers.dev"
+  - name: "vless-154.197.64.30-8880"
+    type: vless
+    server: "154.197.64.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime36.workers.dev"
+  - name: "vless-45.192.224.30-8880"
+    type: vless
+    server: "45.192.224.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      headers:
+        "Host": "vms.lifetime17.workers.dev"
   - name: "vmess-v10.hdacd.com-30807"
     type: vmess
     server: "v10.hdacd.com"
@@ -6,6 +671,31 @@ proxies:
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 2
     cipher: "auto"
+  - name: "trojan-95.40.24.109-1103"
+    type: trojan
+    server: "95.40.24.109"
+    port: 1103
+    password: "BxceQaOe"
+  - name: "trojan-54.250.197.209-4117"
+    type: trojan
+    server: "54.250.197.209"
+    port: 4117
+    password: "BxceQaOe"
+  - name: "trojan-54.238.251.95-49811"
+    type: trojan
+    server: "54.238.251.95"
+    port: 49811
+    password: "BxceQaOe"
+  - name: "trojan-3.115.9.60-41421"
+    type: trojan
+    server: "3.115.9.60"
+    port: 41421
+    password: "BxceQaOe"
+  - name: "trojan-95.40.24.249-53001"
+    type: trojan
+    server: "95.40.24.249"
+    port: 53001
+    password: "BxceQaOe"
   - name: "vmess-v10.hdacd.com-30807-2"
     type: vmess
     server: "v10.hdacd.com"
@@ -13,6 +703,26 @@ proxies:
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 2
     cipher: "auto"
+  - name: "vless-87.236.146.43-443"
+    type: vless
+    server: "87.236.146.43"
+    port: 443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
+  - name: "vless-132.243.204.84-443"
+    type: vless
+    server: "132.243.204.84"
+    port: 443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
   - name: "vless-13.140.29.253-443"
     type: vless
     server: "13.140.29.253"
@@ -23,20 +733,46 @@ proxies:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
-  - name: "vless-159.100.19.144-8443"
+  - name: "vless-77.110.121.157-443"
     type: vless
-    server: "159.100.19.144"
-    port: 8443
+    server: "77.110.121.157"
+    port: 443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
+  - name: "vless-85.137.167.21-443"
+    type: vless
+    server: "85.137.167.21"
+    port: 443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
     ws-opts:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
-  - name: "vless-91.199.154.97-443"
+  - name: "vless-31.76.34.203-443"
     type: vless
-    server: "91.199.154.97"
+    server: "31.76.34.203"
     port: 443
+    uuid: "423b1d79-08c4-0003-9d5e-c541f791b55f"
+    client-fingerprint: "firefox"
+  - name: "vless-193.180.213.30-2087"
+    type: vless
+    server: "193.180.213.30"
+    port: 2087
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
+  - name: "vless-195.54.170.66-8443"
+    type: vless
+    server: "195.54.170.66"
+    port: 8443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
     ws-opts:
@@ -53,9 +789,19 @@ proxies:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
-  - name: "vless-5.45.118.75-8443"
+  - name: "vless-5.175.178.254-443"
     type: vless
-    server: "5.45.118.75"
+    server: "5.175.178.254"
+    port: 443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
+  - name: "vless-217.60.39.39-8443"
+    type: vless
+    server: "217.60.39.39"
     port: 8443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
@@ -63,19 +809,9 @@ proxies:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
-  - name: "vless-217.60.5.81-2053"
+  - name: "vless-46.8.225.124-443"
     type: vless
-    server: "217.60.5.81"
-    port: 2053
-    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
-    network: ws
-    ws-opts:
-      "path": "/pg/10086-dfc816f117c49173fp=chrome"
-      headers:
-        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
-  - name: "vless-155.117.224.127-443"
-    type: vless
-    server: "155.117.224.127"
+    server: "46.8.225.124"
     port: 443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
@@ -83,16 +819,48 @@ proxies:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
-  - name: "vless-95.181.175.209-8443"
+  - name: "vmess-planb.mojcn.com.linuxlh.xin-16632"
+    type: vmess
+    server: "planb.mojcn.com.linuxlh.xin"
+    port: 16632
+    uuid: "97c638c6-86d5-4cf6-b70b-114c6809b637"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com"
+  - name: "vless-188.253.20.190-443"
     type: vless
-    server: "95.181.175.209"
-    port: 8443
+    server: "188.253.20.190"
+    port: 443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
     ws-opts:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
+  - name: "vless-84.32.101.72-443"
+    type: vless
+    server: "84.32.101.72"
+    port: 443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
+  - name: "vless-62.60.254.18-8443"
+    type: vless
+    server: "62.60.254.18"
+    port: 8443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
   - name: "vless-91.223.119.197-443"
     type: vless
     server: "91.223.119.197"
@@ -103,20 +871,25 @@ proxies:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
         "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
-  - name: "vless-91.223.119.174-443"
+  - name: "trojan-kkvlvvq-a.catcat321.com-20085"
+    type: trojan
+    server: "kkvlvvq-a.catcat321.com"
+    port: 20085
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+  - name: "vless-83.147.255.84-443"
     type: vless
-    server: "91.223.119.174"
+    server: "83.147.255.84"
     port: 443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
     ws-opts:
       "path": "/pg/10086-dfc816f117c49173fp=chrome"
       headers:
-        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
-  - name: "vless-62.182.192.195-443"
+        "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
+  - name: "vless-31.59.102.96-8443"
     type: vless
-    server: "62.182.192.195"
-    port: 443
+    server: "31.59.102.96"
+    port: 8443
     uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
     network: ws
     ws-opts:
@@ -128,26 +901,19 @@ proxies:
     server: "kkvlvvq-a.catcat321.com"
     port: 20066
     password: "a126f35c-e832-4115-8593-b723ade3f7be"
-  - name: "trojan-hkdcrtc-e.catcat321.com-20066"
+  - name: "trojan-104.19.229.21-443"
     type: trojan
-    server: "hkdcrtc-e.catcat321.com"
-    port: 20066
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
-  - name: "vless-38.246.72.14-443"
-    type: vless
-    server: "38.246.72.14"
+    server: "104.19.229.21"
     port: 443
-    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    password: "humanity"
     network: ws
     ws-opts:
-      "path": "/pg/10086-dfc816f117c49173fp=chrome"
-      headers:
-        "Host": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr"
-  - name: "vless-jp4-r.link-t7.com-10034"
+      "path": "/assignment"
+  - name: "vless-2.27.244.96-443"
     type: vless
-    server: "jp4-r.link-t7.com"
-    port: 10034
-    uuid: "D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC"
+    server: "2.27.244.96"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
     client-fingerprint: "chrome"
   - name: "vless-sg3-r.link-t7.com-10038"
     type: vless
@@ -155,93 +921,178 @@ proxies:
     port: 10038
     uuid: "D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC"
     client-fingerprint: "chrome"
-  - name: "vless-inetchnl-production-9ddb.up.railway.app-443"
+  - name: "vless-sw.volnalink.uk-2083"
     type: vless
-    server: "inetchnl-production-9ddb.up.railway.app"
+    server: "sw.volnalink.uk"
+    port: 2083
+    uuid: "4f8efa61-96db-1391-b134-9ce844e31228"
+    client-fingerprint: "chrome"
+  - name: "vless-a2.arshia-nova.ir-443"
+    type: vless
+    server: "a2.arshia-nova.ir"
     port: 443
-    uuid: "fe2e9525-2eeb-e076-1de6-977f2a7da0e2"
+    uuid: "70d94f75-064c-4e34-d2cf-0b6ef4d49ef7"
     network: ws
     ws-opts:
-      "path": "/ws/fe2e9525-2eeb-e076-1de6-977f2a7da0e2fp=chrome"
+      "path": "/fp=chrome"
       headers:
-        "Host": "inetchnl-production-9ddb.up.railway.app"
+        "Host": "c12.com"
+  - name: "vless-xhttpru.enotvpn.net-443"
+    type: vless
+    server: "xhttpru.enotvpn.net"
+    port: 443
+    uuid: "33c150b7-c0ca-4133-9a52-6f1207da9b8b"
+    client-fingerprint: "chrome"
+  - name: "vless-188.214.35.66-443"
+    type: vless
+    server: "188.214.35.66"
+    port: 443
+    uuid: "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6"
+    network: ws
+    ws-opts:
+      "path": "/pg/10086-dfc816f117c49173fp=chrome"
+      headers:
+        "Host": "8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr"
+  - name: "trojan-104.18.152.152-443"
+    type: trojan
+    server: "104.18.152.152"
+    port: 443
+    password: "humanity"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.175-443"
+    type: trojan
+    server: "104.18.152.175"
+    port: 443
+    password: "humanity"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.229-443"
+    type: trojan
+    server: "104.18.152.229"
+    port: 443
+    password: "humanity"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.17.111.3-443"
+    type: trojan
+    server: "104.17.111.3"
+    port: 443
+    password: "humanity"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "ss-52.30.74.16-443"
+    type: ss
+    server: "52.30.74.16"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
   - name: "trojan-kkvlvvq-a.catcat321.com-20065"
     type: trojan
     server: "kkvlvvq-a.catcat321.com"
     port: 20065
     password: "7e70223b-f331-41d5-9313-02b8d2df2885"
-  - name: "vless-nlb.webinarly.fun-443"
+  - name: "vless-151.242.169.44-443"
     type: vless
-    server: "nlb.webinarly.fun"
+    server: "151.242.169.44"
     port: 443
-    uuid: "2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1"
-    client-fingerprint: "chrome"
-  - name: "vless-185.24.151.243-443"
-    type: vless
-    server: "185.24.151.243"
-    port: 443
-    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
+    uuid: "ae0d03aa-6e1e-433f-864e-06b49ed2737c"
     client-fingerprint: "firefox"
-  - name: "vless-95.215.8.76-443"
-    type: vless
-    server: "95.215.8.76"
-    port: 443
-    uuid: "2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1"
-    client-fingerprint: "firefox"
-  - name: "vless-hamishevaslbashconfig-production-f91d.up.railway.app-443"
-    type: vless
-    server: "hamishevaslbashconfig-production-f91d.up.railway.app"
-    port: 443
-    uuid: "7f77b1a9-03f9-cafe-5d3d-170614f468f1"
-    network: ws
-    ws-opts:
-      "path": "/ws/7f77b1a9-03f9-cafe-5d3d-170614f468f1fp=chrome"
-      headers:
-        "Host": "hamishevaslbashconfig-production-f91d.up.railway.app"
-  - name: "vless-fr-gra-ovh-03.fuck-rkn.dev-443"
-    type: vless
-    server: "fr-gra-ovh-03.fuck-rkn.dev"
-    port: 443
-    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
-    client-fingerprint: "firefox"
-  - name: "vless-prisonvpnc-production.up.railway.app-443"
-    type: vless
-    server: "prisonvpnc-production.up.railway.app"
-    port: 443
-    uuid: "aee570eb-a87f-fb97-ee3b-2be2ce9f7c29"
-    network: ws
-    ws-opts:
-      "path": "/ws/aee570eb-a87f-fb97-ee3b-2be2ce9f7c29fp=ios"
-      headers:
-        "Host": "prisonvpnc-production.up.railway.app"
-  - name: "vless-asia-popotsu-tsest-safem-584b.up.railway.app-443"
-    type: vless
-    server: "asia-popotsu-tsest-safem-584b.up.railway.app"
-    port: 443
-    uuid: "b9ee8d7f-ba0a-4c25-b56c-f158bc0cffb7"
-    network: ws
-    ws-opts:
-      "path": "/connect/Q9vHBwQwaUqpBgZn4v7IvtULfp=chrome"
-      headers:
-        "Host": "asia-popotsu-tsest-safem-584b.up.railway.app"
-  - name: "ss-89.168.121.246-59924"
+  - name: "ss-16.52.90.213-443"
     type: ss
-    server: "89.168.121.246"
-    port: 59924
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "pQSE/JNCbTTwg9CA8m9uAW30avkS6ILWPUsXZB8L3C0="
-  - name: "vmess-planb.mojcn.com.linuxlh.xin-16622"
-    type: vmess
-    server: "planb.mojcn.com.linuxlh.xin"
-    port: 16622
-    uuid: "7b9d480b-ff5a-4fde-a192-ac79131caa9a"
-    alterId: 0
-    cipher: "auto"
+    server: "16.52.90.213"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "vless-151.242.168.239-443"
+    type: vless
+    server: "151.242.168.239"
+    port: 443
+    uuid: "c8531d20-2b94-4d6a-9498-7c5c753257a6"
+    client-fingerprint: "firefox"
+  - name: "trojan-hkdcrtc-e.catcat321.com-20085"
+    type: trojan
+    server: "hkdcrtc-e.catcat321.com"
+    port: 20085
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+  - name: "vless-194.93.61.98-443"
+    type: vless
+    server: "194.93.61.98"
+    port: 443
+    uuid: "d11613a1-2e1f-4209-a275-aabd986b7ad1"
+    client-fingerprint: "firefox"
+  - name: "vless-109.121.44.51-443"
+    type: vless
+    server: "109.121.44.51"
+    port: 443
+    uuid: "94a5294d-1125-4139-8934-380c5de5552f"
+    client-fingerprint: "firefox"
+  - name: "vless-81.163.23.111-443"
+    type: vless
+    server: "81.163.23.111"
+    port: 443
+    uuid: "00a9b272-0296-47da-b365-bf585a7009b2"
+    client-fingerprint: "chrome"
+  - name: "vless-188.114.97.6-8080"
+    type: vless
+    server: "188.114.97.6"
+    port: 8080
+    uuid: "527451fe-ee1f-4e6f-94ca-808f055f7c9b"
     network: ws
     ws-opts:
-      "path": "/"
+      "path": "/vl/ERYN0G44hia16zhR"
       headers:
-        "Host": "d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com"
+        "Host": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev"
+  - name: "vless-172.239.237.246-17780"
+    type: vless
+    server: "172.239.237.246"
+    port: 17780
+    uuid: "a06119a7-4f1a-4592-86d9-e050a332b2b3"
+    client-fingerprint: "chrome"
+  - name: "vless-172.239.26.195-17780"
+    type: vless
+    server: "172.239.26.195"
+    port: 17780
+    uuid: "a06119a7-4f1a-4592-86d9-e050a332b2b3"
+    client-fingerprint: "firefox"
+  - name: "vless-45.150.64.157-443"
+    type: vless
+    server: "45.150.64.157"
+    port: 443
+    uuid: "a289a3d3-5833-4b28-8809-ae72898a98d0"
+    network: ws
+    ws-opts:
+      "path": "/websocketfp=qq"
+  - name: "vless-alb1.abvpn.ru-443"
+    type: vless
+    server: "alb1.abvpn.ru"
+    port: 443
+    uuid: "a289a3d3-5833-4b28-8809-ae72898a98d0"
+    network: ws
+    ws-opts:
+      "path": "/websocketfp=qq"
+  - name: "vless-fin4.freeinternat.com-443"
+    type: vless
+    server: "fin4.freeinternat.com"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    client-fingerprint: "firefox"
+  - name: "vless-78.129.237.23-443"
+    type: vless
+    server: "78.129.237.23"
+    port: 443
+    uuid: "10000025-9365-7667-f000-0943b428a020"
+    client-fingerprint: "firefox"
+  - name: "ss-129.146.38.3-50356"
+    type: ss
+    server: "129.146.38.3"
+    port: 50356
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "7D9/3Y5+MCeBDNpC6ftRDlkAJdKpXCc1mOE94SvcXEc="
   - name: "vless-89.117.123.243-443"
     type: vless
     server: "89.117.123.243"
@@ -266,14 +1117,92 @@ proxies:
     port: 39211
     uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
     client-fingerprint: "chrome"
-  - name: "trojan-140.248.185.253-443"
+  - name: "trojan-130.250.137.171-443"
     type: trojan
-    server: "140.248.185.253"
+    server: "130.250.137.171"
     port: 443
-    password: "MiTiVPN"
-  - name: "trojan-188.114.97.7-443"
+    password: "humanity"
+  - name: "vmess-rush-t2tvv.ceeopp.site-443"
+    type: vmess
+    server: "rush-t2tvv.ceeopp.site"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "none"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/video/ke716z/7x219hzy.m3u8"
+      headers:
+        "Host": "rush-t2tvv.ceeopp.site"
+  - name: "trojan-104.21.46.3-443"
     type: trojan
-    server: "188.114.97.7"
+    server: "104.21.46.3"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.17.111.4-443"
+    type: trojan
+    server: "104.17.111.4"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.210-443"
+    type: trojan
+    server: "104.18.152.210"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.133-443"
+    type: trojan
+    server: "104.18.152.133"
+    port: 443
+    password: "humanity"
+  - name: "trojan-216.24.57.7-443"
+    type: trojan
+    server: "216.24.57.7"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.108-443"
+    type: trojan
+    server: "104.18.152.108"
+    port: 443
+    password: "humanity"
+  - name: "trojan-join-telegram-channel-tirexnet.trex.kdns.fr-443"
+    type: trojan
+    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.219-443"
+    type: trojan
+    server: "104.18.152.219"
+    port: 443
+    password: "humanity"
+  - name: "trojan-join-telegram-channel.tirexnet.kdns.fr-443"
+    type: trojan
+    server: "join-telegram-channel.tirexnet.kdns.fr"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.26.15.137-443"
+    type: trojan
+    server: "104.26.15.137"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.174.72-443"
+    type: trojan
+    server: "104.16.174.72"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.149-443"
+    type: trojan
+    server: "104.18.152.149"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.174.117-443"
+    type: trojan
+    server: "104.16.174.117"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.174.148-443"
+    type: trojan
+    server: "104.16.174.148"
     port: 443
     password: "humanity"
   - name: "vmess-v10.hdacd.com-30807-3"
@@ -283,6 +1212,200 @@ proxies:
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 2
     cipher: "none"
+  - name: "trojan-104.26.14.137-443"
+    type: trojan
+    server: "104.26.14.137"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.73.213-443"
+    type: trojan
+    server: "104.16.73.213"
+    port: 443
+    password: "humanity"
+  - name: "trojan-86.38.214.205-443"
+    type: trojan
+    server: "86.38.214.205"
+    port: 443
+    password: "humanity"
+  - name: "trojan-www.speedtest.org-443"
+    type: trojan
+    server: "www.speedtest.org"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.174.22-443"
+    type: trojan
+    server: "104.16.174.22"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.22.63-443"
+    type: trojan
+    server: "104.18.22.63"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.207-443"
+    type: trojan
+    server: "104.18.152.207"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.140-443"
+    type: trojan
+    server: "104.18.152.140"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.18.152.143-443"
+    type: trojan
+    server: "104.18.152.143"
+    port: 443
+    password: "humanity"
+  - name: "trojan-www.ignitelimit.com-443"
+    type: trojan
+    server: "www.ignitelimit.com"
+    port: 443
+    password: "humanity"
+  - name: "vmess-cindy52.ceoiii.com-36803"
+    type: vmess
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-cindy50.ceoiii.com-36801"
+    type: vmess
+    server: "cindy50.ceoiii.com"
+    port: 36801
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-cindy50.ceoiii.com-36801-2"
+    type: vmess
+    server: "cindy50.ceoiii.com"
+    port: 36801
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-cindy50.ceoiii.com-36801-3"
+    type: vmess
+    server: "cindy50.ceoiii.com"
+    port: 36801
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-cindy52.ceoiii.com-36803-2"
+    type: vmess
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-94.182.88.61-2078"
+    type: vmess
+    server: "94.182.88.61"
+    port: 2078
+    uuid: "8c207682-e007-4a0d-88a3-68b8638b3d10"
+    alterId: 0
+    cipher: "auto"
+  - name: "vmess-cindy50.ceoiii.com-36801-4"
+    type: vmess
+    server: "cindy50.ceoiii.com"
+    port: 36801
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-cindy52.ceoiii.com-36803-3"
+    type: vmess
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-cindy52.ceoiii.com-36803-4"
+    type: vmess
+    server: "cindy52.ceoiii.com"
+    port: 36803
+    uuid: "a6ab6513-6ec3-327f-a068-b89fe72954b8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "ajax.microsoft.com"
+  - name: "vmess-185.246.152.159-443"
+    type: vmess
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        "Host": "apjhdggyx.com"
+  - name: "trojan-109.206.241.10-449"
+    type: trojan
+    server: "109.206.241.10"
+    port: 449
+    password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
+  - name: "vmess-185.246.152.159-443-2"
+    type: vmess
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        "Host": "apjhdggyx.com"
+  - name: "vmess-www.true.th-80"
+    type: vmess
+    server: "www.true.th"
+    port: 80
+    uuid: "a150d554-e962-4632-829f-ee583ada3f95"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/htun"
+      headers:
+        "Host": "d7pu5mzr9c4b0.cloudfront.net"
   - name: "vmess-guanwang.awsno.com-443"
     type: vmess
     server: "guanwang.awsno.com"
@@ -304,11 +1427,6 @@ proxies:
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 2
     cipher: "auto"
-  - name: "trojan-kkvlvvq-a.catcat321.com-20085"
-    type: trojan
-    server: "kkvlvvq-a.catcat321.com"
-    port: 20085
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
   - name: "vmess-112.132.215.108-50002"
     type: vmess
     server: "112.132.215.108"
@@ -330,13 +1448,6 @@ proxies:
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 2
     cipher: "auto"
-  - name: "vmess-23.95.248.105-443"
-    type: vmess
-    server: "23.95.248.105"
-    port: 443
-    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
-    alterId: 0
-    cipher: "auto"
   - name: "vmess-v33.hdacd.com-30833"
     type: vmess
     server: "v33.hdacd.com"
@@ -356,58 +1467,11 @@ proxies:
       "path": "/"
       headers:
         "Host": "rush-6it6b.teeopp.quest"
-  - name: "vmess-guanwang.awsno.com-443-2"
-    type: vmess
-    server: "guanwang.awsno.com"
-    port: 443
-    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-  - name: "vless-46.29.235.9-443"
+  - name: "vless-40.160.68.79-8080"
     type: vless
-    server: "46.29.235.9"
-    port: 443
-    uuid: "d67af820-f54c-48ab-862c-19086357f276"
-    tls: true
-    servername: "telegraf.lv"
-    client-fingerprint: "firefox"
-  - name: "vmess-v6.hdacd.com-30806-2"
-    type: vmess
-    server: "v6.hdacd.com"
-    port: 30806
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 2
-    cipher: "auto"
-  - name: "vmess-v10.hdacd.com-30807-5"
-    type: vmess
-    server: "v10.hdacd.com"
-    port: 30807
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 2
-    cipher: "auto"
-  - name: "vless-89.34.90.68-8443"
-    type: vless
-    server: "89.34.90.68"
-    port: 8443
-    uuid: "fe8e2ffb-8796-408c-af5b-0d4774215e00"
-    tls: true
-    servername: "360.yandex.ru"
-    client-fingerprint: "chrome"
-  - name: "vmess-112.132.215.108-50002-2"
-    type: vmess
-    server: "112.132.215.108"
-    port: 50002
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-  - name: "vmess-v35.hdacd.com-30835-2"
-    type: vmess
-    server: "v35.hdacd.com"
-    port: 30835
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 2
-    cipher: "auto"
+    server: "40.160.68.79"
+    port: 8080
+    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
   - name: "vless-31.76.5.26-13443"
     type: vless
     server: "31.76.5.26"
@@ -416,6 +1480,22 @@ proxies:
     tls: true
     servername: "auto.cendora.ru#🇳🇴_NO_挪威"
     client-fingerprint: "qq"
+  - name: "vless-46.29.235.9-443"
+    type: vless
+    server: "46.29.235.9"
+    port: 443
+    uuid: "d67af820-f54c-48ab-862c-19086357f276"
+    tls: true
+    servername: "telegraf.lv"
+    client-fingerprint: "firefox"
+  - name: "vless-195.123.210.168-443"
+    type: vless
+    server: "195.123.210.168"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    tls: true
+    servername: "eu-west.cendora.ru"
+    client-fingerprint: "qq"
   - name: "vmess-v10.zgtfqs.click-30807-2"
     type: vmess
     server: "v10.zgtfqs.click"
@@ -423,45 +1503,61 @@ proxies:
     uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
     alterId: 2
     cipher: "auto"
-  - name: "vmess-23.95.248.105-443-2"
+  - name: "vmess-planb.mojcn.com.linuxlh.xin-16632-2"
     type: vmess
-    server: "23.95.248.105"
-    port: 443
-    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
+    server: "planb.mojcn.com.linuxlh.xin"
+    port: 16632
+    uuid: "97c638c6-86d5-4cf6-b70b-114c6809b637"
     alterId: 0
     cipher: "auto"
-    tls: true
-    servername: "23.95.248.105"
-  - name: "vmess-v33.hdacd.com-30833-2"
-    type: vmess
-    server: "v33.hdacd.com"
-    port: 30833
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 2
-    cipher: "auto"
-  - name: "vmess-rush-6it6b.teeopp.quest-443-2"
-    type: vmess
-    server: "rush-6it6b.teeopp.quest"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    tls: true
     network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com"
   - name: "vless-ge-20b81e.atlanta-api.com-443"
     type: vless
     server: "ge-20b81e.atlanta-api.com"
     port: 443
     uuid: "74099b9e-52fd-4540-b642-b8d60f3b5a2a"
-  - name: "vless-194.26.192.76-443"
+  - name: "vless-180.178.60.254-10000"
     type: vless
-    server: "194.26.192.76"
-    port: 443
-    uuid: "626c0789-16d1-4815-be8b-bd03959d7d12"
-    client-fingerprint: "chrome"
-  - name: "trojan-172.67.149.60-443"
+    server: "180.178.60.254"
+    port: 10000
+    uuid: "caec0d8d-ab2f-4247-b97d-7fb1a34ab195"
+  - name: "vmess-v10.hdacd.com-30807-5"
+    type: vmess
+    server: "v10.hdacd.com"
+    port: 30807
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 2
+    cipher: "auto"
+  - name: "trojan-hkdcrtc-e.catcat321.com-20066"
     type: trojan
-    server: "172.67.149.60"
+    server: "hkdcrtc-e.catcat321.com"
+    port: 20066
+    password: "a126f35c-e832-4115-8593-b723ade3f7be"
+  - name: "trojan-104.16.174.101-443"
+    type: trojan
+    server: "104.16.174.101"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
+  - name: "vless-104.21.56.202-8880"
+    type: vless
+    server: "104.21.56.202"
+    port: 8880
+    uuid: "d6c595c9-bff4-4510-893a-dfa3c87fa0cd"
+    network: ws
+    ws-opts:
+      "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      headers:
+        "Host": "lucky-cell-d20c.78-107.workers.dev"
+  - name: "trojan-104.16.174.71-443"
+    type: trojan
+    server: "104.16.174.71"
     port: 443
     password: "humanity"
     tls: true
@@ -471,6 +1567,81 @@ proxies:
       "path": "/assignment"
       headers:
         "Host": "www.ignitelimit.com"
+  - name: "trojan-104.16.174.46-443"
+    type: trojan
+    server: "104.16.174.46"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-172.67.221.242-443"
+    type: trojan
+    server: "172.67.221.242"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
+  - name: "vless-199.232.78.159-443"
+    type: vless
+    server: "199.232.78.159"
+    port: 443
+    uuid: "ff4589d5-8c1b-4cd4-93d1-25db3635735d"
+    tls: true
+    servername: "ssl.fastly.com"
+    network: ws
+    ws-opts:
+      "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053"
+      headers:
+        "Host": "pane3.global.ssl.fastly.net"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.18.152.103-443"
+    type: trojan
+    server: "104.18.152.103"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.18.152.233-443"
+    type: trojan
+    server: "104.18.152.233"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+      headers:
+        "Host": "www.ignitelimit.com"
+  - name: "trojan-104.16.7.70-443"
+    type: trojan
+    server: "104.16.7.70"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "vless-104.21.74.214-8880"
+    type: vless
+    server: "104.21.74.214"
+    port: 8880
+    uuid: "e74e8806-06b5-4fb0-a89e-cf79d88cfd02"
+    network: ws
+    ws-opts:
+      "path": "/pyip"
+      headers:
+        "Host": "wild-frog-54a9.170-dcc.workers.dev"
   - name: "trojan-172.67.74.2-443"
     type: trojan
     server: "172.67.74.2"
@@ -479,25 +1650,19 @@ proxies:
     tls: true
     servername: "www.ignitelimit.com"
     client-fingerprint: "chrome"
-  - name: "trojan-198.41.223.96-443"
-    type: trojan
-    server: "198.41.223.96"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "vless-node-nd01.rkitman.ru-443"
+  - name: "vless-185.162.229.50-8880"
     type: vless
-    server: "node-nd01.rkitman.ru"
-    port: 443
-    uuid: "64774bd8-3116-4eaa-a046-5ea4fc230b81"
-    client-fingerprint: "chrome"
-  - name: "trojan-join-telegram-channel-tirexnet.trex.kdns.fr-443"
+    server: "185.162.229.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime61.workers.dev"
+  - name: "trojan-104.18.152.50-443"
     type: trojan
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
+    server: "104.18.152.50"
     port: 443
     password: "humanity"
     tls: true
@@ -505,8 +1670,16 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-      headers:
-        "Host": "www.ignitelimit.com"
+  - name: "trojan-104.16.174.143-443"
+    type: trojan
+    server: "104.16.174.143"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
   - name: "ss-173.244.56.6-443"
     type: ss
     server: "173.244.56.6"
@@ -771,13 +1944,6 @@ proxies:
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "trojan-109.206.241.10-449"
-    type: trojan
-    server: "109.206.241.10"
-    port: 449
-    password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
-    tls: true
-    servername: "russiapower.accesscam.org#🇪🇪EE-109.206.241.10-0129"
   - name: "ss-193.29.139.204-8080"
     type: ss
     server: "193.29.139.204"
@@ -838,7 +2004,7 @@ proxies:
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "1hhrqrokj3ag"
-  - name: "vmess-rush-t2tvv.ceeopp.site-443"
+  - name: "vmess-rush-t2tvv.ceeopp.site-443-2"
     type: vmess
     server: "rush-t2tvv.ceeopp.site"
     port: 443
@@ -948,7 +2114,7 @@ proxies:
       "path": "/"
       headers:
         "Host": "rush-w1niu.teeopp.online"
-  - name: "vmess-rush-t2tvv.ceeopp.site-443-2"
+  - name: "vmess-rush-t2tvv.ceeopp.site-443-3"
     type: vmess
     server: "rush-t2tvv.ceeopp.site"
     port: 443
@@ -1043,7 +2209,13 @@ proxies:
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
-  - name: "vmess-rush-6it6b.teeopp.quest-443-3"
+  - name: "ss-r3mrcg001286ek2.cybervena.com-50099"
+    type: ss
+    server: "r3mrcg001286ek2.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+  - name: "vmess-rush-6it6b.teeopp.quest-443-2"
     type: vmess
     server: "rush-6it6b.teeopp.quest"
     port: 443
@@ -1057,7 +2229,7 @@ proxies:
       "path": "/video/kz49hf/gbin5jve.m3u8"
       headers:
         "Host": "rush-6it6b.teeopp.quest"
-  - name: "vmess-rush-6it6b.teeopp.quest-443-4"
+  - name: "vmess-rush-6it6b.teeopp.quest-443-3"
     type: vmess
     server: "rush-6it6b.teeopp.quest"
     port: 443
@@ -1260,6 +2432,12 @@ proxies:
       "path": "/"
       headers:
         "Host": "seribus.org"
+  - name: "ss-108.181.118.10-8388"
+    type: ss
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
   - name: "ss-51.222.155.113-5601"
     type: ss
     server: "51.222.155.113"
@@ -1415,6 +2593,12 @@ proxies:
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+  - name: "ss-216.105.168.18-443"
+    type: ss
+    server: "216.105.168.18"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "hCCWOcIsK5wrFz4OX70rWf"
   - name: "ss-mn.qwer-cn.org-10927"
     type: ss
     server: "mn.qwer-cn.org"
@@ -5020,7 +6204,7 @@ proxies:
       "path": "/fthe4gsefgtdu"
       headers:
         "Host": "nat.998808.xyz"
-  - name: "vmess-185.246.152.159-443"
+  - name: "vmess-185.246.152.159-443-3"
     type: vmess
     server: "185.246.152.159"
     port: 443
@@ -5032,7 +6216,7 @@ proxies:
       "path": "/5f72f180-b21b-4b7a-8484-240759096785"
       headers:
         "Host": "apjhdggyx.com"
-  - name: "vmess-cindy52.ceoiii.com-36803"
+  - name: "vmess-cindy52.ceoiii.com-36803-5"
     type: vmess
     server: "cindy52.ceoiii.com"
     port: 36803
@@ -5044,7 +6228,7 @@ proxies:
       "path": "/hls/cctv5phd.m3u8"
       headers:
         "Host": "ajax.microsoft.com"
-  - name: "vmess-cindy50.ceoiii.com-36801"
+  - name: "vmess-cindy50.ceoiii.com-36801-5"
     type: vmess
     server: "cindy50.ceoiii.com"
     port: 36801
@@ -6381,20 +7565,6 @@ proxies:
       "path": "/"
       headers:
         "Host": "zxzz.zxzdy.buzz"
-  - name: "trojan-172.67.221.242-443"
-    type: trojan
-    server: "172.67.221.242"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-172.67.221.242-1145"
-  - name: "trojan-join-telegram-channel.tirexnet.kdns.fr-443"
-    type: trojan
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.21.8.107-1146"
   - name: "vmess-hk80.sanfen001.pics-80-2"
     type: vmess
     server: "hk80.sanfen001.pics"
@@ -6762,29 +7932,9 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-  - name: "trojan-104.16.174.101-443"
+  - name: "trojan-172.67.149.60-443"
     type: trojan
-    server: "104.16.174.101"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.233-443"
-    type: trojan
-    server: "104.18.152.233"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.7.70-443"
-    type: trojan
-    server: "104.16.7.70"
+    server: "172.67.149.60"
     port: 443
     password: "humanity"
     tls: true
@@ -6802,56 +7952,6 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-  - name: "trojan-104.18.152.152-443"
-    type: trojan
-    server: "104.18.152.152"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.210-443"
-    type: trojan
-    server: "104.18.152.210"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.17.111.3-443"
-    type: trojan
-    server: "104.17.111.3"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.140-443"
-    type: trojan
-    server: "104.18.152.140"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.117-443"
-    type: trojan
-    server: "104.16.174.117"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
   - name: "trojan-104.16.174.12-443"
     type: trojan
     server: "104.16.174.12"
@@ -6862,96 +7962,7 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-  - name: "trojan-104.26.14.137-443"
-    type: trojan
-    server: "104.26.14.137"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.26.14.137-1394"
-  - name: "trojan-104.26.15.137-443"
-    type: trojan
-    server: "104.26.15.137"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.26.15.137-1395"
-  - name: "trojan-216.24.57.7-443"
-    type: trojan
-    server: "216.24.57.7"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🇺🇸US-216.24.57.7-1398"
-  - name: "trojan-104.16.73.213-443"
-    type: trojan
-    server: "104.16.73.213"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.16.73.213-1399"
-  - name: "trojan-86.38.214.205-443"
-    type: trojan
-    server: "86.38.214.205"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-86.38.214.205-1400"
-  - name: "trojan-104.18.152.108-443"
-    type: trojan
-    server: "104.18.152.108"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.108-1402"
-  - name: "trojan-104.18.152.219-443"
-    type: trojan
-    server: "104.18.152.219"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.219-1403"
-  - name: "trojan-www.speedtest.org-443"
-    type: trojan
-    server: "www.speedtest.org"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.26.15.137-1404"
-  - name: "trojan-104.16.174.22-443"
-    type: trojan
-    server: "104.16.174.22"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.16.174.22-1405"
-  - name: "trojan-104.18.22.63-443"
-    type: trojan
-    server: "104.18.22.63"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.22.63-1406"
-  - name: "trojan-104.18.152.207-443"
-    type: trojan
-    server: "104.18.152.207"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.207-1407"
-  - name: "trojan-104.18.152.143-443"
-    type: trojan
-    server: "104.18.152.143"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.143-1409"
-  - name: "trojan-www.ignitelimit.com-443"
-    type: trojan
-    server: "www.ignitelimit.com"
-    port: 443
-    password: "humanity"
-  - name: "vmess-cindy50.ceoiii.com-36801-2"
+  - name: "vmess-cindy50.ceoiii.com-36801-6"
     type: vmess
     server: "cindy50.ceoiii.com"
     port: 36801
@@ -6963,14 +7974,7 @@ proxies:
       "path": "/hls/cctv5phd.m3u8"
       headers:
         "Host": "ajax.microsoft.com"
-  - name: "trojan-blackshadow.dpdns.org-443"
-    type: trojan
-    server: "blackshadow.dpdns.org"
-    port: 443
-    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
-    tls: true
-    servername: "blackshadow.dpdns.org#🏁RELAY-104.21.88.77-1428"
-  - name: "vmess-cindy52.ceoiii.com-36803-2"
+  - name: "vmess-cindy52.ceoiii.com-36803-6"
     type: vmess
     server: "cindy52.ceoiii.com"
     port: 36803
@@ -7970,11 +8974,6 @@ proxies:
       "path": "/?ed=2048&Telegram🇨🇳 @WangCai2"
       headers:
         "Host": "oiictw.yydsii.com"
-  - name: "trojan-104.19.229.21-443"
-    type: trojan
-    server: "104.19.229.21"
-    port: 443
-    password: "humanity"
   - name: "trojan-45.130.125.112-443"
     type: trojan
     server: "45.130.125.112"
@@ -9510,9 +10509,21 @@ proxies:
     network: ws
     ws-opts:
       "path": "/anti13.zingfast.vn"
+  - name: "ss-103.141.221.124-8388"
+    type: ss
+    server: "103.141.221.124"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
   - name: "ss-103.149.182.105-8388"
     type: ss
     server: "103.149.182.105"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+  - name: "ss-103.141.221.101-8388"
+    type: ss
+    server: "103.141.221.101"
     port: 8388
     cipher: "chacha20-ietf"
     password: "asd123456"
@@ -9522,6 +10533,16 @@ proxies:
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
+  - name: "vmess-47.250.45.234-43063-2"
+    type: vmess
+    server: "47.250.45.234"
+    port: 43063
+    uuid: "c77f48f5-4be3-4461-b52b-49998e7b897b"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/arki?ed=2048"
   - name: "vmess-47.250.45.234-8613-2"
     type: vmess
     server: "47.250.45.234"
@@ -10022,12 +11043,6 @@ proxies:
     port: 9041
     cipher: "aes-256-cfb"
     password: "U6qnYRhfyDmn8sgn"
-  - name: "ss-5.188.181.201-9040"
-    type: ss
-    server: "5.188.181.201"
-    port: 9040
-    cipher: "aes-256-cfb"
-    password: "p9z5BVADH2YFs3MN"
   - name: "ss-5.188.181.201-9037"
     type: ss
     server: "5.188.181.201"
