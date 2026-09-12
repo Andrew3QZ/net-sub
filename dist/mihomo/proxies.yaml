@@ -1,34 +1,802 @@
 proxies:
-  - name: "vless-172.66.132.196-8880"
+  - name: "vless-31.59.150.174-9443"
     type: vless
-    server: "172.66.132.196"
+    server: "31.59.150.174"
+    port: 9443
+    uuid: "92089155-6602-4122-86d4-fe6de20e8c4d"
+    tls: true
+    servername: "hotcoals.aeternavpn.space#🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
+    client-fingerprint: "firefox"
+  - name: "vless-fin.pinkmoon.pro-443"
+    type: vless
+    server: "fin.pinkmoon.pro"
+    port: 443
+    uuid: "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5"
+    tls: true
+    servername: "fin.pinkmoon.pro"
+    client-fingerprint: "qq"
+  - name: "vless-roma1.moritech.net-443"
+    type: vless
+    server: "roma1.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+  - name: "vless-43.160.241.174-443"
+    type: vless
+    server: "43.160.241.174"
+    port: 443
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    tls: true
+    servername: "mia11.pages.dev"
+    client-fingerprint: "chrome"
+  - name: "vless-roma3.moritech.net-443"
+    type: vless
+    server: "roma3.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+  - name: "vless-220.135.105.32-2087"
+    type: vless
+    server: "220.135.105.32"
+    port: 2087
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    tls: true
+    servername: "mia4.pages.dev"
+    client-fingerprint: "chrome"
+  - name: "vless-news.zoom.us-8443"
+    type: vless
+    server: "news.zoom.us"
+    port: 8443
+    uuid: "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2"
+    tls: true
+    servername: "u.srilankangrill.online"
+    client-fingerprint: "chrome"
+  - name: "vless-cdn6.goonars.com-443"
+    type: vless
+    server: "cdn6.goonars.com"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    tls: true
+    servername: "apitw3.goonars.com"
+    client-fingerprint: "chrome"
+  - name: "vmess-www.shopify.com-443"
+    type: vmess
+    server: "www.shopify.com"
+    port: 443
+    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "guanwang.awsno.com"
+    network: ws
+    ws-opts:
+      "path": "/hls/cctv5phd.m3u8"
+      headers:
+        "Host": "guanwang.awsno.com"
+  - name: "vless-pr-media.pepro.site-14443"
+    type: vless
+    server: "pr-media.pepro.site"
+    port: 14443
+    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
+    tls: true
+    servername: "pr-media.pepro.site"
+    client-fingerprint: "qq"
+  - name: "vmess-v4.hdacd.com-30804"
+    type: vmess
+    server: "v4.hdacd.com"
+    port: 30804
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 2
+    cipher: "auto"
+  - name: "vmess-112.132.215.108-50002"
+    type: vmess
+    server: "112.132.215.108"
+    port: 50002
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
+    cipher: "auto"
+  - name: "ss-63.180.254.10-443"
+    type: ss
+    server: "63.180.254.10"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "vmess-v10.hdacd.com-30807"
+    type: vmess
+    server: "v10.hdacd.com"
+    port: 30807
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 2
+    cipher: "auto"
+  - name: "trojan-100.42.228.109-443"
+    type: trojan
+    server: "100.42.228.109"
+    port: 443
+    password: "BxceQaOe"
+  - name: "vmess-v10.hdacd.com-30807-2"
+    type: vmess
+    server: "v10.hdacd.com"
+    port: 30807
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 2
+    cipher: "auto"
+  - name: "vless-austria-2.moritech.net-443"
+    type: vless
+    server: "austria-2.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    client-fingerprint: "chrome"
+  - name: "vless-170.168.97.8-8443"
+    type: vless
+    server: "170.168.97.8"
+    port: 8443
+    uuid: "3f9f2bda-0b9c-8469-7381-a73de2255619"
+    client-fingerprint: "chrome"
+  - name: "vless-cdn15sw.goonars.com-443"
+    type: vless
+    server: "cdn15sw.goonars.com"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    client-fingerprint: "chrome"
+  - name: "vless-mst1ndch.goonars.com-443"
+    type: vless
+    server: "mst1ndch.goonars.com"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    client-fingerprint: "chrome"
+  - name: "vless-142.248.218.34-2053"
+    type: vless
+    server: "142.248.218.34"
+    port: 2053
+    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
+    network: ws
+    ws-opts:
+      "path": "/fp=chrome"
+      headers:
+        "Host": "edge.yzkvm.top"
+  - name: "trojan-z-jp1.1card.cc-10010"
+    type: trojan
+    server: "z-jp1.1card.cc"
+    port: 10010
+    password: "ultra%40kWZdAzt_IH593eGLRjdxnBZ0"
+  - name: "vless-cf.090227.xyz-443"
+    type: vless
+    server: "cf.090227.xyz"
+    port: 443
+    uuid: "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560fp=firefox"
+      headers:
+        "Host": "cf1-1mh.pages.dev"
+  - name: "vless-188.164.248.78-2096"
+    type: vless
+    server: "188.164.248.78"
+    port: 2096
+    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
+    network: ws
+    ws-opts:
+      "path": "/proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57fp=chrome"
+      headers:
+        "Host": "fq.jp188.dpdns.org"
+  - name: "vless-172.67.169.99-443"
+    type: vless
+    server: "172.67.169.99"
+    port: 443
+    uuid: "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba"
+    network: ws
+    ws-opts:
+      "path": "/JRr6VGcSLFc034DC6sDbwyWJLbBsecurity=tls"
+      headers:
+        "Host": "8-m16.PHuKEt2035.KdnS.fr"
+  - name: "vless-201.51.10.240-443"
+    type: vless
+    server: "201.51.10.240"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    client-fingerprint: "firefox"
+  - name: "vless-31.59.140.124-443"
+    type: vless
+    server: "31.59.140.124"
+    port: 443
+    uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
+    client-fingerprint: "firefox"
+  - name: "vless-de2.baboon.digital-443"
+    type: vless
+    server: "de2.baboon.digital"
+    port: 443
+    uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
+    client-fingerprint: "qq"
+  - name: "vless-31.76.20.209-443"
+    type: vless
+    server: "31.76.20.209"
+    port: 443
+    uuid: "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5"
+    client-fingerprint: "firefox"
+  - name: "vless-hk4.miyazono-kaori.com-443"
+    type: vless
+    server: "hk4.miyazono-kaori.com"
+    port: 443
+    uuid: "0edbdf9a-3cae-4234-889a-1ec5c59c9c2c"
+    client-fingerprint: "chrome"
+  - name: "vless-hk6.miyazono-kaori.com-443"
+    type: vless
+    server: "hk6.miyazono-kaori.com"
+    port: 443
+    uuid: "0edbdf9a-3cae-4234-889a-1ec5c59c9c2c"
+    client-fingerprint: "chrome"
+  - name: "vless-5.35.91.96-443"
+    type: vless
+    server: "5.35.91.96"
+    port: 443
+    uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
+    client-fingerprint: "chrome"
+  - name: "vless-155.117.199.13-29893"
+    type: vless
+    server: "155.117.199.13"
+    port: 29893
+    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
+    client-fingerprint: "chrome"
+  - name: "vless-155.117.199.13-39399"
+    type: vless
+    server: "155.117.199.13"
+    port: 39399
+    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
+    client-fingerprint: "chrome"
+  - name: "vless-155.117.199.13-39211"
+    type: vless
+    server: "155.117.199.13"
+    port: 39211
+    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
+    client-fingerprint: "chrome"
+  - name: "vless-at.failspace.top-443"
+    type: vless
+    server: "at.failspace.top"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+    client-fingerprint: "chrome"
+  - name: "vless-103.75.119.11-443"
+    type: vless
+    server: "103.75.119.11"
+    port: 443
+    uuid: "682300d9-74d0-4dae-923c-09cb5d5e9951"
+    client-fingerprint: "chrome"
+  - name: "vless-216.40.86.199-443"
+    type: vless
+    server: "216.40.86.199"
+    port: 443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "vless-141.133.172.23-443"
+    type: vless
+    server: "141.133.172.23"
+    port: 443
+    uuid: "3c48b5f5-7766-4896-874e-b3ba1860e83a"
+    client-fingerprint: "firefox"
+  - name: "vless-213.145.87.54-8443"
+    type: vless
+    server: "213.145.87.54"
+    port: 8443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "vless-31.76.7.154-7443"
+    type: vless
+    server: "31.76.7.154"
+    port: 7443
+    uuid: "d7cad038-0c3f-4cce-8f8a-36464aaf66c0"
+    client-fingerprint: "firefox"
+  - name: "ss-130.61.82.58-59924"
+    type: ss
+    server: "130.61.82.58"
+    port: 59924
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "hjqTkJV5VFVNHAIg/ivqFp+lDtPbAwt1CF4ZqrbwLAg="
+  - name: "trojan-172.67.221.242-443"
+    type: trojan
+    server: "172.67.221.242"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.174.36-443"
+    type: trojan
+    server: "104.16.174.36"
+    port: 443
+    password: "humanity"
+  - name: "trojan-104.16.174.33-443"
+    type: trojan
+    server: "104.16.174.33"
+    port: 443
+    password: "humanity"
+  - name: "trojan-www.ignitelimit.com-443"
+    type: trojan
+    server: "www.ignitelimit.com"
+    port: 443
+    password: "humanity"
+  - name: "ss-158.173.221.214-11001"
+    type: ss
+    server: "158.173.221.214"
+    port: 11001
+    cipher: "chacha20-ietf-poly1305"
+    password: "c58d16e593d44f42"
+  - name: "vless-185.49.33.34-443"
+    type: vless
+    server: "185.49.33.34"
+    port: 443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "vless-ir-new1.failspace.top-443"
+    type: vless
+    server: "ir-new1.failspace.top"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+    client-fingerprint: "chrome"
+  - name: "vless-82.118.16.187-443"
+    type: vless
+    server: "82.118.16.187"
+    port: 443
+    uuid: "dc2259c4-388e-4285-ba18-df619b6672b6"
+    client-fingerprint: "chrome"
+  - name: "vless-172.105.225.6-443"
+    type: vless
+    server: "172.105.225.6"
+    port: 443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "vless-172.104.81.253-443"
+    type: vless
+    server: "172.104.81.253"
+    port: 443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "vless-poland-viper.moritech.net-443"
+    type: vless
+    server: "poland-viper.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+    client-fingerprint: "chrome"
+  - name: "trojan-kWZdAzt_IH593eGLRjdxnBZ0@z-sg2.6send.com-10044"
+    type: trojan
+    server: "kWZdAzt_IH593eGLRjdxnBZ0@z-sg2.6send.com"
+    port: 10044
+    password: "ultra"
+  - name: "vless-poland-new-ded.failspace.top-443"
+    type: vless
+    server: "poland-new-ded.failspace.top"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+    client-fingerprint: "chrome"
+  - name: "trojan-kWZdAzt_IH593eGLRjdxnBZ0@z-jp1.1card.cc-10008"
+    type: trojan
+    server: "kWZdAzt_IH593eGLRjdxnBZ0@z-jp1.1card.cc"
+    port: 10008
+    password: "ultra"
+  - name: "vless-roma2.moritech.net-443"
+    type: vless
+    server: "roma2.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    tls: true
+    client-fingerprint: "edge"
+  - name: "vless-88.216.130.139-8443"
+    type: vless
+    server: "88.216.130.139"
+    port: 8443
+    uuid: "fb67fd37-8d41-43a9-a093-c0b807fc5299"
+    client-fingerprint: "firefox"
+  - name: "vless-free-server.techsonic.dev-443"
+    type: vless
+    server: "free-server.techsonic.dev"
+    port: 443
+    uuid: "f1178fbe-1420-4eef-b087-4f33b32b4a19"
+    tls: true
+    servername: "aka.ms"
+    client-fingerprint: "chrome"
+  - name: "vless-172.64.146.211-8443"
+    type: vless
+    server: "172.64.146.211"
+    port: 8443
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    client-fingerprint: "chrome"
+  - name: "vless-198.251.78.29-2053"
+    type: vless
+    server: "198.251.78.29"
+    port: 2053
+    uuid: "c423cc1b-f88e-421c-9a16-c480d84da20f"
+    client-fingerprint: "firefox"
+  - name: "vless-104.21.92.49-443"
+    type: vless
+    server: "104.21.92.49"
+    port: 443
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
+    tls: true
+    servername: "7-m19.omAn-linK.KdNS.FR"
+    network: ws
+    ws-opts:
+      "path": "/CjBjB9sn5pCvaSwScc"
+      headers:
+        "Host": "7-m19.OmAn-link.kdnS.FR"
+    client-fingerprint: "chrome"
+  - name: "vless-162.159.0.169-8880"
+    type: vless
+    server: "162.159.0.169"
     port: 8880
-    uuid: "5a4d9f40-56db-402a-9fbc-31c9229bdcf6"
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560security=tls"
+      headers:
+        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "vless-38.60.89.212-8443"
+    type: vless
+    server: "38.60.89.212"
+    port: 8443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "trojan-render.com-443"
+    type: trojan
+    server: "render.com"
+    port: 443
+    password: "humanity"
+  - name: "vless-cfyes.ziyoufly.xyz-443"
+    type: vless
+    server: "cfyes.ziyoufly.xyz"
+    port: 443
+    uuid: "3b578f92-da29-48cb-b037-40d2ef032afe"
+    tls: true
+    servername: "cf-uh-us01-2.23523463.xyz"
+    network: ws
+    ws-opts:
+      "path": "/ziyou"
+      headers:
+        "Host": "cf-uh-us01-2.23523463.xyz"
+    client-fingerprint: "chrome"
+  - name: "vless-104.17.177.165-2087"
+    type: vless
+    server: "104.17.177.165"
+    port: 2087
+    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
+    tls: true
+    servername: "mianfei-73q.pages.dev"
+    network: ws
+    ws-opts:
+      "path": "/proxyip=154.3.33.43"
+      headers:
+        "Host": "mianfei-73q.pages.dev"
+    client-fingerprint: "chrome"
+  - name: "vless-172.64.52.6-8880"
+    type: vless
+    server: "172.64.52.6"
+    port: 8880
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560security=tls"
+      headers:
+        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "vless-162.159.43.187-80"
+    type: vless
+    server: "162.159.43.187"
+    port: 80
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560security=tls"
+      headers:
+        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "vless-91.193.17.156-9460"
+    type: vless
+    server: "91.193.17.156"
+    port: 9460
+    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
+    client-fingerprint: "firefox"
+  - name: "vless-88.216.57.220-443"
+    type: vless
+    server: "88.216.57.220"
+    port: 443
+    uuid: "02722550-1915-4629-a653-cbe95e594f70"
+    client-fingerprint: "chrome"
+  - name: "vless-wangcai.cf.877774.xyz-443"
+    type: vless
+    server: "wangcai.cf.877774.xyz"
+    port: 443
+    uuid: "16e80f38-e97e-4b14-ba89-77d87a3e637f"
+    tls: true
+    servername: "ex3r.qzz.io"
+    network: ws
+    ws-opts:
+      "path": "/sg-orcl"
+      headers:
+        "Host": "ex3r.qzz.io"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.18.152.144-443"
+    type: trojan
+    server: "104.18.152.144"
+    port: 443
+    password: "humanity"
+  - name: "vless-104.19.35.241-2053"
+    type: vless
+    server: "104.19.35.241"
+    port: 2053
+    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
+    tls: true
+    servername: "mianfei-73q.pages.dev"
+    network: ws
+    ws-opts:
+      "path": "/proxyip=154.3.33.43"
+      headers:
+        "Host": "mianfei-73q.pages.dev"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.21.88.77-443"
+    type: trojan
+    server: "104.21.88.77"
+    port: 443
+    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+  - name: "trojan-188.114.97.3-443"
+    type: trojan
+    server: "188.114.97.3"
+    port: 443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+  - name: "vless-172.64.145.166-2087"
+    type: vless
+    server: "172.64.145.166"
+    port: 2087
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    client-fingerprint: "chrome"
+  - name: "vless-104.17.148.65-2087"
+    type: vless
+    server: "104.17.148.65"
+    port: 2087
+    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
+    tls: true
+    servername: "mianfei-73q.pages.dev"
+    network: ws
+    ws-opts:
+      "path": "/proxyip=154.3.33.43"
+      headers:
+        "Host": "mianfei-73q.pages.dev"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.18.152.77-443"
+    type: trojan
+    server: "104.18.152.77"
+    port: 443
+    password: "humanity"
+  - name: "vless-199.232.78.170-443"
+    type: vless
+    server: "199.232.78.170"
+    port: 443
+    uuid: "XpnTeam-15"
+    tls: true
+    servername: "ssl.fastly.com"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "Appxdn.global.ssl.fastly.net"
+    client-fingerprint: "chrome"
+  - name: "vless-104.18.47.113-8080"
+    type: vless
+    server: "104.18.47.113"
+    port: 8080
+    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2560security=tls"
+      headers:
+        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+  - name: "trojan-104.18.32.47-443"
+    type: trojan
+    server: "104.18.32.47"
+    port: 443
+    password: "humanity"
+  - name: "vless-104.19.48.107-8443"
+    type: vless
+    server: "104.19.48.107"
+    port: 8443
+    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
+    tls: true
+    servername: "mianfei-73q.pages.dev"
+    network: ws
+    ws-opts:
+      "path": "/proxyip=154.3.33.43"
+      headers:
+        "Host": "mianfei-73q.pages.dev"
+    client-fingerprint: "chrome"
+  - name: "vless-198.71.191.30-8880"
+    type: vless
+    server: "198.71.191.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vms.lifetime06.workers.dev"
+  - name: "vless-179.253.246.156-8443"
+    type: vless
+    server: "179.253.246.156"
+    port: 8443
+    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
+    tls: true
+    servername: "decf.xzdq.eu.org"
+    network: ws
+    ws-opts:
+      "path": "/api/v1/539e86"
+      headers:
+        "Host": "decf.xzdq.eu.org"
+    client-fingerprint: "chrome"
+  - name: "vless-104.16.8.66-8880"
+    type: vless
+    server: "104.16.8.66"
+    port: 8880
+    uuid: "2145ee90-d933-4975-b4fe-8fa5365937f0"
     network: ws
     ws-opts:
       "path": "/pyip=ProxyIP.US.CMLiussss.net"
       headers:
-        "Host": "floral-resonance-4baf.468.workers.dev"
-  - name: "vless-deepl.com-8880"
+        "Host": "long-breeze-5552.250-271.workers.dev"
+  - name: "trojan-z-jp2.1card.cc-10008"
+    type: trojan
+    server: "z-jp2.1card.cc"
+    port: 10008
+    password: "ultra%40kWZdAzt_IH593eGLRjdxnBZ0"
+  - name: "trojan-z-jp2.1card.cc-10009"
+    type: trojan
+    server: "z-jp2.1card.cc"
+    port: 10009
+    password: "ultra%40kWZdAzt_IH593eGLRjdxnBZ0"
+  - name: "ss-158.173.221.214-11001-2"
+    type: ss
+    server: "158.173.221.214"
+    port: 11001
+    cipher: "chacha20-ietf-poly1305"
+    password: "c58d16e593d44f42"
+  - name: "vless-31.56.184.132-8443"
     type: vless
-    server: "deepl.com"
-    port: 8880
-    uuid: "6d73dc1e-1627-4b16-b471-53e63aa16c78"
+    server: "31.56.184.132"
+    port: 8443
+    uuid: "11f21602-47aa-42e2-9149-69120f2e6df6"
+    client-fingerprint: "firefox"
+  - name: "vless-apiln2.jobwebs.ir-8735"
+    type: vless
+    server: "apiln2.jobwebs.ir"
+    port: 8735
+    uuid: "14ffccc6-81e0-4108-ab35-b3df398534af"
+    client-fingerprint: "chrome"
+  - name: "vless-de1.bexait.ir-2434"
+    type: vless
+    server: "de1.bexait.ir"
+    port: 2434
+    uuid: "3d730013-2c01-42bd-9034-7aaf56da37bb"
+    client-fingerprint: "chrome"
+  - name: "vless-fn3.bexait.ir-2434"
+    type: vless
+    server: "fn3.bexait.ir"
+    port: 2434
+    uuid: "3d730013-2c01-42bd-9034-7aaf56da37bb"
+    client-fingerprint: "chrome"
+  - name: "vmess-v30.hdacd.com-30830"
+    type: vmess
+    server: "v30.hdacd.com"
+    port: 30830
+    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+    alterId: 0
+    cipher: "auto"
+  - name: "vless-194.146.223.231-443"
+    type: vless
+    server: "194.146.223.231"
+    port: 443
+    uuid: "bf8c3d34-c16c-423f-8ff0-9341d6621e97"
+    client-fingerprint: "chrome"
+  - name: "vless-172.67.118.45-2087"
+    type: vless
+    server: "172.67.118.45"
+    port: 2087
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "fx3h2kf8xn.fx6hsv0.ccwu.cc"
     network: ws
     ws-opts:
-      "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+      "path": "/"
       headers:
-        "Host": "sweet-truth-ccdb.134-7e9.workers.dev"
-  - name: "vless-skk.moe-8880"
+        "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+    client-fingerprint: "chrome#美国 CloudFlare节点"
+  - name: "vless-104.21.98.146-8443"
     type: vless
-    server: "skk.moe"
-    port: 8880
-    uuid: "d8a7b463-dc98-474d-a87e-8781476aef32"
+    server: "104.21.98.146"
+    port: 8443
+    uuid: "50414e45-4c5f-5a45-5553-48493148ec15"
+    tls: true
+    servername: "cgzdynepurqs.mercury061.workers.dev"
     network: ws
     ws-opts:
-      "path": "/pyip=ProxyIP.KR.CMLiussss.net"
+      "path": "/stream/PANEL_ZEUS/48493148ec15"
       headers:
-        "Host": "ancient-tree-7dc9.336-5f9.workers.dev"
+        "Host": "cgzdynepurqs.mercury061.workers.dev"
+    client-fingerprint: "ios"
+  - name: "vless-169.40.42.232-443"
+    type: vless
+    server: "169.40.42.232"
+    port: 443
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    client-fingerprint: "ios"
+  - name: "trojan-104.26.15.137-443"
+    type: trojan
+    server: "104.26.15.137"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "trojan-172.67.188.109-443"
+    type: trojan
+    server: "172.67.188.109"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
   - name: "trojan-198.41.223.96-443"
     type: trojan
     server: "198.41.223.96"
@@ -39,133 +807,47 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-    client-fingerprint: "chrome"
-  - name: "vless-172.67.179.82-443"
+      headers:
+        "Host": "www.ignitelimit.com"
+  - name: "vless-169.40.42.89-443"
     type: vless
-    server: "172.67.179.82"
+    server: "169.40.42.89"
     port: 443
-    uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    client-fingerprint: "chrome"
+  - name: "vless-104.21.41.158-443"
+    type: vless
+    server: "104.21.41.158"
+    port: 443
+    uuid: "a90c264d-3853-4eef-9a3d-628b2d02d15e"
     tls: true
-    servername: "1-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr"
+    servername: "3-M19.NORTh-kOREa-parK.KDNs.fR"
     network: ws
     ws-opts:
-      "path": "/8qMLgNapWf6SBxo8fhQlVPYO"
+      "path": "/CjBjB9sn5pCvaSwScc"
       headers:
-        "Host": "1-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr"
-  - name: "trojan-www.ignitelimit.com-443"
-    type: trojan
-    server: "www.ignitelimit.com"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.144.198-443"
-    type: vless
-    server: "172.64.144.198"
-    port: 443
-    uuid: "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
-    tls: true
-    servername: "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev"
-    client-fingerprint: "chrome"
-  - name: "vless-77.223.119.80-8200"
-    type: vless
-    server: "77.223.119.80"
-    port: 8200
-    uuid: "dfad3362-8534-4495-bf49-89f2ae229e7a"
-    client-fingerprint: "chrome"
-  - name: "vless-104.21.46.51-443"
-    type: vless
-    server: "104.21.46.51"
-    port: 443
-    uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
-    tls: true
-    servername: "2-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr"
-    network: ws
-    ws-opts:
-      "path": "/8qMLgNapWf6SBxo8fhQlVPYO"
-      headers:
-        "Host": "2-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr"
+        "Host": "3-m19.nortH-koreA-Park.KDNS.fr"
     client-fingerprint: "chrome#美国 CloudFlare节点"
-  - name: "trojan-172.67.221.242-443"
-    type: trojan
-    server: "172.67.221.242"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-    client-fingerprint: "chrome"
-  - name: "vless-ee-node.usel.pro-443"
+  - name: "vless-fq.jp188.dpdns.org-443"
     type: vless
-    server: "ee-node.usel.pro"
+    server: "fq.jp188.dpdns.org"
     port: 443
-    uuid: "6fb79584-30b8-4888-b358-98f7ef6b8697"
-    client-fingerprint: "chrome"
-  - name: "trojan-188.114.97.7-443"
-    type: trojan
-    server: "188.114.97.7"
-    port: 443
-    password: "humanity"
+    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
     tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "vless-172.67.134.13-443"
+    servername: "fq.jp188.dpdns.org"
+    client-fingerprint: "chrome"
+  - name: "vless-82.39.171.12-443"
     type: vless
-    server: "172.67.134.13"
+    server: "82.39.171.12"
     port: 443
-    uuid: "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90"
-    tls: true
-    servername: "1-M13-sTatic-cSS.Xcv.ccwU.CC"
-    network: ws
-    ws-opts:
-      "path": "/ED3ZQPu7lqyeDGD58KabZ"
-      headers:
-        "Host": "1-M13-sTAtiC-CsS.XCv.cCWu.cC"
-    client-fingerprint: "chrome"
-  - name: "trojan-join-telegram-channel.tirexnet.kdns.fr-443"
-    type: trojan
-    server: "join-telegram-channel.tirexnet.kdns.fr"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    client-fingerprint: "chrome"
-  - name: "vless-104.18.40.152-443"
-    type: vless
-    server: "104.18.40.152"
-    port: 443
-    uuid: "30235bbe-f791-4e53-89f9-5d9363af9b0a"
-    tls: true
-    servername: "sie704.pages.dev"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "sie704.pages.dev"
-    client-fingerprint: "chrome#美国 CloudFlare节点"
-  - name: "vless-172.64.145.202-443"
-    type: vless
-    server: "172.64.145.202"
-    port: 443
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    client-fingerprint: "chrome"
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    client-fingerprint: "ios"
+  - name: "ss-8.209.74.72-20001"
+    type: ss
+    server: "8.209.74.72"
+    port: 20001
+    cipher: "chacha20-ietf-poly1305"
+    password: "PWpjPo3tqhPN4yRZ"
   - name: "ss-37.19.198.244-443"
     type: ss
     server: "37.19.198.244"
@@ -490,12 +1172,6 @@ proxies:
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "uTBjZhDmOMwBVAJI"
-  - name: "ss-108.181.126.122-8388"
-    type: ss
-    server: "108.181.126.122"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
   - name: "ss-173.244.56.9-443"
     type: ss
     server: "173.244.56.9"
@@ -514,19 +1190,13 @@ proxies:
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "1hhrqrokj3ag"
-  - name: "ss-108.181.58.239-8388"
-    type: ss
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
   - name: "ss-149.22.95.183-443"
     type: ss
     server: "149.22.95.183"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-8.209.74.72-20001"
+  - name: "ss-8.209.74.72-20001-2"
     type: ss
     server: "8.209.74.72"
     port: 20001
@@ -592,12 +1262,24 @@ proxies:
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "hCCWOcIsK5wrFz4OX70rWf"
+  - name: "ss-49.254.204.134-1774"
+    type: ss
+    server: "49.254.204.134"
+    port: 1774
+    cipher: "aes-256-cfb"
+    password: "1234!@#$"
   - name: "ss-84.247.155.196-80"
     type: ss
     server: "84.247.155.196"
     port: 80
     cipher: "aes-256-gcm"
     password: "3eOFeNssde7PYYMv"
+  - name: "ss-r3mrcg001287h3p.cybervena.com-50099"
+    type: ss
+    server: "r3mrcg001287h3p.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
   - name: "vmess-152.67.8.205-80"
     type: vmess
     server: "152.67.8.205"
@@ -608,6 +1290,12 @@ proxies:
     network: ws
     ws-opts:
       "path": "/"
+  - name: "ss-r3mrcg001286ek2.cybervena.com-50099"
+    type: ss
+    server: "r3mrcg001286ek2.cybervena.com"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
   - name: "ss-94.156.250.148-7001"
     type: ss
     server: "94.156.250.148"
@@ -705,24 +1393,12 @@ proxies:
     network: ws
     ws-opts:
       "path": "/arki?ed=2048"
-  - name: "ss-103.141.221.101-8388"
+  - name: "ss-germ6.velqixa.ir-8390"
     type: ss
-    server: "103.141.221.101"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-  - name: "ss-103.149.182.105-8388"
-    type: ss
-    server: "103.149.182.105"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-  - name: "ss-103.141.221.124-8388"
-    type: ss
-    server: "103.141.221.124"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
+    server: "germ6.velqixa.ir"
+    port: 8390
+    cipher: "chacha20-ietf-poly1305"
+    password: "BKoK3EPN2TwJUf0IBOPQSA"
   - name: "ss-218.237.185.230-4652"
     type: ss
     server: "218.237.185.230"
@@ -789,7 +1465,7 @@ proxies:
     port: 6679
     cipher: "aes-256-gcm"
     password: "TEzjfAYq2IjtuoS"
-  - name: "vmess-www.shopify.com-443"
+  - name: "vmess-www.shopify.com-443-2"
     type: vmess
     server: "www.shopify.com"
     port: 443
@@ -1160,7 +1836,7 @@ proxies:
     network: ws
     ws-opts:
       "path": "/tandung288.click"
-  - name: "vmess-www.shopify.com-443-2"
+  - name: "vmess-www.shopify.com-443-3"
     type: vmess
     server: "www.shopify.com"
     port: 443
@@ -1174,19 +1850,12 @@ proxies:
       "path": "/hls/cctv5phd.m3u8"
       headers:
         "Host": "guanwang.awsno.com"
-  - name: "ss-63.180.254.10-443"
+  - name: "ss-63.180.254.10-443-2"
     type: ss
     server: "63.180.254.10"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "trojan-100.42.228.109-443"
-    type: trojan
-    server: "100.42.228.109"
-    port: 443
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me/ripaojiedian#🇺🇸US-100.42.228.109-0391"
   - name: "trojan-104.18.152.159-443"
     type: trojan
     server: "104.18.152.159"
@@ -1247,16 +1916,6 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-  - name: "trojan-188.114.97.3-443"
-    type: trojan
-    server: "188.114.97.3"
-    port: 443
-    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
-    tls: true
-    servername: "mfyousheng.nl.eu.org"
-    network: ws
-    ws-opts:
-      "path": "/tjwsLhx0SFASG4l9FERJ1g"
   - name: "trojan-104.18.152.133-443"
     type: trojan
     server: "104.18.152.133"
@@ -3477,6 +4136,19 @@ proxies:
       "path": "/AUIKN8AU"
       headers:
         "Host": "oplg1.cfcdn2.xyz"
+  - name: "vmess-v2ray.online-443"
+    type: vmess
+    server: "v2ray.online"
+    port: 443
+    uuid: "00BBF5B8-173E-6818-9927-5AD1AA073C7D"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/speedtest"
+      headers:
+        "Host": "Kansas.v2ray.online"
   - name: "vmess-190.93.245.3-443"
     type: vmess
     server: "190.93.245.3"
@@ -4240,6 +4912,19 @@ proxies:
       "path": "/"
       headers:
         "Host": "cdnde.irteyz.today"
+  - name: "vmess-23.224.101.102-443"
+    type: vmess
+    server: "23.224.101.102"
+    port: 443
+    uuid: "946ba5df-5771-4873-a3cb-892378526147"
+    alterId: 64
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/footers"
+      headers:
+        "Host": "www.76126449.xyz"
   - name: "vmess-104.18.7.138-443"
     type: vmess
     server: "104.18.7.138"
@@ -4864,18 +5549,6 @@ proxies:
     alterId: 0
     cipher: "auto"
     tls: true
-  - name: "vmess-138.68.90.231-8080"
-    type: vmess
-    server: "138.68.90.231"
-    port: 8080
-    uuid: "294ffdc3-5942-45ae-a154-dc6c92eacf1d"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/cctv13/hd.m3u8"
-      headers:
-        "Host": "138.68.90.231"
   - name: "vmess-426hk.fans8.xyz-443"
     type: vmess
     server: "426hk.fans8.xyz"
@@ -5432,6 +6105,13 @@ proxies:
     password: "humanity"
     tls: true
     servername: "www.ignitelimit.com#🏁RELAY-104.18.152.113-1217"
+  - name: "trojan-188.114.97.7-443"
+    type: trojan
+    server: "188.114.97.7"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com#🏁RELAY-188.114.97.7-1218"
   - name: "trojan-104.18.152.103-443"
     type: trojan
     server: "104.18.152.103"
@@ -5460,20 +6140,6 @@ proxies:
     password: "humanity"
     tls: true
     servername: "www.ignitelimit.com#🏁RELAY-104.17.148.22-1223"
-  - name: "trojan-render.com-443"
-    type: trojan
-    server: "render.com"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🇺🇸US-216.24.57.1-1224"
-  - name: "trojan-172.67.188.109-443"
-    type: trojan
-    server: "172.67.188.109"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-172.67.188.109-1225"
   - name: "trojan-45.130.125.158-443"
     type: trojan
     server: "45.130.125.158"
@@ -5815,6 +6481,19 @@ proxies:
     server: "us2.trojanvh.xyz"
     port: 80
     password: "255c924c-1314-4084-9a9e-1d1a82a5cf49"
+  - name: "vmess-23.224.101.102-443-2"
+    type: vmess
+    server: "23.224.101.102"
+    port: 443
+    uuid: "946ba5df-5771-4873-a3cb-892378526147"
+    alterId: 64
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/footers"
+      headers:
+        "Host": "23.224.101.102"
   - name: "vmess-ping.pe-443-2"
     type: vmess
     server: "ping.pe"
@@ -5957,6 +6636,19 @@ proxies:
       "path": "/y475"
       headers:
         "Host": "104.19.7.84"
+  - name: "vmess-v2ray.online-443-2"
+    type: vmess
+    server: "v2ray.online"
+    port: 443
+    uuid: "2F094845-E2BD-EBF7-DEB7-995992436FAF"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/speedtest"
+      headers:
+        "Host": "v2ray.online"
   - name: "vmess-104.19.36.160-443-2"
     type: vmess
     server: "104.19.36.160"
@@ -8050,6 +8742,19 @@ proxies:
       "path": "/"
       headers:
         "Host": "us-171-78.shoptunnel.live"
+  - name: "vmess-v2ray.online-443-3"
+    type: vmess
+    server: "v2ray.online"
+    port: 443
+    uuid: "2F094845-E2BD-EBF7-DEB7-995992436FAF"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/speedtest"
+      headers:
+        "Host": "Phoenix.v2ray.online"
   - name: "vmess-hohm.microsoft.com-443-3"
     type: vmess
     server: "hohm.microsoft.com"
@@ -8171,16 +8876,6 @@ proxies:
       "path": "/A2DJOPFT"
       headers:
         "Host": "lg10.cfcdn1.xyz"
-  - name: "vmess-138.68.90.231-8080-2"
-    type: vmess
-    server: "138.68.90.231"
-    port: 8080
-    uuid: "826b8d0a-e0d3-407a-927d-19953c170779"
-    alterId: 4
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/cctv13/hd.m3u8"
   - name: "vmess-159.223.94.156-80"
     type: vmess
     server: "159.223.94.156"
@@ -8255,7 +8950,7 @@ proxies:
     password: "ultra"
     tls: true
     servername: "www.cloudflare.com#🇯🇵JP-168.110.57.31-5174"
-  - name: "vmess-www.shopify.com-443-3"
+  - name: "vmess-www.shopify.com-443-4"
     type: vmess
     server: "www.shopify.com"
     port: 443
@@ -9185,24 +9880,6 @@ proxies:
     network: ws
     ws-opts:
       "path": "/V2RayyNGvpn"
-  - name: "ss-5.188.181.201-9041"
-    type: ss
-    server: "5.188.181.201"
-    port: 9041
-    cipher: "aes-256-cfb"
-    password: "U6qnYRhfyDmn8sgn"
-  - name: "ss-5.188.181.201-9037"
-    type: ss
-    server: "5.188.181.201"
-    port: 9037
-    cipher: "aes-256-cfb"
-    password: "TN2YqghxeFDKZfLU"
-  - name: "ss-5.188.181.201-9031"
-    type: ss
-    server: "5.188.181.201"
-    port: 9031
-    cipher: "aes-256-cfb"
-    password: "BwcAUZk8hUFAkDGN"
   - name: "vmess-47.88.104.186-80"
     type: vmess
     server: "47.88.104.186"
@@ -9336,12 +10013,12 @@ proxies:
     port: 443
     cipher: "aes-256-cfb"
     password: "asdKkaskJKfnsa"
-  - name: "ss-31.172.67.43-443"
+  - name: "ss-34.223.228.213-443"
     type: ss
-    server: "31.172.67.43"
+    server: "34.223.228.213"
     port: 443
     cipher: "aes-256-cfb"
-    password: "asdKkaskJKfnsa"
+    password: "amazonskr05"
   - name: "vmess-23.227.60.184-2096-2"
     type: vmess
     server: "23.227.60.184"
@@ -12636,683 +13313,3 @@ proxies:
     network: ws
     ws-opts:
       "path": "/fuzzyng?ed=2048"
-  - name: "ss-63.180.254.10-443-2"
-    type: ss
-    server: "63.180.254.10"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-  - name: "vmess-v10.hdacd.com-30807"
-    type: vmess
-    server: "v10.hdacd.com"
-    port: 30807
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 2
-    cipher: "auto"
-  - name: "vmess-v10.hdacd.com-30807-2"
-    type: vmess
-    server: "v10.hdacd.com"
-    port: 30807
-    uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-    alterId: 2
-    cipher: "auto"
-  - name: "vless-austria-2.moritech.net-443"
-    type: vless
-    server: "austria-2.moritech.net"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    client-fingerprint: "chrome"
-  - name: "vless-170.168.97.8-8443"
-    type: vless
-    server: "170.168.97.8"
-    port: 8443
-    uuid: "3f9f2bda-0b9c-8469-7381-a73de2255619"
-    client-fingerprint: "chrome"
-  - name: "vless-cdn15sw.goonars.com-443"
-    type: vless
-    server: "cdn15sw.goonars.com"
-    port: 443
-    uuid: "02722550-1915-4629-a653-cbe95e594f70"
-    client-fingerprint: "chrome"
-  - name: "vless-mst1ndch.goonars.com-443"
-    type: vless
-    server: "mst1ndch.goonars.com"
-    port: 443
-    uuid: "02722550-1915-4629-a653-cbe95e594f70"
-    client-fingerprint: "chrome"
-  - name: "vless-142.248.218.34-2053"
-    type: vless
-    server: "142.248.218.34"
-    port: 2053
-    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
-    network: ws
-    ws-opts:
-      "path": "/fp=chrome"
-      headers:
-        "Host": "edge.yzkvm.top"
-  - name: "trojan-z-jp1.1card.cc-10010"
-    type: trojan
-    server: "z-jp1.1card.cc"
-    port: 10010
-    password: "ultra%40kWZdAzt_IH593eGLRjdxnBZ0"
-  - name: "vless-news.zoom.us-8443"
-    type: vless
-    server: "news.zoom.us"
-    port: 8443
-    uuid: "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2"
-    network: ws
-    ws-opts:
-      "path": "/fp=chrome"
-      headers:
-        "Host": "u.srilankangrill.online"
-  - name: "vless-cf.090227.xyz-443"
-    type: vless
-    server: "cf.090227.xyz"
-    port: 443
-    uuid: "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2560fp=firefox"
-      headers:
-        "Host": "cf1-1mh.pages.dev"
-  - name: "vless-188.164.248.78-2096"
-    type: vless
-    server: "188.164.248.78"
-    port: 2096
-    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
-    network: ws
-    ws-opts:
-      "path": "/proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57fp=chrome"
-      headers:
-        "Host": "fq.jp188.dpdns.org"
-  - name: "vless-172.67.169.99-443"
-    type: vless
-    server: "172.67.169.99"
-    port: 443
-    uuid: "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba"
-    network: ws
-    ws-opts:
-      "path": "/JRr6VGcSLFc034DC6sDbwyWJLbBsecurity=tls"
-      headers:
-        "Host": "8-m16.PHuKEt2035.KdnS.fr"
-  - name: "vless-201.51.10.240-443"
-    type: vless
-    server: "201.51.10.240"
-    port: 443
-    uuid: "02722550-1915-4629-a653-cbe95e594f70"
-    client-fingerprint: "firefox"
-  - name: "vless-31.59.140.124-443"
-    type: vless
-    server: "31.59.140.124"
-    port: 443
-    uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
-    client-fingerprint: "firefox"
-  - name: "vless-de2.baboon.digital-443"
-    type: vless
-    server: "de2.baboon.digital"
-    port: 443
-    uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
-    client-fingerprint: "qq"
-  - name: "vless-31.76.20.209-443"
-    type: vless
-    server: "31.76.20.209"
-    port: 443
-    uuid: "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5"
-    client-fingerprint: "firefox"
-  - name: "vless-hk4.miyazono-kaori.com-443"
-    type: vless
-    server: "hk4.miyazono-kaori.com"
-    port: 443
-    uuid: "0edbdf9a-3cae-4234-889a-1ec5c59c9c2c"
-    client-fingerprint: "chrome"
-  - name: "vless-hk6.miyazono-kaori.com-443"
-    type: vless
-    server: "hk6.miyazono-kaori.com"
-    port: 443
-    uuid: "0edbdf9a-3cae-4234-889a-1ec5c59c9c2c"
-    client-fingerprint: "chrome"
-  - name: "vless-5.35.91.96-443"
-    type: vless
-    server: "5.35.91.96"
-    port: 443
-    uuid: "52d1d193-7a49-4d2e-9d52-c2615704034b"
-    client-fingerprint: "chrome"
-  - name: "vless-155.117.199.13-29893"
-    type: vless
-    server: "155.117.199.13"
-    port: 29893
-    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
-    client-fingerprint: "chrome"
-  - name: "vless-155.117.199.13-39399"
-    type: vless
-    server: "155.117.199.13"
-    port: 39399
-    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
-    client-fingerprint: "chrome"
-  - name: "vless-155.117.199.13-39211"
-    type: vless
-    server: "155.117.199.13"
-    port: 39211
-    uuid: "f06c6039-a489-3d78-a676-ed43be6deca3"
-    client-fingerprint: "chrome"
-  - name: "vless-2.59.134.226-443"
-    type: vless
-    server: "2.59.134.226"
-    port: 443
-    uuid: "88281d02-b387-4fe3-918e-26ed331e6d08"
-    tls: true
-    servername: "rich-falcon.cdn.cachefleet.com#🇩🇪_DE_德国"
-    client-fingerprint: "qq"
-  - name: "vmess-112.132.215.108-50002"
-    type: vmess
-    server: "112.132.215.108"
-    port: 50002
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-  - name: "vmess-www.shopify.com-443-4"
-    type: vmess
-    server: "www.shopify.com"
-    port: 443
-    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "guanwang.awsno.com"
-    network: ws
-    ws-opts:
-      "path": "/hls/cctv5phd.m3u8"
-      headers:
-        "Host": "guanwang.awsno.com"
-  - name: "vmess-38.47.121.14-49432"
-    type: vmess
-    server: "38.47.121.14"
-    port: 49432
-    uuid: "ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb"
-    alterId: 0
-    cipher: "auto"
-  - name: "vless-31.59.150.174-9443"
-    type: vless
-    server: "31.59.150.174"
-    port: 9443
-    uuid: "92089155-6602-4122-86d4-fe6de20e8c4d"
-    tls: true
-    servername: "hotcoals.aeternavpn.space#🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦"
-    client-fingerprint: "firefox"
-  - name: "vless-171.22.129.56-8443"
-    type: vless
-    server: "171.22.129.56"
-    port: 8443
-    uuid: "b2744db0-1c64-4218-a93b-9eba0e5f811f"
-    tls: true
-    servername: "de-two.quiet-rogue.site"
-    client-fingerprint: "firefox"
-  - name: "vless-104.17.159.189-443"
-    type: vless
-    server: "104.17.159.189"
-    port: 443
-    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
-    tls: true
-    servername: "fq.jp188.dpdns.org"
-    client-fingerprint: "chrome"
-  - name: "vless-176.96.138.122-443"
-    type: vless
-    server: "176.96.138.122"
-    port: 443
-    uuid: "b229d38c-35ec-4a0b-9c86-8fceba243d6c"
-    tls: true
-    servername: "plucky-xenon.cdn.cachefleet.com#🇩🇪_DE_德国"
-    client-fingerprint: "qq"
-  - name: "ss-82.110.60.9-19999"
-    type: ss
-    server: "82.110.60.9"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "vless-103.75.119.11-443"
-    type: vless
-    server: "103.75.119.11"
-    port: 443
-    uuid: "682300d9-74d0-4dae-923c-09cb5d5e9951"
-    client-fingerprint: "chrome"
-  - name: "vless-170.114.52.22-443"
-    type: vless
-    server: "170.114.52.22"
-    port: 443
-    uuid: "66936521-52b4-47ac-9aeb-6f292e352797"
-    network: ws
-    ws-opts:
-      "path": "/csfp=chrome"
-      headers:
-        "Host": "asia.csmasterofficial.store"
-  - name: "trojan-z-jp2.1card.cc-10008"
-    type: trojan
-    server: "z-jp2.1card.cc"
-    port: 10008
-    password: "ultra%40kWZdAzt_IH593eGLRjdxnBZ0"
-  - name: "vless-37.46.196.82-443"
-    type: vless
-    server: "37.46.196.82"
-    port: 443
-    uuid: "8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3"
-    client-fingerprint: "chrome"
-  - name: "vless-104.16.157.58-2083"
-    type: vless
-    server: "104.16.157.58"
-    port: 2083
-    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
-    network: ws
-    ws-opts:
-      "path": "/proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57fp=chrome"
-      headers:
-        "Host": "fq.jp188.dpdns.org"
-  - name: "ss-61.216.165.233-2377"
-    type: ss
-    server: "61.216.165.233"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
-  - name: "vless-62.233.39.9-443"
-    type: vless
-    server: "62.233.39.9"
-    port: 443
-    uuid: "3f9f2bda-0b9c-8469-7381-a73de2255619"
-    client-fingerprint: "chrome"
-  - name: "vless-188.68.216.38-9891"
-    type: vless
-    server: "188.68.216.38"
-    port: 9891
-    uuid: "5d16ac22-6eea-426f-b778-6f4c2961faef"
-    client-fingerprint: "qq"
-  - name: "vless-15.236.172.122-22223"
-    type: vless
-    server: "15.236.172.122"
-    port: 22223
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-  - name: "vless-aldebaran.yokkastars.com-40443"
-    type: vless
-    server: "aldebaran.yokkastars.com"
-    port: 40443
-    uuid: "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b"
-    client-fingerprint: "qq"
-  - name: "vless-s4.zynetraq.ir-2087"
-    type: vless
-    server: "s4.zynetraq.ir"
-    port: 2087
-    uuid: "4f3dbafe-98a5-4b32-c0ab-a82c90a5369a"
-    client-fingerprint: "chrome"
-  - name: "vless-45.74.158.180-443"
-    type: vless
-    server: "45.74.158.180"
-    port: 443
-    uuid: "74a755ed-3276-4894-b010-8eea73feb267"
-    client-fingerprint: "chrome"
-  - name: "vless-cdn6.goonars.com-443"
-    type: vless
-    server: "cdn6.goonars.com"
-    port: 443
-    uuid: "02722550-1915-4629-a653-cbe95e594f70"
-    client-fingerprint: "chrome"
-  - name: "vless-167.104.216.148-443"
-    type: vless
-    server: "167.104.216.148"
-    port: 443
-    uuid: "367b6ccd-ecf1-42da-b9d7-375161ab0952"
-    client-fingerprint: "chrome"
-  - name: "vless-146.70.37.253-443"
-    type: vless
-    server: "146.70.37.253"
-    port: 443
-    uuid: "9ec75cc5-d999-4dda-a5be-dafc728d591f"
-    tls: true
-    servername: "thus-k.netnode.cc.cd"
-    network: ws
-    ws-opts:
-      "path": "/t.me/daily_free_vpn"
-      headers:
-        "Host": "thus-k.netnode.cc.cd"
-    client-fingerprint: "chrome"
-  - name: "trojan-kWZdAzt_IH593eGLRjdxnBZ0@z-jp2.1card.cc-10009"
-    type: trojan
-    server: "kWZdAzt_IH593eGLRjdxnBZ0@z-jp2.1card.cc"
-    port: 10009
-    password: "ultra"
-  - name: "vless-at-new-ded5.moritech.net-443"
-    type: vless
-    server: "at-new-ded5.moritech.net"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    tls: true
-    client-fingerprint: "chrome"
-  - name: "trojan-91.245.225.79-2053"
-    type: trojan
-    server: "91.245.225.79"
-    port: 2053
-    password: "humanity"
-  - name: "vless-31.76.7.154-7443"
-    type: vless
-    server: "31.76.7.154"
-    port: 7443
-    uuid: "d7cad038-0c3f-4cce-8f8a-36464aaf66c0"
-    client-fingerprint: "firefox"
-  - name: "vless-84.21.173.246-443"
-    type: vless
-    server: "84.21.173.246"
-    port: 443
-    uuid: "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5"
-    client-fingerprint: "firefox"
-  - name: "vless-fin.pinkmoon.pro-443"
-    type: vless
-    server: "fin.pinkmoon.pro"
-    port: 443
-    uuid: "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5"
-    client-fingerprint: "qq"
-  - name: "vless-199.232.78.170-443"
-    type: vless
-    server: "199.232.78.170"
-    port: 443
-    uuid: "XpnTeam-15"
-    tls: true
-    servername: "ssl.fastly.com"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "Appxdn.global.ssl.fastly.net"
-    client-fingerprint: "chrome"
-  - name: "trojan-185.18.250.252-443"
-    type: trojan
-    server: "185.18.250.252"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.16.174.46-443"
-    type: trojan
-    server: "104.16.174.46"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.18.152.144-443"
-    type: trojan
-    server: "104.18.152.144"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.18.152.208-443"
-    type: trojan
-    server: "104.18.152.208"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.17.111.1-443"
-    type: trojan
-    server: "104.17.111.1"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.18.152.230-443"
-    type: trojan
-    server: "104.18.152.230"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.18.22.63-443"
-    type: trojan
-    server: "104.18.22.63"
-    port: 443
-    password: "humanity"
-  - name: "vless-uk-dedic.failspace.top-443"
-    type: vless
-    server: "uk-dedic.failspace.top"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    tls: true
-    client-fingerprint: "chrome"
-  - name: "trojan-82.117.245.125-2053"
-    type: trojan
-    server: "82.117.245.125"
-    port: 2053
-    password: "humanity"
-  - name: "vless-169.40.1.62-1443"
-    type: vless
-    server: "169.40.1.62"
-    port: 1443
-    uuid: "773251ef-4691-453e-b062-27e3ed3ed784"
-    tls: true
-    servername: "lv.pawnet.ink"
-    client-fingerprint: "chrome"
-  - name: "vless-tmnd2.betust.net-443"
-    type: vless
-    server: "tmnd2.betust.net"
-    port: 443
-    uuid: "02722550-1915-4629-a653-cbe95e594f70"
-    client-fingerprint: "qq"
-  - name: "vless-51.15.57.139-8080"
-    type: vless
-    server: "51.15.57.139"
-    port: 8080
-    uuid: "11af1c47-865a-47c6-92ff-118013655d78"
-    network: ws
-    ws-opts:
-      "path": "/"
-  - name: "vless-79.141.174.147-33743"
-    type: vless
-    server: "79.141.174.147"
-    port: 33743
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
-    client-fingerprint: "firefox"
-  - name: "vless-austria.moritech.net-443"
-    type: vless
-    server: "austria.moritech.net"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    tls: true
-    client-fingerprint: "chrome"
-  - name: "trojan-104.16.174.12-443"
-    type: trojan
-    server: "104.16.174.12"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.18.152.161-443"
-    type: trojan
-    server: "104.18.152.161"
-    port: 443
-    password: "humanity"
-  - name: "vless-172.67.196.178-443"
-    type: vless
-    server: "172.67.196.178"
-    port: 443
-    uuid: "2240d8f8-898f-4988-8c08-ac724aa06ddb"
-    tls: true
-    servername: "4-m9.pattaya-4.kdns.fr"
-    network: ws
-    ws-opts:
-      "path": "/BzuntJ8qZN0TRKbC8TveMxJ0"
-      headers:
-        "Host": "4-m9.pattaya-4.kdns.fr"
-    client-fingerprint: "chrome"
-  - name: "vless-162.159.0.53-2095"
-    type: vless
-    server: "162.159.0.53"
-    port: 2095
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2560security=tls"
-      headers:
-        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-  - name: "vless-185.248.86.218-443"
-    type: vless
-    server: "185.248.86.218"
-    port: 443
-    uuid: "9ec75cc5-d999-4dda-a5be-dafc728d591f"
-    tls: true
-    servername: "thus-k.netnode.cc.cd"
-    network: ws
-    ws-opts:
-      "path": "/t.me/daily_free_vpn"
-      headers:
-        "Host": "thus-k.netnode.cc.cd"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.146.211-8443"
-    type: vless
-    server: "172.64.146.211"
-    port: 8443
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    client-fingerprint: "chrome"
-  - name: "vless-k2.cloud--vpn.site-443"
-    type: vless
-    server: "k2.cloud--vpn.site"
-    port: 443
-    uuid: "cc4a473a-2e15-4fc6-ec54-47c3aa5cec09"
-    tls: true
-    servername: "ssl.fastly.com"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "c12.com"
-    client-fingerprint: "firefox"
-  - name: "vless-38.60.89.169-443"
-    type: vless
-    server: "38.60.89.169"
-    port: 443
-    uuid: "9ec75cc5-d999-4dda-a5be-dafc728d591f"
-    tls: true
-    servername: "thus-k.netnode.cc.cd"
-    network: ws
-    ws-opts:
-      "path": "/t.me/daily_free_vpn"
-      headers:
-        "Host": "thus-k.netnode.cc.cd"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.229.170-8080"
-    type: vless
-    server: "172.64.229.170"
-    port: 8080
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2560security=tls"
-      headers:
-        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-  - name: "vless-172.67.222.216-443"
-    type: vless
-    server: "172.67.222.216"
-    port: 443
-    uuid: "2240d8f8-898f-4988-8c08-ac724aa06ddb"
-    tls: true
-    servername: "4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr"
-    network: ws
-    ws-opts:
-      "path": "/BzuntJ8qZN0TRKbC8TveMxJ0"
-      headers:
-        "Host": "4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.53.215-443"
-    type: vless
-    server: "172.64.53.215"
-    port: 443
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    client-fingerprint: "chrome"
-  - name: "vless-a2.arshia-nova.ir-443"
-    type: vless
-    server: "a2.arshia-nova.ir"
-    port: 443
-    uuid: "cc4a473a-2e15-4fc6-ec54-47c3aa5cec09"
-    tls: true
-    servername: "ssl.fastly.com"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "c12.com"
-    client-fingerprint: "chrome"
-  - name: "trojan-188.114.96.3-443"
-    type: trojan
-    server: "188.114.96.3"
-    port: 443
-    password: "humanity"
-  - name: "trojan-104.16.174.6-443"
-    type: trojan
-    server: "104.16.174.6"
-    port: 443
-    password: "humanity"
-  - name: "vless-162.159.38.127-2082"
-    type: vless
-    server: "162.159.38.127"
-    port: 2082
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2560security=tls"
-      headers:
-        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-  - name: "vless-unitedstates-sgood.wopd.butnorwa.butter.silicore.ir-9000"
-    type: vless
-    server: "unitedstates-sgood.wopd.butnorwa.butter.silicore.ir"
-    port: 9000
-    uuid: "b33e4571-de3f-4249-b246-b2acf3db2f36"
-    client-fingerprint: "chrome"
-  - name: "vless-162.159.24.131-2095"
-    type: vless
-    server: "162.159.24.131"
-    port: 2095
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2560security=tls"
-      headers:
-        "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-  - name: "vless-104.16.150.108-2087"
-    type: vless
-    server: "104.16.150.108"
-    port: 2087
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2560"
-      headers:
-        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    client-fingerprint: "chrome"
-  - name: "trojan-216.24.57.1-443"
-    type: trojan
-    server: "216.24.57.1"
-    port: 443
-    password: "humanity"
-  - name: "vless-104.17.20.39-443"
-    type: vless
-    server: "104.17.20.39"
-    port: 443
-    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
-    tls: true
-    servername: "mianfei-73q.pages.dev"
-    network: ws
-    ws-opts:
-      "path": "/proxyip=154.3.33.43"
-      headers:
-        "Host": "mianfei-73q.pages.dev"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.53.194-2087"
-    type: vless
-    server: "172.64.53.194"
-    port: 2087
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    client-fingerprint: "chrome"
