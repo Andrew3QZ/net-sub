@@ -1,4 +1,153 @@
 proxies:
+  - name: "trojan-104.16.73.213-443"
+    type: trojan
+    server: "104.16.73.213"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.16.174.121-443"
+    type: trojan
+    server: "104.16.174.121"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "vless-64.188.79.106-443"
+    type: vless
+    server: "64.188.79.106"
+    port: 443
+    uuid: "94006a20-6cd6-4751-a14d-c5a0bacb68bb"
+    client-fingerprint: "chrome"
+  - name: "trojan-198.41.223.96-443"
+    type: trojan
+    server: "198.41.223.96"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "vless-179.198.49.43-443"
+    type: vless
+    server: "179.198.49.43"
+    port: 443
+    uuid: "d72f05b0-b182-4783-a6f2-21cecc7d841a"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.16.174.143-443"
+    type: trojan
+    server: "104.16.174.143"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.16.174.44-443"
+    type: trojan
+    server: "104.16.174.44"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
+  - name: "vless-104.21.37.55-443"
+    type: vless
+    server: "104.21.37.55"
+    port: 443
+    uuid: "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba"
+    tls: true
+    servername: "6-m16.cHiaN-MAI-8.kDnS.Fr"
+    network: ws
+    ws-opts:
+      "path": "/JRr6VGcSLFc034DC6sDbwyWJLbB"
+      headers:
+        "Host": "6-M16.chian-mAI-8.KdNs.fR"
+    client-fingerprint: "chrome#美国 CloudFlare节点"
+  - name: "vless-103.245.229.32-443"
+    type: vless
+    server: "103.245.229.32"
+    port: 443
+    uuid: "8bbe5178-a991-4a56-871c-553e2f8e9e70"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.16.174.37-443"
+    type: trojan
+    server: "104.16.174.37"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.155-443"
+    type: trojan
+    server: "104.18.152.155"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.18.23.63-443"
+    type: trojan
+    server: "104.18.23.63"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.18.152.73-443"
+    type: trojan
+    server: "104.18.152.73"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+    client-fingerprint: "chrome"
+  - name: "trojan-104.16.174.148-443"
+    type: trojan
+    server: "104.16.174.148"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.152-443"
+    type: trojan
+    server: "104.18.152.152"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+      headers:
+        "Host": "www.ignitelimit.com"
+  - name: "trojan-159.112.235.52-443"
+    type: trojan
+    server: "159.112.235.52"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    client-fingerprint: "chrome"
   - name: "vless-ghosts-spasm.quick-cdn.net-443"
     type: vless
     server: "ghosts-spasm.quick-cdn.net"
@@ -99,12 +248,6 @@ proxies:
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
-  - name: "ss-158.178.156.189-45819"
-    type: ss
-    server: "158.178.156.189"
-    port: 45819
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "3pAryH5891fJwNy5c1rzLBaytwn79ojJ5iVQt6Yli60="
   - name: "ss-3.112.209.209-443"
     type: ss
     server: "3.112.209.209"
@@ -155,12 +298,6 @@ proxies:
       headers:
         "Host": "xi.tbv.ccwu.cc"
     client-fingerprint: "chrome"
-  - name: "vless-34.47.1.109-443"
-    type: vless
-    server: "34.47.1.109"
-    port: 443
-    uuid: "448b76ac-c636-4303-bec1-0b2c22afee0c"
-    client-fingerprint: "chrome"
   - name: "vless-34.185.172.52-443"
     type: vless
     server: "34.185.172.52"
@@ -187,18 +324,12 @@ proxies:
     tls: true
     servername: "dedicated.pivo.lol"
     client-fingerprint: "firefox"
-  - name: "ss-130.61.235.137-59924"
-    type: ss
-    server: "130.61.235.137"
-    port: 59924
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "IJPKybdCWc1qvoGqy0e6tflGkAAKCXe9FaWcBTjgfDs="
-  - name: "ss-130.61.232.101-59924"
-    type: ss
-    server: "130.61.232.101"
-    port: 59924
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "f+Q/z5EHlXtbRPZBqT8ygy+RUkwnc6kMcd8UY8iyxU8="
+  - name: "vless-31.76.100.41-443"
+    type: vless
+    server: "31.76.100.41"
+    port: 443
+    uuid: "d72f05b0-b182-4783-a6f2-21cecc7d841a"
+    client-fingerprint: "firefox"
   - name: "trojan-104.17.111.3-443"
     type: trojan
     server: "104.17.111.3"
@@ -332,12 +463,6 @@ proxies:
     port: 443
     uuid: "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200"
     client-fingerprint: "firefox"
-  - name: "ss-158.101.211.78-45819"
-    type: ss
-    server: "158.101.211.78"
-    port: 45819
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "REewqi3c7l3hyDUDzTpuhOPrWO6X9Vo6bXYhhE3tGw8="
   - name: "vless-104.26.3.162-443"
     type: vless
     server: "104.26.3.162"
@@ -351,12 +476,6 @@ proxies:
       headers:
         "Host": "meu4s.dmgb.475.hh.vavava.kdns.fr"
     client-fingerprint: "chrome"
-  - name: "ss-141.144.194.235-45819"
-    type: ss
-    server: "141.144.194.235"
-    port: 45819
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "hW/kZ3Lkub41cyalnSsNTCYF8hMO8dh5MHzqf+FRl8o="
   - name: "vless-www.iplocation.net-8080"
     type: vless
     server: "www.iplocation.net"
@@ -474,11 +593,6 @@ proxies:
       headers:
         "Host": "meu4s.dmgb.475.hh.vavava.kdns.fr"
     client-fingerprint: "chrome"
-  - name: "trojan-104.18.152.73-443"
-    type: trojan
-    server: "104.18.152.73"
-    port: 443
-    password: "humanity"
   - name: "vless-104.16.8.66-8880"
     type: vless
     server: "104.16.8.66"
@@ -597,18 +711,75 @@ proxies:
       headers:
         "Host": "meu4s.dmgb.475.hh.vavava.kdns.fr"
     client-fingerprint: "chrome"
-  - name: "ss-37.19.198.236-443"
+  - name: "ss-130.61.102.123-59924"
     type: ss
-    server: "37.19.198.236"
+    server: "130.61.102.123"
+    port: 59924
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "2XG9witwk9u9AP7ZPoKluZNL5VBW82xnYgGA/8oHC4I="
+  - name: "vless-194.127.179.125-8443"
+    type: vless
+    server: "194.127.179.125"
+    port: 8443
+    uuid: "e6695d9b-3663-4421-9893-de7f641a9f3a"
+    client-fingerprint: "chrome"
+  - name: "vless-fr.gmail.com.vipneninet.ir-21757"
+    type: vless
+    server: "fr.gmail.com.vipneninet.ir"
+    port: 21757
+    uuid: "140d54e9-fe85-4c63-8259-5bf9b3e29349"
+    client-fingerprint: "chrome"
+  - name: "vless-gerwai1488.vvzzkontaktezzvv.garden-443"
+    type: vless
+    server: "gerwai1488.vvzzkontaktezzvv.garden"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-37.19.198.244-443"
+    uuid: "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b"
+    client-fingerprint: "firefox"
+  - name: "vless-157.137.219.244-62145"
+    type: vless
+    server: "157.137.219.244"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+  - name: "vless-sfert.mervi.icu-443"
+    type: vless
+    server: "sfert.mervi.icu"
+    port: 443
+    uuid: "9bbd487f-8f84-4ad7-b897-681c3f7d95dc"
+    client-fingerprint: "firefox"
+  - name: "vless-sujik.mervi.icu-443"
+    type: vless
+    server: "sujik.mervi.icu"
+    port: 443
+    uuid: "9bbd487f-8f84-4ad7-b897-681c3f7d95dc"
+    client-fingerprint: "chrome"
+  - name: "vless-144.31.203.152-443"
+    type: vless
+    server: "144.31.203.152"
+    port: 443
+    uuid: "8ec1a004-34f5-4c2b-88f5-42c27c887c04"
+    client-fingerprint: "safari"
+  - name: "ss-193.123.39.109-45819"
     type: ss
-    server: "37.19.198.244"
+    server: "193.123.39.109"
+    port: 45819
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI="
+  - name: "vless-146.75.29.242-443"
+    type: vless
+    server: "146.75.29.242"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    uuid: "11e6c528-434f-4b15-83b3-40a46237ea13"
+    network: ws
+    ws-opts:
+      "path": "/wsfp=chrome"
+      headers:
+        "Host": "bounded-crammed.video-streams.org"
+  - name: "ss-198.98.53.130-443"
+    type: ss
+    server: "198.98.53.130"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "eDfN7SODQceIOmIAbtJJtK"
   - name: "ss-37.19.198.160-443"
     type: ss
     server: "37.19.198.160"
@@ -621,57 +792,111 @@ proxies:
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-198.98.53.130-443"
+  - name: "ss-37.19.198.236-443"
     type: ss
-    server: "198.98.53.130"
+    server: "37.19.198.236"
     port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "eDfN7SODQceIOmIAbtJJtK"
-  - name: "ss-193.29.139.168-8080"
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-37.19.198.244-443"
     type: ss
-    server: "193.29.139.168"
+    server: "37.19.198.244"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-140.82.63.79-8388"
+    type: ss
+    server: "140.82.63.79"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "ZoZtfPOyVvmKARUN"
+  - name: "ss-138.199.42.68-8080"
+    type: ss
+    server: "138.199.42.68"
     port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
-  - name: "ss-82.38.31.192-8080"
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "ss-82.38.31.181-8080"
     type: ss
-    server: "82.38.31.192"
+    server: "82.38.31.181"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.46-8080"
+  - name: "ss-82.38.31.42-8080"
     type: ss
-    server: "82.38.31.46"
+    server: "82.38.31.42"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.216-8080"
+    type: ss
+    server: "82.38.31.216"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.193-8080"
+    type: ss
+    server: "82.38.31.193"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.180-8080"
+    type: ss
+    server: "82.38.31.180"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-82.38.31.66-8080"
     type: ss
     server: "82.38.31.66"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.3-8080"
+  - name: "ss-82.38.31.205-8080"
     type: ss
-    server: "82.38.31.3"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.189-8080"
-    type: ss
-    server: "82.38.31.189"
+    server: "82.38.31.205"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.149-8080"
+  - name: "ss-82.38.31.34-8080"
     type: ss
-    server: "82.38.31.149"
+    server: "82.38.31.34"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.210-8080"
+    type: ss
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.207-8080"
+    type: ss
+    server: "82.38.31.207"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-193.29.139.151-8080"
     type: ss
     server: "193.29.139.151"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.217-8080"
+    type: ss
+    server: "82.38.31.217"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.155-8080"
+    type: ss
+    server: "82.38.31.155"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.2-8080"
+    type: ss
+    server: "82.38.31.2"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -681,12 +906,54 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.49-8080"
+  - name: "ss-193.29.139.147-8080"
     type: ss
-    server: "82.38.31.49"
+    server: "193.29.139.147"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.214-8080"
+    type: ss
+    server: "82.38.31.214"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.192-8080"
+    type: ss
+    server: "82.38.31.192"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.219-8080"
+    type: ss
+    server: "82.38.31.219"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.203-8080"
+    type: ss
+    server: "82.38.31.203"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.3-8080"
+    type: ss
+    server: "82.38.31.3"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-193.29.139.223-8080"
+    type: ss
+    server: "193.29.139.223"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.206-8080"
+    type: ss
+    server: "82.38.31.206"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-82.38.31.62-8080"
     type: ss
     server: "82.38.31.62"
@@ -699,45 +966,15 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.214-8080"
+  - name: "ss-82.38.31.174-8080"
     type: ss
-    server: "82.38.31.214"
+    server: "82.38.31.174"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.217-8080"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.47-8080"
     type: ss
-    server: "82.38.31.217"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.210-8080"
-    type: ss
-    server: "82.38.31.210"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.216-8080"
-    type: ss
-    server: "82.38.31.216"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.187-8080"
-    type: ss
-    server: "82.38.31.187"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-193.29.139.147-8080"
-    type: ss
-    server: "193.29.139.147"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.16-8080"
-    type: ss
-    server: "82.38.31.16"
+    server: "82.38.31.47"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -747,177 +984,15 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.174-8080"
+  - name: "ss-82.38.31.174-443"
     type: ss
     server: "82.38.31.174"
-    port: 8080
+    port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-156.146.38.170-443"
-    type: ss
-    server: "156.146.38.170"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-82.38.31.186-8080"
-    type: ss
-    server: "82.38.31.186"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.181-8080"
-    type: ss
-    server: "82.38.31.181"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-193.29.139.204-8080"
     type: ss
     server: "193.29.139.204"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.155-8080"
-    type: ss
-    server: "82.38.31.155"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-156.146.38.169-443"
-    type: ss
-    server: "156.146.38.169"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-193.29.139.223-8080"
-    type: ss
-    server: "193.29.139.223"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.205-8080"
-    type: ss
-    server: "82.38.31.205"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.190-8080"
-    type: ss
-    server: "82.38.31.190"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.82-8080"
-    type: ss
-    server: "82.38.31.82"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-193.29.139.235-8080"
-    type: ss
-    server: "193.29.139.235"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.203-8080"
-    type: ss
-    server: "82.38.31.203"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.34-8080"
-    type: ss
-    server: "82.38.31.34"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.194-8080"
-    type: ss
-    server: "82.38.31.194"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.193-8080"
-    type: ss
-    server: "82.38.31.193"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.61-8080"
-    type: ss
-    server: "82.38.31.61"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.184-8080"
-    type: ss
-    server: "82.38.31.184"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.42-8080"
-    type: ss
-    server: "82.38.31.42"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.179-8080"
-    type: ss
-    server: "82.38.31.179"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.162-443"
-    type: ss
-    server: "82.38.31.162"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.10-8080"
-    type: ss
-    server: "82.38.31.10"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-156.146.38.168-443"
-    type: ss
-    server: "156.146.38.168"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-82.38.31.47-8080"
-    type: ss
-    server: "82.38.31.47"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.212-8080"
-    type: ss
-    server: "82.38.31.212"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.2-8080"
-    type: ss
-    server: "82.38.31.2"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.207-8080"
-    type: ss
-    server: "82.38.31.207"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.206-8080"
-    type: ss
-    server: "82.38.31.206"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.48-8080"
-    type: ss
-    server: "82.38.31.48"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -927,60 +1002,132 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.180-8080"
+  - name: "ss-82.38.31.179-8080"
     type: ss
-    server: "82.38.31.180"
+    server: "82.38.31.179"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.174-443"
+  - name: "ss-82.38.31.187-8080"
     type: ss
-    server: "82.38.31.174"
-    port: 443
+    server: "82.38.31.187"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.48-8080"
+    type: ss
+    server: "82.38.31.48"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-156.146.38.167-443"
+  - name: "ss-82.38.31.194-8080"
     type: ss
-    server: "156.146.38.167"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    server: "82.38.31.194"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.10-8080"
+    type: ss
+    server: "82.38.31.10"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
   - name: "ss-109.201.152.181-443"
     type: ss
     server: "109.201.152.181"
     port: 443
     cipher: "aes-128-cfb"
     password: "shadowsocks"
-  - name: "ss-108.181.118.10-8388"
+  - name: "ss-82.38.31.190-8080"
     type: ss
-    server: "108.181.118.10"
-    port: 8388
+    server: "82.38.31.190"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "G5p6ww4o67HB"
-  - name: "ss-108.181.0.177-8388"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-193.29.139.168-8080"
     type: ss
-    server: "108.181.0.177"
-    port: 8388
+    server: "193.29.139.168"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "G5p6ww4o67HB"
-  - name: "ss-57.131.48.45-8388"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+  - name: "ss-82.38.31.16-8080"
     type: ss
-    server: "57.131.48.45"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "itzvpn@321"
+    server: "82.38.31.16"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.61-8080"
+    type: ss
+    server: "82.38.31.61"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.49-8080"
+    type: ss
+    server: "82.38.31.49"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.82-8080"
+    type: ss
+    server: "82.38.31.82"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.212-8080"
+    type: ss
+    server: "82.38.31.212"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.184-8080"
+    type: ss
+    server: "82.38.31.184"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.149-8080"
+    type: ss
+    server: "82.38.31.149"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.162-443"
+    type: ss
+    server: "82.38.31.162"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.189-8080"
+    type: ss
+    server: "82.38.31.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-193.29.139.235-8080"
+    type: ss
+    server: "193.29.139.235"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-137.184.174.93-8080"
+    type: ss
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "ss-146.70.61.37-8080"
+    type: ss
+    server: "146.70.61.37"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
   - name: "ss-173.244.56.9-443"
     type: ss
     server: "173.244.56.9"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-209.46.102.22-8388"
-    type: ss
-    server: "209.46.102.22"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "1hhrqrokj3ag"
   - name: "ss-173.244.56.6-443"
     type: ss
     server: "173.244.56.6"
@@ -993,33 +1140,39 @@ proxies:
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "CJmTCCx7Ltud"
+  - name: "ss-108.181.118.10-8388"
+    type: ss
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+  - name: "ss-108.181.0.177-8388"
+    type: ss
+    server: "108.181.0.177"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
   - name: "ss-108.181.58.239-8388"
     type: ss
     server: "108.181.58.239"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "CJmTCCx7Ltud"
+  - name: "ss-57.131.48.45-8388"
+    type: ss
+    server: "57.131.48.45"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
+  - name: "ss-82.38.31.186-8080"
+    type: ss
+    server: "82.38.31.186"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-149.22.95.183-443"
     type: ss
     server: "149.22.95.183"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-139.84.247.164-8388"
-    type: ss
-    server: "139.84.247.164"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "tfAcRikawhNoZAhu"
-  - name: "ss-158.173.221.214-11001"
-    type: ss
-    server: "158.173.221.214"
-    port: 11001
-    cipher: "chacha20-ietf-poly1305"
-    password: "c58d16e593d44f42"
-  - name: "ss-141.98.101.181-443"
-    type: ss
-    server: "141.98.101.181"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
@@ -1029,36 +1182,54 @@ proxies:
     port: 20001
     cipher: "chacha20-ietf-poly1305"
     password: "PWpjPo3tqhPN4yRZ"
-  - name: "ss-149.22.87.240-443"
+  - name: "ss-16.170.214.108-443"
     type: ss
-    server: "149.22.87.240"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-149.22.87.241-443"
-    type: ss
-    server: "149.22.87.241"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-149.22.87.204-443"
-    type: ss
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-13.230.153.249-443"
-    type: ss
-    server: "13.230.153.249"
+    server: "16.170.214.108"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
+  - name: "ss-16.170.221.224-443"
+    type: ss
+    server: "16.170.221.224"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "ss-141.98.101.181-443"
+    type: ss
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-18.181.165.254-443"
+    type: ss
+    server: "18.181.165.254"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "ss-139.84.247.164-8388"
+    type: ss
+    server: "139.84.247.164"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "tfAcRikawhNoZAhu"
   - name: "ss-54.36.174.140-443"
     type: ss
     server: "54.36.174.140"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "mrs2e9a"
+  - name: "ss-102.37.156.224-443"
+    type: ss
+    server: "102.37.156.224"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "aduB9HGxQHjA2SBMRjkHX6"
+  - name: "ss-102.133.165.160-16233"
+    type: ss
+    server: "102.133.165.160"
+    port: 16233
+    cipher: "chacha20-ietf-poly1305"
+    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
   - name: "vmess-134.195.198.147-443"
     type: vmess
     server: "134.195.198.147"
@@ -1072,49 +1243,64 @@ proxies:
       "path": "/linkvws"
       headers:
         "Host": "vk.com"
-  - name: "ss-102.133.165.160-16233"
+  - name: "ss-15.204.247.206-4444"
     type: ss
-    server: "102.133.165.160"
-    port: 16233
-    cipher: "chacha20-ietf-poly1305"
-    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
-  - name: "vmess-23.162.200.227-443"
-    type: vmess
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/linkvws"
-      headers:
-        "Host": "vk.com"
-  - name: "ss-185.213.23.63-990"
-    type: ss
-    server: "185.213.23.63"
-    port: 990
-    cipher: "chacha20-ietf-poly1305"
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-  - name: "ss-102.37.156.224-443"
-    type: ss
-    server: "102.37.156.224"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "aduB9HGxQHjA2SBMRjkHX6"
-  - name: "ss-94.156.250.148-7001"
-    type: ss
-    server: "94.156.250.148"
-    port: 7001
+    server: "15.204.247.206"
+    port: 4444
     cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
+    password: "pKEW8JPByTVTLtM"
   - name: "ss-82.38.31.176-8080"
     type: ss
     server: "82.38.31.176"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-209.46.102.22-8388"
+    type: ss
+    server: "209.46.102.22"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "1hhrqrokj3ag"
+  - name: "vmess-152.67.8.205-80"
+    type: vmess
+    server: "152.67.8.205"
+    port: 80
+    uuid: "9db4c708-aef8-4359-821b-38e47990be0d"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/"
+  - name: "ss-94.156.250.148-7001"
+    type: ss
+    server: "94.156.250.148"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+  - name: "ss-156.146.38.169-443"
+    type: ss
+    server: "156.146.38.169"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-156.146.38.170-443"
+    type: ss
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-156.146.38.168-443"
+    type: ss
+    server: "156.146.38.168"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-84.247.155.196-443"
+    type: ss
+    server: "84.247.155.196"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "3eOFeNssde7PYYMv"
   - name: "ss-84.247.155.196-80"
     type: ss
     server: "84.247.155.196"
@@ -1139,7 +1325,172 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-211.178.105.134-6123"
+    type: ss
+    server: "211.178.105.134"
+    port: 6123
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "ss-103.149.182.105-8388"
+    type: ss
+    server: "103.149.182.105"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+  - name: "ss-82.38.31.218-8080"
+    type: ss
+    server: "82.38.31.218"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-158.173.221.214-11001"
+    type: ss
+    server: "158.173.221.214"
+    port: 11001
+    cipher: "chacha20-ietf-poly1305"
+    password: "c58d16e593d44f42"
+  - name: "ss-149.22.87.204-443"
+    type: ss
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-149.22.87.240-443"
+    type: ss
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-149.22.87.241-443"
+    type: ss
+    server: "149.22.87.241"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "vmess-156.245.232.239-35043"
+    type: vmess
+    server: "156.245.232.239"
+    port: 35043
+    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/"
+  - name: "vmess-104.19.38.62-2086"
+    type: vmess
+    server: "104.19.38.62"
+    port: 2086
+    uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "github.com/Alvin9999"
+      headers:
+        "Host": "ip005.3196772.xyz"
+  - name: "ss-16.171.55.2-443"
+    type: ss
+    server: "16.171.55.2"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "ss-82.38.31.46-8080"
+    type: ss
+    server: "82.38.31.46"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "vmess-141.101.114.120-443"
+    type: vmess
+    server: "141.101.114.120"
+    port: 443
+    uuid: "42eca770-89d8-4da4-b135-b146475e2e0a"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/ray"
+      headers:
+        "Host": "m8.v2rayfree1.xyz"
+  - name: "vmess-104.19.3.16-443"
+    type: vmess
+    server: "104.19.3.16"
+    port: 443
+    uuid: "9e6ceeff-2546-3690-ac00-6fcdf31dec94"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/chcar"
+      headers:
+        "Host": "v2fly.samrt.website"
   - name: "vmess-188.114.96.19-80-2"
+    type: vmess
+    server: "188.114.96.19"
+    port: 80
+    uuid: "af4be52a-aab3-4db1-a6bb-c23700dcb9c2"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "https.http.www.net.com.ramseyv2.ir."
+  - name: "vmess-104.19.3.17-443"
+    type: vmess
+    server: "104.19.3.17"
+    port: 443
+    uuid: "9e6ceeff-2546-3690-ac00-6fcdf31dec94"
+    alterId: 1
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/chcar"
+      headers:
+        "Host": "v2fly.samrt.website"
+  - name: "vmess-104.16.85.20-80"
+    type: vmess
+    server: "104.16.85.20"
+    port: 80
+    uuid: "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/sshkit/2136177093/631ed45675ad7/"
+      headers:
+        "Host": "sg4-v2ray.sshkit.org"
+  - name: "vmess-172.64.150.144-443"
+    type: vmess
+    server: "172.64.150.144"
+    port: 443
+    uuid: "fa94fb93-fef4-4055-bf54-244115640479"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/d612af774b29/"
+      headers:
+        "Host": "jp.mywh.eu.org"
+  - name: "vmess-141.101.114.120-443-2"
+    type: vmess
+    server: "141.101.114.120"
+    port: 443
+    uuid: "94887268-f3cb-48be-ade3-87d42faae3e4"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/ray"
+      headers:
+        "Host": "m5.v2rayfree1.xyz"
+  - name: "vmess-188.114.96.19-80-3"
     type: vmess
     server: "188.114.96.19"
     port: 80
@@ -1151,89 +1502,55 @@ proxies:
       "path": "/"
       headers:
         "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
-  - name: "ss-82.38.31.218-8080"
-    type: ss
-    server: "82.38.31.218"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-216.105.168.18-443"
-    type: ss
-    server: "216.105.168.18"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "hCCWOcIsK5wrFz4OX70rWf"
-  - name: "ss-82.38.31.219-8080"
-    type: ss
-    server: "82.38.31.219"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-141.164.45.187-7001"
     type: ss
     server: "141.164.45.187"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
-  - name: "ss-84.247.155.196-443"
-    type: ss
-    server: "84.247.155.196"
+  - name: "trojan-trs12.bolab.net-443"
+    type: trojan
+    server: "trs12.bolab.net"
     port: 443
-    cipher: "aes-256-gcm"
-    password: "3eOFeNssde7PYYMv"
-  - name: "ss-211.178.105.134-6123"
+    password: "14bdba6dede262387ebdebaa706e1c90"
+  - name: "ss-185.213.23.63-990"
     type: ss
-    server: "211.178.105.134"
-    port: 6123
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-  - name: "vmess-47.244.120.197-44867"
+    server: "185.213.23.63"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+  - name: "ss-158.173.20.171-443"
+    type: ss
+    server: "158.173.20.171"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "vmess-141.101.114.111-443"
     type: vmess
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    server: "141.101.114.111"
+    port: 443
+    uuid: "f33957e8-372e-4fba-99ed-f4db32cce9e5"
     alterId: 0
     cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/arki?ed=2048"
-  - name: "vmess-47.244.120.197-36703"
-    type: vmess
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/arki?ed=2048"
-  - name: "vmess-156.245.232.239-35043"
-    type: vmess
-    server: "156.245.232.239"
-    port: 35043
-    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
-    alterId: 0
-    cipher: "auto"
+    tls: true
     network: ws
     ws-opts:
       "path": "/"
-  - name: "vmess-152.67.8.205-80"
+      headers:
+        "Host": "fr2.cfcdn4.xyz"
+  - name: "vmess-3h-kazakhstan1.09vpn.com-80"
     type: vmess
-    server: "152.67.8.205"
+    server: "3h-kazakhstan1.09vpn.com"
     port: 80
-    uuid: "9db4c708-aef8-4359-821b-38e47990be0d"
+    uuid: "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c"
     alterId: 0
     cipher: "auto"
     network: ws
     ws-opts:
       "path": "/"
-  - name: "ss-146.70.61.37-8080"
-    type: ss
-    server: "146.70.61.37"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-  - name: "vmess-172.64.150.144-443"
+      headers:
+        "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+  - name: "vmess-172.64.150.144-443-2"
     type: vmess
     server: "172.64.150.144"
     port: 443
@@ -1246,7 +1563,7 @@ proxies:
       "path": "/"
       headers:
         "Host": "jp.mywh.eu.org"
-  - name: "vmess-104.16.85.20-80"
+  - name: "vmess-104.16.85.20-80-2"
     type: vmess
     server: "104.16.85.20"
     port: 80
@@ -1258,6 +1575,24 @@ proxies:
       "path": "/"
       headers:
         "Host": "sg4-v2ray.sshkit.org"
+  - name: "ss-49.254.204.134-1774"
+    type: ss
+    server: "49.254.204.134"
+    port: 1774
+    cipher: "aes-256-cfb"
+    password: "1234!@#$"
+  - name: "ss-5.188.181.201-9011"
+    type: ss
+    server: "5.188.181.201"
+    port: 9011
+    cipher: "aes-256-cfb"
+    password: "M3t2ZEQcMGRWBjRa"
+  - name: "ss-216.105.168.18-443"
+    type: ss
+    server: "216.105.168.18"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "hCCWOcIsK5wrFz4OX70rWf"
   - name: "vmess-172.67.161.144-8443"
     type: vmess
     server: "172.67.161.144"
@@ -1284,7 +1619,7 @@ proxies:
       "path": "/"
       headers:
         "Host": "v2ray1.dozapp.xyz"
-  - name: "vmess-47.244.120.197-44867-2"
+  - name: "vmess-47.244.120.197-44867"
     type: vmess
     server: "47.244.120.197"
     port: 44867
@@ -1294,7 +1629,7 @@ proxies:
     network: ws
     ws-opts:
       "path": "/"
-  - name: "vmess-47.244.120.197-36703-2"
+  - name: "vmess-47.244.120.197-36703"
     type: vmess
     server: "47.244.120.197"
     port: 36703
@@ -1330,12 +1665,6 @@ proxies:
       "path": "/"
       headers:
         "Host": "seribus.org"
-  - name: "ss-15.237.252.23-443"
-    type: ss
-    server: "15.237.252.23"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
   - name: "ss-103.149.182.79-8388"
     type: ss
     server: "103.149.182.79"
@@ -1360,7 +1689,7 @@ proxies:
     port: 443
     password: "mainssh-ddoejfv14"
     tls: true
-    servername: "frtgrpc.mainssh.xyz#🇩🇪DE-95.179.254.136-0195"
+    servername: "frtgrpc.mainssh.xyz#🇩🇪DE-95.179.254.136-0210"
   - name: "vmess-134.195.198.147-443-2"
     type: vmess
     server: "134.195.198.147"
@@ -1425,25 +1754,6 @@ proxies:
       "path": "/"
       headers:
         "Host": "us-171-78.shoptunnel.live"
-  - name: "vmess-141.101.114.120-443"
-    type: vmess
-    server: "141.101.114.120"
-    port: 443
-    uuid: "42eca770-89d8-4da4-b135-b146475e2e0a"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "m8.v2rayfree1.xyz"
-  - name: "ss-142.202.48.52-443"
-    type: ss
-    server: "142.202.48.52"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
   - name: "ss-149.202.82.172-8080"
     type: ss
     server: "149.202.82.172"
@@ -1741,9 +2051,9 @@ proxies:
     network: ws
     ws-opts:
       "path": "/tandung288.click"
-  - name: "vmess-www.shopify.com-443-2"
+  - name: "vmess-guanwang.awsno.com-443-2"
     type: vmess
-    server: "www.shopify.com"
+    server: "guanwang.awsno.com"
     port: 443
     uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
     alterId: 0
@@ -1755,22 +2065,21 @@ proxies:
       "path": "/hls/cctv5phd.m3u8"
       headers:
         "Host": "guanwang.awsno.com"
-  - name: "vmess-654168416355441.oylfmxz.cn-443"
+  - name: "vmess-hkgb707.ifastcdncache.com-60852"
     type: vmess
-    server: "654168416355441.oylfmxz.cn"
-    port: 443
-    uuid: "d90e4077-bc7e-414d-a650-70bf1baae4d6"
-    alterId: 0
+    server: "hkgb707.ifastcdncache.com"
+    port: 60852
+    uuid: "f8eca8df-a1a5-4918-a194-d34112a3673f"
+    alterId: 2
     cipher: "auto"
-    tls: true
     network: ws
     ws-opts:
       "path": "/"
       headers:
-        "Host": "654168416355441.oylfmxz.cn"
-  - name: "vmess-guanwang.awsno.com-443-2"
+        "Host": "hkgb707.ifastcdncache.com"
+  - name: "vmess-www.shopify.com-443-2"
     type: vmess
-    server: "guanwang.awsno.com"
+    server: "www.shopify.com"
     port: 443
     uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
     alterId: 0
@@ -1788,6 +2097,19 @@ proxies:
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
+  - name: "ss-18.213.0.46-443"
+    type: ss
+    server: "18.213.0.46"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+  - name: "trojan-45.32.157.84-443"
+    type: trojan
+    server: "45.32.157.84"
+    port: 443
+    password: "Tg3RnK7Xp8B1"
+    tls: true
+    servername: "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com#🇩🇪DE-45.32.157.84-0613"
   - name: "trojan-104.18.152.233-443"
     type: trojan
     server: "104.18.152.233"
@@ -1798,9 +2120,199 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
+  - name: "trojan-104.16.174.72-443"
+    type: trojan
+    server: "104.16.174.72"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-172.67.149.60-443"
+    type: trojan
+    server: "172.67.149.60"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.16.174.12-443"
+    type: trojan
+    server: "104.16.174.12"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-188.114.97.7-443"
+    type: trojan
+    server: "188.114.97.7"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.219-443"
+    type: trojan
+    server: "104.18.152.219"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.17.111.1-443"
+    type: trojan
+    server: "104.17.111.1"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-172.67.74.2-443"
+    type: trojan
+    server: "172.67.74.2"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.204-443"
+    type: trojan
+    server: "104.18.152.204"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.21.46.3-443"
+    type: trojan
+    server: "104.21.46.3"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.210-443"
+    type: trojan
+    server: "104.18.152.210"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.16.174.124-443"
+    type: trojan
+    server: "104.16.174.124"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-185.18.250.252-443"
+    type: trojan
+    server: "185.18.250.252"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.calmlunch.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.17.111.4-443"
+    type: trojan
+    server: "104.17.111.4"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-8.6.112.0-443"
+    type: trojan
+    server: "8.6.112.0"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-render.com-443"
+    type: trojan
+    server: "render.com"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.108-443"
+    type: trojan
+    server: "104.18.152.108"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.16.174.36-443"
+    type: trojan
+    server: "104.16.174.36"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
   - name: "trojan-104.18.152.149-443"
     type: trojan
     server: "104.18.152.149"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.16.174.117-443"
+    type: trojan
+    server: "104.16.174.117"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: ws
+    ws-opts:
+      "path": "/assignment"
+  - name: "trojan-104.18.152.97-443"
+    type: trojan
+    server: "104.18.152.97"
     port: 443
     password: "humanity"
     tls: true
@@ -1828,289 +2340,9 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
-  - name: "trojan-104.21.46.3-443"
-    type: trojan
-    server: "104.21.46.3"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.17.111.4-443"
-    type: trojan
-    server: "104.17.111.4"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
   - name: "trojan-104.18.152.103-443"
     type: trojan
     server: "104.18.152.103"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.34-443"
-    type: trojan
-    server: "104.16.174.34"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.12.149-443"
-    type: trojan
-    server: "104.18.12.149"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.101-443"
-    type: trojan
-    server: "104.16.174.101"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-8.6.112.0-443"
-    type: trojan
-    server: "8.6.112.0"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-172.67.149.60-443"
-    type: trojan
-    server: "172.67.149.60"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.44-443"
-    type: trojan
-    server: "104.16.174.44"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-188.114.97.7-443"
-    type: trojan
-    server: "188.114.97.7"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.155-443"
-    type: trojan
-    server: "104.18.152.155"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.121-443"
-    type: trojan
-    server: "104.16.174.121"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.6-443"
-    type: trojan
-    server: "104.16.174.6"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.73.213-443"
-    type: trojan
-    server: "104.16.73.213"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-130.250.137.171-443"
-    type: trojan
-    server: "130.250.137.171"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.17.177.143-443"
-    type: trojan
-    server: "104.17.177.143"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.179-443"
-    type: trojan
-    server: "104.18.152.179"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.229-443"
-    type: trojan
-    server: "104.18.152.229"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.17.111.1-443"
-    type: trojan
-    server: "104.17.111.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.152-443"
-    type: trojan
-    server: "104.18.152.152"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.23.63-443"
-    type: trojan
-    server: "104.18.23.63"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-render.com-443"
-    type: trojan
-    server: "render.com"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-172.67.74.2-443"
-    type: trojan
-    server: "172.67.74.2"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-162.159.136.234-443"
-    type: trojan
-    server: "162.159.136.234"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-www.speedtest.org-443"
-    type: trojan
-    server: "www.speedtest.org"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.16.174.12-443"
-    type: trojan
-    server: "104.16.174.12"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.26.14.137-443"
-    type: trojan
-    server: "104.26.14.137"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.219-443"
-    type: trojan
-    server: "104.18.152.219"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-  - name: "trojan-104.18.152.225-443"
-    type: trojan
-    server: "104.18.152.225"
     port: 443
     password: "humanity"
     tls: true
@@ -3435,7 +3667,7 @@ proxies:
       "path": "/linkvws"
       headers:
         "Host": "bamparda.com"
-  - name: "vmess-3h-kazakhstan1.09vpn.com-80"
+  - name: "vmess-3h-kazakhstan1.09vpn.com-80-2"
     type: vmess
     server: "3h-kazakhstan1.09vpn.com"
     port: 80
@@ -3494,41 +3726,20 @@ proxies:
     cipher: "auto"
     tls: true
     servername: "speed.cloudflare.com"
-  - name: "trojan-104.18.152.133-443"
+  - name: "trojan-www.speedtest.org-443"
     type: trojan
-    server: "104.18.152.133"
+    server: "www.speedtest.org"
     port: 443
     password: "humanity"
     tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.133-0937"
-  - name: "trojan-104.18.152.108-443"
+    servername: "www.ignitelimit.com#🏁RELAY-104.26.15.137-0965"
+  - name: "trojan-162.159.136.234-443"
     type: trojan
-    server: "104.18.152.108"
+    server: "162.159.136.234"
     port: 443
     password: "humanity"
     tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.108-0938"
-  - name: "trojan-104.16.174.117-443"
-    type: trojan
-    server: "104.16.174.117"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.16.174.117-0939"
-  - name: "trojan-104.18.152.161-443"
-    type: trojan
-    server: "104.18.152.161"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.161-0940"
-  - name: "trojan-104.18.152.77-443"
-    type: trojan
-    server: "104.18.152.77"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#🏁RELAY-104.18.152.77-0941"
+    servername: "www.ignitelimit.com#🏁RELAY-162.159.136.234-0970"
   - name: "vmess-hk80.sanfen001.pics-80-2"
     type: vmess
     server: "hk80.sanfen001.pics"
@@ -3593,7 +3804,7 @@ proxies:
       "path": "/"
       headers:
         "Host": "zhuyong.hucloud-dns.xyz"
-  - name: "vmess-141.101.114.120-443-2"
+  - name: "vmess-141.101.114.120-443-3"
     type: vmess
     server: "141.101.114.120"
     port: 443
@@ -3815,7 +4026,7 @@ proxies:
       "path": "/"
       headers:
         "Host": "38.72img.xyz"
-  - name: "vmess-141.101.114.111-443"
+  - name: "vmess-141.101.114.111-443-2"
     type: vmess
     server: "141.101.114.111"
     port: 443
@@ -5324,14 +5535,19 @@ proxies:
       "path": "/"
       headers:
         "Host": "cdnde.irteyz.today"
-  - name: "vmess-104.17.148.22-2053"
+  - name: "vmess-104.25.52.187-443"
     type: vmess
-    server: "104.17.148.22"
-    port: 2053
-    uuid: "00fb7867-95ad-4eaf-99f1-22255beb6251"
-    alterId: 0
+    server: "104.25.52.187"
+    port: 443
+    uuid: "4cdb016f-f14e-30b3-97d6-453c741a5c80"
+    alterId: 1
     cipher: "auto"
     tls: true
+    network: ws
+    ws-opts:
+      "path": "/y475"
+      headers:
+        "Host": "free.frli.xyz"
   - name: "vmess-ac2088.herokuapp.com-443"
     type: vmess
     server: "ac2088.herokuapp.com"
@@ -5632,7 +5848,7 @@ proxies:
       "path": "/"
       headers:
         "Host": "173.245.49.10"
-  - name: "vmess-104.25.52.187-443"
+  - name: "vmess-104.25.52.187-443-2"
     type: vmess
     server: "104.25.52.187"
     port: 443
@@ -6150,7 +6366,7 @@ proxies:
     port: 443
     password: "b8808043-6566-4923-9195-e66bfb553d57"
     tls: true
-    servername: "ba24.ir#🇫🇷FR-51.38.99.96-1502"
+    servername: "ba24.ir#🇫🇷FR-51.38.99.96-1528"
   - name: "vmess-23.227.38.100-443"
     type: vmess
     server: "23.227.38.100"
@@ -6471,7 +6687,7 @@ proxies:
     port: 443
     password: "4d048fc6-d944-41dd-b327-10856adcc82d"
     tls: true
-    servername: "zi.you.usdtvfk.top#🏁RELAY-104.21.17.218-1706"
+    servername: "zi.you.usdtvfk.top#🏁RELAY-172.67.178.88-1732"
   - name: "vmess-203.30.191.9-443-2"
     type: vmess
     server: "203.30.191.9"
@@ -6835,6 +7051,13 @@ proxies:
       "path": "/"
       headers:
         "Host": "namer-us-sea-01-edgecast.qdns.live"
+  - name: "trojan-172.67.188.109-443"
+    type: trojan
+    server: "172.67.188.109"
+    port: 443
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com#🏁RELAY-172.67.188.109-1990"
   - name: "vmess-192.96.204.250-443"
     type: vmess
     server: "192.96.204.250"
@@ -7648,7 +7871,7 @@ proxies:
     port: 443
     password: "555034c8-6420-45d0-893c-905c02342150"
     tls: true
-    servername: "pl1.trojanvh.xyz#🇵🇱PL-51.83.186.142-2776"
+    servername: "pl1.trojanvh.xyz#🇵🇱PL-51.83.186.142-2805"
   - name: "trojan-official.tokyometropolis.chernigov.ua-2053"
     type: trojan
     server: "official.tokyometropolis.chernigov.ua"
@@ -7897,7 +8120,7 @@ proxies:
     port: 80
     password: "555034c8-6420-45d0-893c-905c02342150"
     tls: true
-    servername: "pl1.trojanvh.xyz#🇵🇱PL-51.83.186.142-3805"
+    servername: "pl1.trojanvh.xyz#🇵🇱PL-51.83.186.142-3834"
   - name: "vmess-cf-dx-dns.sharecentre.online-443"
     type: vmess
     server: "cf-dx-dns.sharecentre.online"
@@ -7992,7 +8215,7 @@ proxies:
     port: 443
     password: "973ed2e0-c4d8-4737-a093-71629148086d"
     tls: true
-    servername: "frt2.sshocean.net#🇫🇷FR-51.77.213.197-4064"
+    servername: "frt2.sshocean.net#🇫🇷FR-51.77.213.197-4093"
   - name: "vmess-sg-v.sshmax.xyz-80"
     type: vmess
     server: "sg-v.sshmax.xyz"
@@ -8027,18 +8250,13 @@ proxies:
       "path": "/zh-cn/download"
       headers:
         "Host": "sg80-2.sanfen001.pics"
-  - name: "trojan-trs12.bolab.net-443"
-    type: trojan
-    server: "trs12.bolab.net"
-    port: 443
-    password: "14bdba6dede262387ebdebaa706e1c90"
   - name: "trojan-hk1.sanfen001.pics-443"
     type: trojan
     server: "hk1.sanfen001.pics"
     port: 443
     password: "8800c518-e68a-4441-a45c-cd67855784c8"
     tls: true
-    servername: "hk1.sanfen001.pics#🏁RELAY-104.21.91.112-4188"
+    servername: "hk1.sanfen001.pics#🏁RELAY-172.67.215.250-4217"
   - name: "trojan-hk2.sanfen001.pics-443"
     type: trojan
     server: "hk2.sanfen001.pics"
@@ -8050,7 +8268,7 @@ proxies:
     port: 443
     password: "8800c518-e68a-4441-a45c-cd67855784c8"
     tls: true
-    servername: "jp1.sanfen001.pics#🏁RELAY-172.67.215.250-4191"
+    servername: "jp1.sanfen001.pics#🏁RELAY-172.67.215.250-4220"
   - name: "trojan-kr1.sanfen001.pics-443"
     type: trojan
     server: "kr1.sanfen001.pics"
@@ -8062,7 +8280,7 @@ proxies:
     port: 443
     password: "8800c518-e68a-4441-a45c-cd67855784c8"
     tls: true
-    servername: "kr1.sanfen001.pics#🏁RELAY-172.67.215.250-4193"
+    servername: "kr1.sanfen001.pics#🏁RELAY-104.21.91.112-4222"
   - name: "vmess-172.67.178.55-443"
     type: vmess
     server: "172.67.178.55"
@@ -8213,7 +8431,7 @@ proxies:
     port: 443
     password: "b26e31e5-eac1-45b0-9069-83830bd69521"
     tls: true
-    servername: "hkt.iamnotagoodman.com#🇭🇰HK-20.187.85.198-4272"
+    servername: "hkt.iamnotagoodman.com#🇭🇰HK-20.187.85.198-4301"
   - name: "vmess-331tw.fans8.xyz-80"
     type: vmess
     server: "331tw.fans8.xyz"
@@ -8267,7 +8485,7 @@ proxies:
       "path": "/aries"
       headers:
         "Host": "tgus.cloudflare.quest"
-  - name: "vmess-141.101.114.120-443-3"
+  - name: "vmess-141.101.114.120-443-4"
     type: vmess
     server: "141.101.114.120"
     port: 443
@@ -8286,7 +8504,7 @@ proxies:
     port: 443
     password: "0f5e6d9a-49af-4bc0-b04b-503102382144"
     tls: true
-    servername: "ukt1.sshocean.net#🇫🇷FR-51.195.219.173-4343"
+    servername: "ukt1.sshocean.net#🇫🇷FR-51.195.219.173-4372"
   - name: "trojan-185.44.76.188-443"
     type: trojan
     server: "185.44.76.188"
@@ -8632,7 +8850,7 @@ proxies:
     server: "188.114.97.6"
     port: 443
     password: "MiTiVPN"
-  - name: "vmess-104.19.38.62-2086"
+  - name: "vmess-104.19.38.62-2086-2"
     type: vmess
     server: "104.19.38.62"
     port: 2086
@@ -8704,18 +8922,6 @@ proxies:
       "path": "github.com/Alvin9999"
       headers:
         "Host": "ip006.freegradely.xyz"
-  - name: "vmess-104.19.38.62-2086-2"
-    type: vmess
-    server: "104.19.38.62"
-    port: 2086
-    uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "github.com/Alvin9999"
-      headers:
-        "Host": "ip005.3196772.xyz"
   - name: "ss-57.129.140.88-8388"
     type: ss
     server: "57.129.140.88"
@@ -8727,42 +8933,58 @@ proxies:
     server: "104.16.71.213"
     port: 443
     password: "MiTiVPN"
-  - name: "vmess-104.21.39.36-443"
+  - name: "vmess-104.17.137.127-443"
     type: vmess
-    server: "104.21.39.36"
+    server: "104.17.137.127"
     port: 443
-    uuid: "e357cd63-f1a5-4c8e-c42e-26da11207fee"
+    uuid: "47eab0de-97f9-49be-f2f3-2e4eb17268e6"
     alterId: 0
     cipher: "auto"
     tls: true
+    servername: "hk.niskakowski.ggff.net"
     network: ws
     ws-opts:
-      "path": "/root/"
-  - name: "ss-137.184.174.93-8080"
-    type: ss
-    server: "137.184.174.93"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-  - name: "vmess-104.25.52.187-443-2"
+      "path": "/aa"
+      headers:
+        "Host": "hk.niskakowski.ggff.net"
+  - name: "trojan-cf.130209.xyz-2053"
+    type: trojan
+    server: "cf.130209.xyz"
+    port: 2053
+    password: "65c56e1f-5c41-40bc-b0b5-9346772476ca"
+  - name: "vmess-104.17.148.22-2053"
     type: vmess
-    server: "104.25.52.187"
-    port: 443
-    uuid: "4cdb016f-f14e-30b3-97d6-453c741a5c80"
-    alterId: 1
+    server: "104.17.148.22"
+    port: 2053
+    uuid: "00fb7867-95ad-4eaf-99f1-22255beb6251"
+    alterId: 0
     cipher: "auto"
     tls: true
-    network: ws
-    ws-opts:
-      "path": "/y475"
-      headers:
-        "Host": "free.frli.xyz"
+  - name: "trojan-104.26.14.137-443"
+    type: trojan
+    server: "104.26.14.137"
+    port: 443
+    password: "humanity"
   - name: "ss-167.88.62.68-443"
     type: ss
     server: "167.88.62.68"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
+  - name: "vmess-pahobac.org-443"
+    type: vmess
+    server: "pahobac.org"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "pahobac.org"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "pahobac.org"
   - name: "vmess-mycfwork.herokuapp.com-443"
     type: vmess
     server: "mycfwork.herokuapp.com"
@@ -8786,93 +9008,629 @@ proxies:
     network: ws
     ws-opts:
       "path": "/anti13.zingfast.vn"
-  - name: "vmess-104.16.85.20-80-2"
-    type: vmess
-    server: "104.16.85.20"
-    port: 80
-    uuid: "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/sshkit/2136177093/631ed45675ad7/"
-      headers:
-        "Host": "sg4-v2ray.sshkit.org"
-  - name: "vmess-172.64.150.144-443-2"
-    type: vmess
-    server: "172.64.150.144"
-    port: 443
-    uuid: "fa94fb93-fef4-4055-bf54-244115640479"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/d612af774b29/"
-      headers:
-        "Host": "jp.mywh.eu.org"
-  - name: "vmess-67.21.85.10-443"
-    type: vmess
-    server: "67.21.85.10"
-    port: 443
-    uuid: "b9a305a9-1ff2-4ec1-b338-933555833baa"
-    alterId: 64
-    cipher: "auto"
-    tls: true
-    servername: "www.47538090.xyz"
-    network: ws
-    ws-opts:
-      "path": "/path/112100130223"
-      headers:
-        "Host": "www.47538090.xyz"
-  - name: "ss-167.88.62.62-8080"
-    type: ss
-    server: "167.88.62.62"
-    port: 8080
-    cipher: "aes-256-gcm"
-    password: "KixLvKzwjekG00rm"
-  - name: "ss-103.149.182.105-8388"
-    type: ss
-    server: "103.149.182.105"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-  - name: "trojan-darling-mongrel.rooster465.autos-443"
+  - name: "trojan-capable-jay.rooster465.autos-443"
     type: trojan
-    server: "darling-mongrel.rooster465.autos"
+    server: "capable-jay.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-alert-fish.rooster465.autos-443"
+    type: trojan
+    server: "alert-fish.rooster465.autos"
     port: 443
     password: "CF68213490"
-  - name: "ss-138.199.42.68-8080"
+  - name: "trojan-devoted-heron.rooster465.autos-443"
+    type: trojan
+    server: "devoted-heron.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-distinct-llama.rooster465.autos-443"
+    type: trojan
+    server: "distinct-llama.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-exotic-chow.rooster465.autos-443"
+    type: trojan
+    server: "exotic-chow.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-43.160.197.160-443"
+    type: trojan
+    server: "43.160.197.160"
+    port: 443
+    password: "38f169d6-d202-4b1b-8db8-e6eb1648f5cf"
+  - name: "trojan-live-drake.rooster465.autos-443"
+    type: trojan
+    server: "live-drake.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-helped-jennet.rooster465.autos-443"
+    type: trojan
+    server: "helped-jennet.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-funny-hawk.rooster465.autos-443"
+    type: trojan
+    server: "funny-hawk.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-ultimate-jaguar.rooster465.autos-443"
+    type: trojan
+    server: "ultimate-jaguar.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-firm-krill.rooster465.autos-443"
+    type: trojan
+    server: "firm-krill.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-guided-pelican.rooster465.autos-443"
+    type: trojan
+    server: "guided-pelican.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-communal-sunbird.rooster465.autos-443"
+    type: trojan
+    server: "communal-sunbird.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-eminent-dogfish.rooster465.autos-443"
+    type: trojan
+    server: "eminent-dogfish.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-smooth-lark.rooster465.autos-443"
+    type: trojan
+    server: "smooth-lark.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-picked-guinea.rooster465.autos-443"
+    type: trojan
+    server: "picked-guinea.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-evolving-kangaroo.rooster465.autos-443"
+    type: trojan
+    server: "evolving-kangaroo.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+  - name: "trojan-enhanced-crayfish.rooster465.autos-443"
+    type: trojan
+    server: "enhanced-crayfish.rooster465.autos"
+    port: 443
+    password: "IL37892054"
+  - name: "trojan-evident-gnat.rooster465.autos-443"
+    type: trojan
+    server: "evident-gnat.rooster465.autos"
+    port: 443
+    password: "JA96378052"
+  - name: "trojan-rapid-firefly.rooster465.autos-443"
+    type: trojan
+    server: "rapid-firefly.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-teaching-gnu.rooster465.autos-443"
+    type: trojan
+    server: "teaching-gnu.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-next-turkey.rooster465.autos-443"
+    type: trojan
+    server: "next-turkey.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-new-antelope.rooster465.autos-443"
+    type: trojan
+    server: "new-antelope.rooster465.autos"
+    port: 443
+    password: "XG59623478"
+  - name: "trojan-tough-hermit.rooster465.autos-443"
+    type: trojan
+    server: "tough-hermit.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-nl-1.tr202607.com-443"
+    type: trojan
+    server: "nl-1.tr202607.com"
+    port: 443
+    password: "LSS6HLnp7IeEEJUcox"
+  - name: "trojan-free-v7-09.elbrusway.online-443"
+    type: trojan
+    server: "free-v7-09.elbrusway.online"
+    port: 443
+    password: "11559103-9993-4d00-b599-d6bcd8db2197"
+    tls: true
+    servername: "free-v7-09.elbrusway.online#🇩🇪DE-64.188.66.196-4838"
+  - name: "trojan-upright-rhino.rooster465.autos-443"
+    type: trojan
+    server: "upright-rhino.rooster465.autos"
+    port: 443
+    password: "IL37892054"
+  - name: "trojan-pro-crane.rooster465.autos-443"
+    type: trojan
+    server: "pro-crane.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "vmess-47.244.120.197-44867-2"
+    type: vmess
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/arki"
+  - name: "trojan-top-goshawk.rooster465.autos-443"
+    type: trojan
+    server: "top-goshawk.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+  - name: "trojan-included-hedgehog.rooster465.autos-443"
+    type: trojan
+    server: "included-hedgehog.rooster465.autos"
+    port: 443
+    password: "XG59623478"
+  - name: "trojan-funky-platypus.rooster465.autos-443"
+    type: trojan
+    server: "funky-platypus.rooster465.autos"
+    port: 443
+    password: "WF42809561"
+  - name: "trojan-just-alpaca.rooster465.autos-443"
+    type: trojan
+    server: "just-alpaca.rooster465.autos"
+    port: 443
+    password: "IL37892054"
+  - name: "trojan-emerging-weevil.rooster465.autos-443"
+    type: trojan
+    server: "emerging-weevil.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-skilled-lioness.rooster465.autos-443"
+    type: trojan
+    server: "skilled-lioness.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-enough-basilisk.rooster465.autos-443"
+    type: trojan
+    server: "enough-basilisk.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-discrete-basilisk.rooster465.autos-443"
+    type: trojan
+    server: "discrete-basilisk.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-relaxed-gull.rooster465.autos-443"
+    type: trojan
+    server: "relaxed-gull.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-game-firefly.rooster465.autos-443"
+    type: trojan
+    server: "game-firefly.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-stunning-mite.rooster465.autos-443"
+    type: trojan
+    server: "stunning-mite.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-elegant-marten.rooster465.autos-443"
+    type: trojan
+    server: "elegant-marten.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-139.162.100.58-49755"
+    type: trojan
+    server: "139.162.100.58"
+    port: 49755
+    password: "a196faa4-403e-4a8b-987a-d1789f379685"
+  - name: "trojan-thankful-mustang.rooster465.autos-443"
+    type: trojan
+    server: "thankful-mustang.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-smooth-hornet.rooster465.autos-443"
+    type: trojan
+    server: "smooth-hornet.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-eternal-woodcock.rooster465.autos-443"
+    type: trojan
+    server: "eternal-woodcock.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-worthy-labrador.rooster465.autos-443"
+    type: trojan
+    server: "worthy-labrador.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-innocent-rattler.rooster465.autos-443"
+    type: trojan
+    server: "innocent-rattler.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-fit-marten.rooster465.autos-443"
+    type: trojan
+    server: "fit-marten.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-funny-hen.rooster465.autos-443"
+    type: trojan
+    server: "funny-hen.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-inviting-rabbit.rooster465.autos-443"
+    type: trojan
+    server: "inviting-rabbit.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-musical-manatee.rooster465.autos-443"
+    type: trojan
+    server: "musical-manatee.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-magical-prawn.rooster465.autos-443"
+    type: trojan
+    server: "magical-prawn.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-star-cheetah.rooster465.autos-443"
+    type: trojan
+    server: "star-cheetah.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-v2jp.k1.ssnss.live-44184"
+    type: trojan
+    server: "v2jp.k1.ssnss.live"
+    port: 44184
+    password: "d050aca3-9df2-4461-90ec-92373c1d7636"
+  - name: "trojan-better-molly.rooster465.autos-443"
+    type: trojan
+    server: "better-molly.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-free-hare.rooster465.autos-443"
+    type: trojan
+    server: "free-hare.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-nearby-egret.rooster465.autos-443"
+    type: trojan
+    server: "nearby-egret.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-welcome-monitor.rooster465.autos-443"
+    type: trojan
+    server: "welcome-monitor.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-wise-bengal.rooster465.autos-443"
+    type: trojan
+    server: "wise-bengal.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-18.179.31.199-443"
+    type: trojan
+    server: "18.179.31.199"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-pumped-sailfish.rooster465.autos-443"
+    type: trojan
+    server: "pumped-sailfish.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "trojan-54.178.60.95-443"
+    type: trojan
+    server: "54.178.60.95"
+    port: 443
+    password: "JA96378052"
+  - name: "trojan-shining-piranha.rooster465.autos-443"
+    type: trojan
+    server: "shining-piranha.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-grand-grub.rooster465.autos-443"
+    type: trojan
+    server: "grand-grub.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-gentle-turtle.rooster465.autos-443"
+    type: trojan
+    server: "gentle-turtle.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-sure-husky.rooster465.autos-443"
+    type: trojan
+    server: "sure-husky.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-tough-robin.rooster465.autos-443"
+    type: trojan
+    server: "tough-robin.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-grateful-crawdad.rooster465.autos-443"
+    type: trojan
+    server: "grateful-crawdad.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-one-dove.rooster465.autos-443"
+    type: trojan
+    server: "one-dove.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-fair-werewolf.rooster465.autos-443"
+    type: trojan
+    server: "fair-werewolf.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-rested-osprey.rooster465.autos-443"
+    type: trojan
+    server: "rested-osprey.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-flexible-gannet.rooster465.autos-443"
+    type: trojan
+    server: "flexible-gannet.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-accurate-frog.rooster465.autos-443"
+    type: trojan
+    server: "accurate-frog.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-in-oriole.rooster465.autos-443"
+    type: trojan
+    server: "in-oriole.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-adapting-giraffe.rooster465.autos-443"
+    type: trojan
+    server: "adapting-giraffe.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-sincere-crappie.rooster465.autos-443"
+    type: trojan
+    server: "sincere-crappie.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-eternal-perch.rooster465.autos-443"
+    type: trojan
+    server: "eternal-perch.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-smashing-fawn.rooster465.autos-443"
+    type: trojan
+    server: "smashing-fawn.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-gentle-honeybee.rooster465.autos-443"
+    type: trojan
+    server: "gentle-honeybee.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-normal-dory.rooster465.autos-443"
+    type: trojan
+    server: "normal-dory.rooster465.autos"
+    port: 443
+    password: "HW85960347"
+  - name: "trojan-key-pony.rooster465.autos-443"
+    type: trojan
+    server: "key-pony.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "trojan-sacred-shepherd.rooster465.autos-443"
+    type: trojan
+    server: "sacred-shepherd.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-certain-egret.rooster465.autos-443"
+    type: trojan
+    server: "certain-egret.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "trojan-outgoing-eagle.rooster465.autos-443"
+    type: trojan
+    server: "outgoing-eagle.rooster465.autos"
+    port: 443
+    password: "HW85960347"
+  - name: "trojan-immune-mullet.rooster465.autos-443"
+    type: trojan
+    server: "immune-mullet.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-steady-prawn.rooster465.autos-443"
+    type: trojan
+    server: "steady-prawn.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-wealthy-gobbler.rooster465.autos-443"
+    type: trojan
+    server: "wealthy-gobbler.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-sacred-anemone.rooster465.autos-443"
+    type: trojan
+    server: "sacred-anemone.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-viable-serval.rooster465.autos-443"
+    type: trojan
+    server: "viable-serval.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-pure-ram.rooster465.autos-443"
+    type: trojan
+    server: "pure-ram.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-growing-oyster.rooster465.autos-443"
+    type: trojan
+    server: "growing-oyster.rooster465.autos"
+    port: 443
+    password: "XG59623478"
+  - name: "trojan-83.229.121.78-8443"
+    type: trojan
+    server: "83.229.121.78"
+    port: 8443
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "trojan-ace-starling.rooster465.autos-443"
+    type: trojan
+    server: "ace-starling.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-eager-louse.rooster465.autos-443"
+    type: trojan
+    server: "eager-louse.rooster465.autos"
+    port: 443
+    password: "IQ68037294"
+  - name: "trojan-classic-duckling.rooster465.autos-443"
+    type: trojan
+    server: "classic-duckling.rooster465.autos"
+    port: 443
+    password: "XG59623478"
+  - name: "trojan-square-anchovy.rooster465.autos-443"
+    type: trojan
+    server: "square-anchovy.rooster465.autos"
+    port: 443
+    password: "IQ68037294"
+  - name: "trojan-magical-kodiak.rooster465.autos-443"
+    type: trojan
+    server: "magical-kodiak.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-promoted-rattler.rooster465.autos-443"
+    type: trojan
+    server: "promoted-rattler.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-tidy-gelding.rooster465.autos-443"
+    type: trojan
+    server: "tidy-gelding.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-national-dingo.rooster465.autos-443"
+    type: trojan
+    server: "national-dingo.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "trojan-square-gnat.rooster465.autos-443"
+    type: trojan
+    server: "square-gnat.rooster465.autos"
+    port: 443
+    password: "NQ26071394"
+  - name: "trojan-true-pony.rooster465.autos-443"
+    type: trojan
+    server: "true-pony.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "ss-156.146.38.167-443"
     type: ss
-    server: "138.199.42.68"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-  - name: "ss-5.188.181.201-9025"
-    type: ss
-    server: "5.188.181.201"
-    port: 9025
-    cipher: "aes-256-cfb"
-    password: "XPtzA9sCug3SPR4c"
-  - name: "ss-5.188.181.201-9001"
-    type: ss
-    server: "5.188.181.201"
-    port: 9001
-    cipher: "aes-256-cfb"
-    password: "UkXRsXvR6buDMG2Y"
-  - name: "ss-103.36.91.32-8388"
-    type: ss
-    server: "103.36.91.32"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
+    server: "156.146.38.167"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "trojan-64.176.36.61-443"
+    type: trojan
+    server: "64.176.36.61"
+    port: 443
+    password: "8r<[9'l6hAO#8ZQi"
+  - name: "trojan-209.248.32.116-28101"
+    type: trojan
+    server: "209.248.32.116"
+    port: 28101
+    password: "i99Cef"
+  - name: "trojan-159.223.50.79-443"
+    type: trojan
+    server: "159.223.50.79"
+    port: 443
+    password: "8r<[9'l6hAO#8ZQi"
+    tls: true
+    servername: "Koma-YT.PAGeS.Dev#🇸🇬SG-159.223.50.79-4948"
+  - name: "trojan-immense-gnu.rooster465.autos-443"
+    type: trojan
+    server: "immense-gnu.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-on-roughy.rooster465.autos-443"
+    type: trojan
+    server: "on-roughy.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "trojan-frank-turtle.rooster465.autos-443"
+    type: trojan
+    server: "frank-turtle.rooster465.autos"
+    port: 443
+    password: "PD07395842"
+  - name: "trojan-select-ferret.rooster465.autos-443"
+    type: trojan
+    server: "select-ferret.rooster465.autos"
+    port: 443
+    password: "ND91608427"
+  - name: "trojan-moved-bluegill.rooster465.autos-443"
+    type: trojan
+    server: "moved-bluegill.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+  - name: "trojan-23.227.193.173-443"
+    type: trojan
+    server: "23.227.193.173"
+    port: 443
+    password: "AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ"
+  - name: "trojan-apt-whippet.rooster465.autos-443"
+    type: trojan
+    server: "apt-whippet.rooster465.autos"
+    port: 443
+    password: "FH72359861"
+  - name: "trojan-brief-warthog.rooster465.autos-443"
+    type: trojan
+    server: "brief-warthog.rooster465.autos"
+    port: 443
+    password: "CF68213490"
+  - name: "trojan-sincere-gelding.rooster465.autos-443"
+    type: trojan
+    server: "sincere-gelding.rooster465.autos"
+    port: 443
+    password: "ND91608427"
   - name: "trojan-47.250.84.25-443"
     type: trojan
     server: "47.250.84.25"
     port: 443
     password: "5931134d1cde66bf83a54acdfebe7ab2"
-    tls: true
-    servername: "moltbot.doctoroyy.net#🇲🇾MY-47.250.84.25-4863"
+  - name: "trojan-nl-4.tr202507.com-443"
+    type: trojan
+    server: "nl-4.tr202507.com"
+    port: 443
+    password: "uThbm8eGmXZ7GKqnWy"
+  - name: "vmess-47.244.120.197-36703-2"
+    type: vmess
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/arki?ed=2048"
+  - name: "ss-p141.panda001.net-4652"
+    type: ss
+    server: "p141.panda001.net"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "ss-218.237.185.230-4652"
+    type: ss
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+  - name: "ss-141.164.45.187-6679"
+    type: ss
+    server: "141.164.45.187"
+    port: 6679
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
   - name: "vmess-www.shopify.com-443-3"
     type: vmess
     server: "www.shopify.com"
@@ -8911,6 +9669,12 @@ proxies:
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
+  - name: "ss-167.88.62.62-8080"
+    type: ss
+    server: "167.88.62.62"
+    port: 8080
+    cipher: "aes-256-gcm"
+    password: "KixLvKzwjekG00rm"
   - name: "ss-167.88.63.59-443"
     type: ss
     server: "167.88.63.59"
@@ -8968,6 +9732,12 @@ proxies:
     server: "jp.iamnotagoodman.com"
     port: 443
     password: "8aab51da-6b67-4bd2-b6e6-5ab3008cf53e"
+  - name: "ss-142.202.48.52-443"
+    type: ss
+    server: "142.202.48.52"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
   - name: "ss-167.88.61.14-9102"
     type: ss
     server: "167.88.61.14"
@@ -9022,11 +9792,6 @@ proxies:
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
-  - name: "trojan-cf.130209.xyz-2053"
-    type: trojan
-    server: "cf.130209.xyz"
-    port: 2053
-    password: "65c56e1f-5c41-40bc-b0b5-9346772476ca"
   - name: "ss-167.88.63.44-443"
     type: ss
     server: "167.88.63.44"
@@ -9061,7 +9826,7 @@ proxies:
     port: 443
     password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
     tls: true
-    servername: "arbettp.freetrade.link#🇭🇰HK-219.76.13.181-6525"
+    servername: "arbettp.freetrade.link#🇭🇰HK-219.76.13.181-6681"
   - name: "vmess-8.219.211.222-443"
     type: vmess
     server: "8.219.211.222"
@@ -9278,7 +10043,7 @@ proxies:
     port: 443
     password: "9498f3a0-2992-11ee-a4c7-1239d0255272"
     tls: true
-    servername: "zula.ir#🇫🇷FR-51.159.59.186-6737"
+    servername: "zula.ir#🇫🇷FR-51.159.59.186-6893"
   - name: "vmess-fake.id.workers.dev-443"
     type: vmess
     server: "fake.id.workers.dev"
@@ -9524,7 +10289,7 @@ proxies:
     port: 80
     password: "e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad"
     tls: true
-    servername: "namayesh.com#🇫🇷FR-51.91.11.29-6858"
+    servername: "namayesh.com#🇫🇷FR-51.91.11.29-7014"
   - name: "ss-51.79.161.232-443"
     type: ss
     server: "51.79.161.232"
@@ -9537,14 +10302,14 @@ proxies:
     port: 80
     password: "b640d791-ff83-4300-b509-c2a02f97f167"
     tls: true
-    servername: "uk1.trojanvh.xyz#🇬🇧GB-51.38.71.175-6877"
+    servername: "uk1.trojanvh.xyz#🇬🇧GB-51.38.71.175-7033"
   - name: "trojan-51.158.146.183-443"
     type: trojan
     server: "51.158.146.183"
     port: 443
     password: "f6a0a650-306e-11ee-b692-1239d0255272"
     tls: true
-    servername: "Speedtest.net#🇳🇱NL-51.158.146.183-6881"
+    servername: "Speedtest.net#🇳🇱NL-51.158.146.183-7037"
   - name: "vmess-51.15.19.206-80"
     type: vmess
     server: "51.15.19.206"
@@ -9577,18 +10342,12 @@ proxies:
     network: ws
     ws-opts:
       "path": "/V2RayyNGvpn"
-  - name: "ss-5.188.181.201-9037"
+  - name: "ss-5.188.181.201-9040"
     type: ss
     server: "5.188.181.201"
-    port: 9037
+    port: 9040
     cipher: "aes-256-cfb"
-    password: "TN2YqghxeFDKZfLU"
-  - name: "ss-5.188.181.201-9031"
-    type: ss
-    server: "5.188.181.201"
-    port: 9031
-    cipher: "aes-256-cfb"
-    password: "BwcAUZk8hUFAkDGN"
+    password: "p9z5BVADH2YFs3MN"
   - name: "vmess-47.88.104.186-80"
     type: vmess
     server: "47.88.104.186"
@@ -11502,14 +12261,14 @@ proxies:
     port: 80
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
-    servername: "15.235.197.4#🇸🇬SG-15.235.197.4-7465"
+    servername: "15.235.197.4#🇸🇬SG-15.235.197.4-7621"
   - name: "trojan-15.204.210.176-80"
     type: trojan
     server: "15.204.210.176"
     port: 80
     password: "c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f"
     tls: true
-    servername: "15.204.210.176#🇺🇸US-15.204.210.176-7471"
+    servername: "15.204.210.176#🇺🇸US-15.204.210.176-7627"
   - name: "vmess-147.185.161.169-443"
     type: vmess
     server: "147.185.161.169"
@@ -11624,7 +12383,7 @@ proxies:
     port: 80
     password: "800eb26c-cd0c-4269-aae7-e63d75de4edd"
     tls: true
-    servername: "us3.trojanvh.xyz#🇺🇸US-135.148.148.4-7523"
+    servername: "us3.trojanvh.xyz#🇺🇸US-135.148.148.4-7679"
   - name: "trojan-108.61.171.167-443"
     type: trojan
     server: "108.61.171.167"
@@ -12584,20 +13343,17 @@ proxies:
     network: ws
     ws-opts:
       "path": "/wss51068"
-  - name: "vmess-104.17.137.127-443"
+  - name: "vmess-104.21.39.36-443"
     type: vmess
-    server: "104.17.137.127"
+    server: "104.21.39.36"
     port: 443
-    uuid: "47eab0de-97f9-49be-f2f3-2e4eb17268e6"
+    uuid: "e357cd63-f1a5-4c8e-c42e-26da11207fee"
     alterId: 0
     cipher: "auto"
     tls: true
-    servername: "hk.niskakowski.ggff.net"
     network: ws
     ws-opts:
-      "path": "/aa"
-      headers:
-        "Host": "hk.niskakowski.ggff.net"
+      "path": "/root/"
   - name: "trojan-104.21.12.87-443"
     type: trojan
     server: "104.21.12.87"
@@ -13006,108 +13762,3 @@ proxies:
     network: ws
     ws-opts:
       "path": "/fuzzyng?ed=2048"
-  - name: "trojan-104.16.174.148-443"
-    type: trojan
-    server: "104.16.174.148"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-      headers:
-        "Host": "www.ignitelimit.com"
-  - name: "trojan-104.16.174.14-443"
-    type: trojan
-    server: "104.16.174.14"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-    client-fingerprint: "chrome"
-  - name: "vless-104.21.46.51-443"
-    type: vless
-    server: "104.21.46.51"
-    port: 443
-    uuid: "7e26fd8f-d75a-473d-84ba-9f4e3f47d086"
-    tls: true
-    servername: "4-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr"
-    network: ws
-    ws-opts:
-      "path": "/8qMLgNapWf6SBxo8fhQlVPYO"
-      headers:
-        "Host": "4-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr"
-    client-fingerprint: "chrome#美国 CloudFlare节点"
-  - name: "trojan-104.18.152.140-443"
-    type: trojan
-    server: "104.18.152.140"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-      headers:
-        "Host": "www.ignitelimit.com"
-  - name: "trojan-162.159.254.191-443"
-    type: trojan
-    server: "162.159.254.191"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com#美国 CloudFlare节点"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-    client-fingerprint: "chrome"
-  - name: "trojan-45.130.125.158-443"
-    type: trojan
-    server: "45.130.125.158"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      "path": "/assignment"
-    client-fingerprint: "chrome"
-  - name: "trojan-104.16.174.36-443"
-    type: trojan
-    server: "104.16.174.36"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.53.215-443"
-    type: vless
-    server: "172.64.53.215"
-    port: 443
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-    client-fingerprint: "chrome"
-  - name: "vless-31.76.245.63-443"
-    type: vless
-    server: "31.76.245.63"
-    port: 443
-    uuid: "d72f05b0-b182-4783-a6f2-21cecc7d841a"
-    client-fingerprint: "firefox"
-  - name: "trojan-104.18.152.97-443"
-    type: trojan
-    server: "104.18.152.97"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    client-fingerprint: "chrome"
