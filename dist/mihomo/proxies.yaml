@@ -1,52 +1,70 @@
 proxies:
-  - name: "ss-47.254.128.109-443"
-    type: ss
-    server: "47.254.128.109"
+  - name: "vless-8a2e72t.nl20.h1clayd.shop-443"
+    type: vless
+    server: "8a2e72t.nl20.h1clayd.shop"
     port: 443
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
-  - name: "ss-202.50.253.81-19999"
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    client-fingerprint: "chrome"
+  - name: "ss-194.87.69.12-18443"
     type: ss
-    server: "202.50.253.81"
-    port: 19999
+    server: "194.87.69.12"
+    port: 18443
     cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
+  - name: "vless-136.148.83.71-443"
+    type: vless
+    server: "136.148.83.71"
+    port: 443
+    uuid: "00000000-0000-0001-0000-000000000000"
+    tls: true
+    servername: "wccfu-ru-79dc.my-fade.cloud#英国 伦敦南岸大学"
   - name: "ss-202.50.253.18-19999"
     type: ss
     server: "202.50.253.18"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "vless-213.183.41.31-8459"
+    type: vless
+    server: "213.183.41.31"
+    port: 8459
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    tls: true
+    servername: "photos.plumstatic.com"
+    network: ws
+    ws-opts:
+      "path": "/ws"
+    client-fingerprint: "firefox"
   - name: "vless-196.196.148.85-443"
     type: vless
     server: "196.196.148.85"
     port: 443
     uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
     client-fingerprint: "firefox"
-  - name: "vless-13.141.36.63-443"
+  - name: "vless-196.199.122.2-443"
     type: vless
-    server: "13.141.36.63"
+    server: "196.199.122.2"
+    port: 443
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    client-fingerprint: "chrome"
+  - name: "vless-196.196.149.81-443"
+    type: vless
+    server: "196.196.149.81"
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     client-fingerprint: "firefox"
-  - name: "vless-196.245.52.187-443"
+  - name: "ss-202.50.253.54-19999"
+    type: ss
+    server: "202.50.253.54"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "vless-196.196.149.80-443"
     type: vless
-    server: "196.245.52.187"
-    port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
-    client-fingerprint: "firefox"
-  - name: "vless-196.196.148.76-443"
-    type: vless
-    server: "196.196.148.76"
+    server: "196.196.149.80"
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    client-fingerprint: "firefox"
-  - name: "vless-136.148.83.70-443"
-    type: vless
-    server: "136.148.83.70"
-    port: 443
-    uuid: "00000000-0000-0001-0000-000000000000"
-    client-fingerprint: "qq"
+    client-fingerprint: "chrome"
   - name: "vless-95.174.68.188-14430"
     type: vless
     server: "95.174.68.188"
@@ -67,6 +85,12 @@ proxies:
       "path": "/"
       headers:
         "Host": "uae.unixzone.us"
+  - name: "vless-152.53.1.170-443"
+    type: vless
+    server: "152.53.1.170"
+    port: 443
+    uuid: "4fddfe0e-fddc-4032-b4c8-09c6d811fed0"
+    client-fingerprint: "chrome"
   - name: "vless-178.172.227.228-14430"
     type: vless
     server: "178.172.227.228"
@@ -82,16 +106,6 @@ proxies:
     server: "178.172.227.124"
     port: 10443
     uuid: "1af36694-b548-4b18-89a0-bc076eab4ed7"
-  - name: "vless-www.gov.se-8080"
-    type: vless
-    server: "www.gov.se"
-    port: 8080
-    uuid: "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
   - name: "vless-172.64.154.113-8443"
     type: vless
     server: "172.64.154.113"
@@ -99,7 +113,7 @@ proxies:
     uuid: "53bbdad4-2f4e-45db-8df4-fa491a6a7227"
     network: ws
     ws-opts:
-      "path": "/proxyip=ProxyIP.JP.CMLiussss.netfp=chromesecurity=tls"
+      "path": "/proxyip=ProxyIP.JP.CMLiussss.netfp=chrome"
       headers:
         "Host": "freeceshi6.frii.site"
   - name: "vless-172.64.145.94-443"
@@ -132,16 +146,12 @@ proxies:
       "path": "/fp=unsafefp=chrome"
       headers:
         "Host": "vlsovip.1d.mom"
-  - name: "vless-104.18.109.147-2052"
+  - name: "vless-94.183.234.245-443"
     type: vless
-    server: "104.18.109.147"
-    port: 2052
-    uuid: "c29d39bd-92a4-45db-bb61-56013998617c"
-    network: ws
-    ws-opts:
-      "path": "/Telegram-XV2ry2?ed=2048"
-      headers:
-        "Host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com"
+    server: "94.183.234.245"
+    port: 443
+    uuid: "5de0c218-0138-45d8-94d2-c2c3f37a1a6d"
+    client-fingerprint: "qq"
   - name: "vless-146.103.43.70-9543"
     type: vless
     server: "146.103.43.70"
@@ -221,18 +231,50 @@ proxies:
     port: 443
     uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
     client-fingerprint: "firefox"
+  - name: "vless-45.129.242.56-443"
+    type: vless
+    server: "45.129.242.56"
+    port: 443
+    uuid: "ebdfaf99-41d8-4e48-8196-d54510ffb556"
+    client-fingerprint: "chrome"
+  - name: "vless-144.31.140.125-8443"
+    type: vless
+    server: "144.31.140.125"
+    port: 8443
+    uuid: "f5e70ce3-cfb4-4df1-b25c-d19bfae627c0"
+    client-fingerprint: "firefox"
+  - name: "vless-82.118.19.153-443"
+    type: vless
+    server: "82.118.19.153"
+    port: 443
+    uuid: "adcaa148-7c66-4282-a81a-99ec8afa029d"
+    client-fingerprint: "chrome"
   - name: "vless-5.129.253.99-443"
     type: vless
     server: "5.129.253.99"
     port: 443
     uuid: "0b6a7fe0-206b-4071-9f96-cd397d1ec01a"
     client-fingerprint: "firefox"
-  - name: "vless-196.196.149.81-443"
+  - name: "vless-cove.gerqix.online-443"
     type: vless
-    server: "196.196.149.81"
+    server: "cove.gerqix.online"
     port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    client-fingerprint: "firefox"
+    uuid: "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e"
+    network: ws
+    ws-opts:
+      "path": "/api/de6/streamfp=firefox"
+      headers:
+        "Host": "cove.gerqix.online"
+  - name: "vless-www.gov.se-8080"
+    type: vless
+    server: "www.gov.se"
+    port: 8080
+    uuid: "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
   - name: "vless-188.114.99.137-80"
     type: vless
     server: "188.114.99.137"
@@ -340,6 +382,14 @@ proxies:
     port: 443
     uuid: "dc2259c4-388e-4285-ba18-df619b6672b6"
     client-fingerprint: "chrome"
+  - name: "vless-213.183.41.31-8463"
+    type: vless
+    server: "213.183.41.31"
+    port: 8463
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    network: ws
+    ws-opts:
+      "path": "/wsfp=firefox"
   - name: "vless-155.248.175.201-23169"
     type: vless
     server: "155.248.175.201"
@@ -356,11 +406,11 @@ proxies:
       "path": "/tyxywsfp=chrome"
       headers:
         "Host": "jp3.yohototo.top"
-  - name: "vless-103.75.118.228-12683"
+  - name: "vless-ifdmbpb.kdns.fr-443"
     type: vless
-    server: "103.75.118.228"
-    port: 12683
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    server: "ifdmbpb.kdns.fr"
+    port: 443
+    uuid: "9a600801-e889-4705-9adb-bf9aeb366fc7"
     client-fingerprint: "chrome"
   - name: "vless-104.25.128.15-443"
     type: vless
@@ -372,6 +422,14 @@ proxies:
       "path": "/kw7x2mq9fp=chrome"
       headers:
         "Host": "krc.80782636.xyz"
+  - name: "vless-152.69.226.63-25555"
+    type: vless
+    server: "152.69.226.63"
+    port: 25555
+    uuid: "27c5483f-17f4-48ae-9a04-def53d88440d"
+    network: ws
+    ws-opts:
+      "path": "/"
   - name: "vless-47.80.19.173-2053"
     type: vless
     server: "47.80.19.173"
@@ -392,6 +450,14 @@ proxies:
     port: 13447
     uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
     client-fingerprint: "chrome"
+  - name: "vless-213.183.45.23-8450"
+    type: vless
+    server: "213.183.45.23"
+    port: 8450
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    network: ws
+    ws-opts:
+      "path": "/wsfp=firefox"
   - name: "vless-d1lruvm1fs0rkb.cloudfront.net-443"
     type: vless
     server: "d1lruvm1fs0rkb.cloudfront.net"
@@ -430,11 +496,23 @@ proxies:
     port: 443
     uuid: "501a2da5-cb22-4a3f-915e-e3b821d1d62d"
     client-fingerprint: "chrome"
+  - name: "vless-86.54.28.75-443"
+    type: vless
+    server: "86.54.28.75"
+    port: 443
+    uuid: "44ae52b9-76fc-444d-8e43-186b4384b80a"
+    client-fingerprint: "chrome"
   - name: "vless-94.183.167.172-443"
     type: vless
     server: "94.183.167.172"
     port: 443
     uuid: "d7121b33-e335-4921-bb00-4c0b157e7fc1"
+    client-fingerprint: "chrome"
+  - name: "vless-150.251.113.34-443"
+    type: vless
+    server: "150.251.113.34"
+    port: 443
+    uuid: "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1"
     client-fingerprint: "chrome"
   - name: "vless-ru1.japancase.site-443"
     type: vless
@@ -480,6 +558,22 @@ proxies:
     port: 10444
     uuid: "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55"
     client-fingerprint: "firefox"
+  - name: "vless-free.server.darknetlk.com-443"
+    type: vless
+    server: "free.server.darknetlk.com"
+    port: 443
+    uuid: "076799f8-d922-4bf1-805d-e758e6eb925f"
+    client-fingerprint: "chrome"
+  - name: "vless-172.64.146.181-443"
+    type: vless
+    server: "172.64.146.181"
+    port: 443
+    uuid: "366449c5-ac1e-4314-8142-27a6b1c8c0fb"
+    network: ws
+    ws-opts:
+      "path": "/yn-3ba202c6491cfp=chrome"
+      headers:
+        "Host": "sg2-cdn.rip.lgbt"
   - name: "vless-213.183.45.23-8444"
     type: vless
     server: "213.183.45.23"
@@ -504,6 +598,16 @@ proxies:
       "path": "/118.151.222.66=17317fp=chromesecurity=tls"
       headers:
         "Host": "kozel.cc.cd"
+  - name: "vless-104.18.109.147-2052"
+    type: vless
+    server: "104.18.109.147"
+    port: 2052
+    uuid: "c29d39bd-92a4-45db-bb61-56013998617c"
+    network: ws
+    ws-opts:
+      "path": "/Telegram-XV2ry2?ed=2048"
+      headers:
+        "Host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com"
   - name: "vless-104.26.13.31-8080"
     type: vless
     server: "104.26.13.31"
@@ -514,6 +618,12 @@ proxies:
       "path": "/"
       headers:
         "Host": "bdfba-cool-tree-b580.v8fz4kbv.workers.dev"
+  - name: "vless-turkey-ip1.mmdaqaorg.xyz-50738"
+    type: vless
+    server: "turkey-ip1.mmdaqaorg.xyz"
+    port: 50738
+    uuid: "56665684-5ac0-4ba9-9d49-8b258fb57974"
+    client-fingerprint: "chrome"
   - name: "vless-60.248.219.53-443"
     type: vless
     server: "60.248.219.53"
@@ -524,6 +634,12 @@ proxies:
       "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
       headers:
         "Host": "ty986gfazs.cainiaohub.xyz"
+  - name: "vless-31.222.235.81-443"
+    type: vless
+    server: "31.222.235.81"
+    port: 443
+    uuid: "d8b58872-cc25-4bb2-badb-b86399c075fa"
+    client-fingerprint: "chrome"
   - name: "vless-172.66.213.98-443"
     type: vless
     server: "172.66.213.98"
@@ -544,16 +660,6 @@ proxies:
       "path": "/usiHjIzfp=chrome"
       headers:
         "Host": "shazam.wbciran.com"
-  - name: "vless-vless.cloudxzw2027.ccwu.cc-443"
-    type: vless
-    server: "vless.cloudxzw2027.ccwu.cc"
-    port: 443
-    uuid: "2f12e5b5-6ce7-47ab-88b9-6110c1a3fc60"
-    network: ws
-    ws-opts:
-      "path": "/xzwfp=chrome"
-      headers:
-        "Host": "vless.cloudxzw2027.ccwu.cc"
   - name: "vless-199.7.140.201-443"
     type: vless
     server: "199.7.140.201"
@@ -596,6 +702,24 @@ proxies:
     port: 443
     uuid: "1f8cf47a-b66a-4916-979f-26edfcf44eea"
     client-fingerprint: "chrome"
+  - name: "vless-169.40.42.231-443"
+    type: vless
+    server: "169.40.42.231"
+    port: 443
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    client-fingerprint: "ios"
+  - name: "vless-169.40.42.168-443"
+    type: vless
+    server: "169.40.42.168"
+    port: 443
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    client-fingerprint: "ios"
+  - name: "vless-169.40.42.163-443"
+    type: vless
+    server: "169.40.42.163"
+    port: 443
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    client-fingerprint: "ios"
   - name: "vless-150.95.109.109-2086"
     type: vless
     server: "150.95.109.109"
@@ -643,12 +767,6 @@ proxies:
     port: 8882
     cipher: "aes-256-gcm"
     password: "kDWvXYZoTBcGkC4"
-  - name: "ss-51.222.155.32-5003"
-    type: ss
-    server: "51.222.155.32"
-    port: 5003
-    cipher: "aes-256-gcm"
-    password: "g5MeD6Ft3CWlJId"
   - name: "ss-51.79.49.116-8882"
     type: ss
     server: "51.79.49.116"
@@ -691,18 +809,18 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-47.85.227.36-443"
-    type: ss
-    server: "47.85.227.36"
-    port: 443
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA="
   - name: "ss-57.129.113.16-8388"
     type: ss
     server: "57.129.113.16"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "NcAXc0UZI6yQJE1p8QmOv8"
+  - name: "ss-213.202.208.199-7001"
+    type: ss
+    server: "213.202.208.199"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
   - name: "ss-79.127.139.242-19999"
     type: ss
     server: "79.127.139.242"
@@ -829,7 +947,7 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.81-19999-2"
+  - name: "ss-202.50.253.81-19999"
     type: ss
     server: "202.50.253.81"
     port: 19999
@@ -865,7 +983,7 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.54-19999"
+  - name: "ss-202.50.253.54-19999-2"
     type: ss
     server: "202.50.253.54"
     port: 19999
@@ -919,12 +1037,24 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.162-443"
+    type: ss
+    server: "82.38.31.162"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
   - name: "ss-185.213.23.63-990"
     type: ss
     server: "185.213.23.63"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+  - name: "ss-194.87.69.12-18443-2"
+    type: ss
+    server: "194.87.69.12"
+    port: 18443
+    cipher: "aes-256-gcm"
+    password: "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
   - name: "ss-90.156.203.62-5112"
     type: ss
     server: "90.156.203.62"
@@ -1030,24 +1160,24 @@ proxies:
     server: "216.152.147.74"
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  - name: "trojan-216.152.147.152-443"
-    type: trojan
-    server: "216.152.147.152"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "trojan-216.152.147.79-443"
     type: trojan
     server: "216.152.147.79"
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  - name: "trojan-208.69.78.33-443"
+  - name: "trojan-216.152.147.152-443"
     type: trojan
-    server: "208.69.78.33"
+    server: "216.152.147.152"
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "trojan-208.69.78.158-443"
     type: trojan
     server: "208.69.78.158"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  - name: "trojan-208.69.78.33-443"
+    type: trojan
+    server: "208.69.78.33"
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "trojan-66.163.118.244-443"
@@ -1075,19 +1205,14 @@ proxies:
     server: "sclass-01.catcat321.com"
     port: 20103
     password: "d7563108-615c-4338-a7bd-77f359869a4a"
-  - name: "trojan-66.163.127.225-443"
-    type: trojan
-    server: "66.163.127.225"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "trojan-66.163.127.215-443"
     type: trojan
     server: "66.163.127.215"
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  - name: "trojan-15.235.184.127-443"
+  - name: "trojan-66.163.127.225-443"
     type: trojan
-    server: "15.235.184.127"
+    server: "66.163.127.225"
     port: 443
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "trojan-ddrr1.tube-cat.com-28478"
@@ -1100,6 +1225,11 @@ proxies:
     server: "ddrr2.tube-cat.com"
     port: 59188
     password: "d7563108-615c-4338-a7bd-77f359869a4a"
+  - name: "trojan-66.163.122.25-443"
+    type: trojan
+    server: "66.163.122.25"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "trojan-xvxn1hkzf.mateflora.com-443"
     type: trojan
     server: "xvxn1hkzf.mateflora.com"
@@ -1182,17 +1312,6 @@ proxies:
       headers:
         "Host": "senflarelink-node-6b9.pages.dev"
     client-fingerprint: "chrome"
-  - name: "vless-179.255.132.42-8443"
-    type: vless
-    server: "179.255.132.42"
-    port: 8443
-    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
-    network: ws
-    ws-opts:
-      "path": "/flow="
-      headers:
-        "Host": "senflarelink-node-71i.pages.dev"
-    client-fingerprint: "chrome"
   - name: "vless-179.255.137.204-8443"
     type: vless
     server: "179.255.137.204"
@@ -1248,81 +1367,172 @@ proxies:
       headers:
         "Host": "senflarelink-node-xfcyh2.pages.dev"
     client-fingerprint: "chrome"
-  - name: "vless-194.53.175.27-443"
+  - name: "vless-78.159.240.62-2053"
     type: vless
-    server: "194.53.175.27"
-    port: 443
-    uuid: "11d14aed-3d44-4bb2-b9c0-24e661589e5a"
-    client-fingerprint: "firefox"
-  - name: "vless-edge07.tunnely.space-443"
-    type: vless
-    server: "edge07.tunnely.space"
-    port: 443
-    uuid: "11d14aed-3d44-4bb2-b9c0-24e661589e5a"
-    client-fingerprint: "firefox"
-  - name: "vless-mcicloudnnnn.belzema.ir-10005"
-    type: vless
-    server: "mcicloudnnnn.belzema.ir"
-    port: 10005
-    uuid: "20486037-c2ae-4c07-a459-f58ca83cf08a"
+    server: "78.159.240.62"
+    port: 2053
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
     client-fingerprint: "chrome"
-  - name: "trojan-sclass-01.catcat321.com-20001"
-    type: trojan
-    server: "sclass-01.catcat321.com"
-    port: 20001
-    password: "b179b8a4-9a98-44a0-a1f1-65b8e8cb20a9"
-  - name: "vless-mercedess-ie-ass-moi-interes.xrent.cloud-10469"
-    type: vless
-    server: "mercedess-ie-ass-moi-interes.xrent.cloud"
-    port: 10469
-    uuid: "53d229e0-3d9a-4ca8-9e2d-9be298534773"
-    client-fingerprint: "firefox"
-  - name: "ss-P1.shoppingturbo.com-443"
+  - name: "ss-47.254.128.109-443"
     type: ss
-    server: "P1.shoppingturbo.com"
+    server: "47.254.128.109"
+    port: 443
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
+  - name: "ss-108.181.121.170-443"
+    type: ss
+    server: "108.181.121.170"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "anmZLCkJfFh92CoS-fJC7P-Fli8XD_TK"
-  - name: "ss-dlyqv8kg.jhm.qwer123.net-36611"
-    type: ss
-    server: "dlyqv8kg.jhm.qwer123.net"
-    port: 36611
-    cipher: "aes-128-gcm"
-    password: "78f30e05-8bbb-4460-a7e1-df58039d4282"
-  - name: "vless-api.ferrin.uk-443"
+    password: "qItG8SueYQcP"
+  - name: "vless-72.56.69.70-443"
     type: vless
-    server: "api.ferrin.uk"
+    server: "72.56.69.70"
     port: 443
-    uuid: "7d1a74fd-8a38-4a29-863f-5da53a9e557e"
+    uuid: "00799b08-1090-4ed3-bec0-0fa26816a703"
     client-fingerprint: "chrome"
-  - name: "vless-136.148.83.71-443"
+  - name: "vless-176.114.95.245-443"
     type: vless
-    server: "136.148.83.71"
+    server: "176.114.95.245"
+    port: 443
+    uuid: "9a591702-24c7-4abf-9f14-ac59438a64e6"
+  - name: "vless-185.179.154.10-8443"
+    type: vless
+    server: "185.179.154.10"
+    port: 8443
+    uuid: "b5b563ad-e4ef-4873-9d35-66cc08202aec"
+    client-fingerprint: "chrome"
+  - name: "vless-185.179.154.10-8880"
+    type: vless
+    server: "185.179.154.10"
+    port: 8880
+    uuid: "b5b563ad-e4ef-4873-9d35-66cc08202aec"
+    client-fingerprint: "chrome"
+  - name: "vless-tr.subscriptionservice.ir-8443"
+    type: vless
+    server: "tr.subscriptionservice.ir"
+    port: 8443
+    uuid: "c28b9935-9392-48e9-947a-abad1ad9c933"
+  - name: "vless-213.183.45.23-8454"
+    type: vless
+    server: "213.183.45.23"
+    port: 8454
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    network: ws
+    ws-opts:
+      "path": "/wsfp=firefox"
+  - name: "vless-196.196.148.76-443"
+    type: vless
+    server: "196.196.148.76"
+    port: 443
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    client-fingerprint: "firefox"
+  - name: "vless-156.229.167.109-8443"
+    type: vless
+    server: "156.229.167.109"
+    port: 8443
+    uuid: "eb8c97f7-a154-4442-91b0-54c0d055ad0b"
+    client-fingerprint: "chrome"
+  - name: "vless-71b840t.de7.h1clayd.click-443"
+    type: vless
+    server: "71b840t.de7.h1clayd.click"
+    port: 443
+    uuid: "26843758-24de-4f76-b5d0-624038e353c4"
+    client-fingerprint: "chrome"
+  - name: "vless-13.141.36.15-443"
+    type: vless
+    server: "13.141.36.15"
+    port: 443
+    uuid: "2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df"
+    client-fingerprint: "firefox"
+  - name: "vless-xray-b8ct4r2f-sahdon-hosaindoost.cloady.io-443"
+    type: vless
+    server: "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io"
+    port: 443
+    uuid: "1fd2e2d1-96f5-2056-19fd-b375b1a9d851"
+    network: ws
+    ws-opts:
+      "path": "/ffad70ffdfc3bcdafp=chrome"
+      headers:
+        "Host": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io"
+  - name: "vless-r2.pythonmakemigreat.wiki-8443"
+    type: vless
+    server: "r2.pythonmakemigreat.wiki"
+    port: 8443
+    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    client-fingerprint: "firefox"
+  - name: "vless-r1.pythonmakemigreat.wiki-8443"
+    type: vless
+    server: "r1.pythonmakemigreat.wiki"
+    port: 8443
+    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    client-fingerprint: "firefox"
+  - name: "vless-r6.pythonmakemigreat.wiki-8443"
+    type: vless
+    server: "r6.pythonmakemigreat.wiki"
+    port: 8443
+    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    client-fingerprint: "firefox"
+  - name: "vless-13.141.36.127-443"
+    type: vless
+    server: "13.141.36.127"
+    port: 443
+    uuid: "73ebb72a-e2a8-44c8-a0e3-938740a4f578"
+    client-fingerprint: "firefox"
+  - name: "vless-5.42.104.42-443"
+    type: vless
+    server: "5.42.104.42"
+    port: 443
+    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
+    client-fingerprint: "chrome"
+  - name: "vless-13.141.36.163-443"
+    type: vless
+    server: "13.141.36.163"
+    port: 443
+    uuid: "73ebb72a-e2a8-44c8-a0e3-938740a4f578"
+    client-fingerprint: "firefox"
+  - name: "ss-uk.fusetea.ir-154"
+    type: ss
+    server: "uk.fusetea.ir"
+    port: 154
+    cipher: "chacha20-ietf-poly1305"
+    password: "eCUs1n3b2Fh9b6WATvkNILLBzYbruQ_X"
+  - name: "vless-136.148.83.70-443"
+    type: vless
+    server: "136.148.83.70"
     port: 443
     uuid: "00000000-0000-0001-0000-000000000000"
     client-fingerprint: "qq"
+  - name: "vless-fanasdhj.fajksvle12.fandjlsadhlkadhlkqwdsadasjhas.com-22612"
+    type: vless
+    server: "fanasdhj.fajksvle12.fandjlsadhlkadhlkqwdsadasjhas.com"
+    port: 22612
+    uuid: "874c5e39-3a9d-44c4-bc3e-8425e798adc8"
+    client-fingerprint: "chrome"
+  - name: "vless-vl-x2.qz10086.top-38101"
+    type: vless
+    server: "vl-x2.qz10086.top"
+    port: 38101
+    uuid: "d235ad20-8f30-441e-871e-ee2695e4c430"
+    client-fingerprint: "firefox"
   - name: "vless-8.217.1.203-8443"
     type: vless
     server: "8.217.1.203"
     port: 8443
     uuid: "8b17beac-b143-447d-aa68-14cbb121a602"
     client-fingerprint: "chrome"
-  - name: "ss-dlyqv8kg.jhm.qwer123.net-36602"
-    type: ss
-    server: "dlyqv8kg.jhm.qwer123.net"
-    port: 36602
-    cipher: "aes-128-gcm"
-    password: "78f30e05-8bbb-4460-a7e1-df58039d4282"
-  - name: "vless-103.30.77.94-8443"
-    type: vless
-    server: "103.30.77.94"
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
+  - name: "vmess-47.244.120.197-44867"
+    type: vmess
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
     network: ws
     ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
+      "path": "/arki"
       headers:
-        "Host": "hkg.kkp.us.ci"
+        "Host": "47.244.120.197"
   - name: "vmess-47.86.90.31-443"
     type: vmess
     server: "47.86.90.31"
@@ -1337,247 +1547,108 @@ proxies:
       "path": "/ws-vmess"
       headers:
         "Host": "bywxdhirqkjj8xaz.v.3dns.vip"
-  - name: "vless-154.26.190.226-8443"
+  - name: "vless-8.210.92.38-443"
     type: vless
-    server: "154.26.190.226"
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: ws
-    ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
-      headers:
-        "Host": "hkg.kkp.us.ci"
-  - name: "vless-179.253.228.140-8443"
-    type: vless
-    server: "179.253.228.140"
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: ws
-    ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
-      headers:
-        "Host": "hkg.kkp.us.ci"
-  - name: "vless-179.253.233.41-8443"
-    type: vless
-    server: "179.253.233.41"
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: ws
-    ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
-      headers:
-        "Host": "hkg.kkp.us.ci"
-  - name: "vless-103.135.249.19-8443"
-    type: vless
-    server: "103.135.249.19"
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: ws
-    ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
-      headers:
-        "Host": "hkg.kkp.us.ci"
-  - name: "vless-154.17.6.182-8443"
-    type: vless
-    server: "154.17.6.182"
-    port: 8443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: ws
-    ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
-      headers:
-        "Host": "hkg.kkp.us.ci"
-  - name: "vmess-47.244.120.197-23026"
-    type: vmess
-    server: "47.244.120.197"
-    port: 23026
-    uuid: "b9de1bc9-baa7-41ac-86f7-ccd59695cb21"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/arki"
-      headers:
-        "Host": "47.244.120.197"
-  - name: "vmess-47.244.120.197-44867"
-    type: vmess
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/arki"
-      headers:
-        "Host": "47.244.120.197"
+    server: "8.210.92.38"
+    port: 443
+    uuid: "4fc9dc3d-0d57-49e7-9bc0-e323165241bf"
+    client-fingerprint: "chrome"
   - name: "ss-202.50.253.18-19999-2"
     type: ss
     server: "202.50.253.18"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-dlyqv8kg.jhm.qwer123.net-36603"
-    type: ss
-    server: "dlyqv8kg.jhm.qwer123.net"
-    port: 36603
-    cipher: "aes-128-gcm"
-    password: "78f30e05-8bbb-4460-a7e1-df58039d4282"
-  - name: "ss-dlyqv8kg.jhm.qwer123.net-36609"
-    type: ss
-    server: "dlyqv8kg.jhm.qwer123.net"
-    port: 36609
-    cipher: "aes-128-gcm"
-    password: "78f30e05-8bbb-4460-a7e1-df58039d4282"
-  - name: "vmess-kr.075661.xyz-19283"
-    type: vmess
-    server: "kr.075661.xyz"
-    port: 19283
-    uuid: "3153def6-eecb-414d-88aa-7e59ea525e5d"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "kr.075661.xyz"
-  - name: "vless-ifdmbpb.kdns.fr-443"
+  - name: "vless-fanasdhj.fajksvle9.fandjlsadhlkadhlkqwdsadasjhas.com-22509"
     type: vless
-    server: "ifdmbpb.kdns.fr"
-    port: 443
-    uuid: "9a600801-e889-4705-9adb-bf9aeb366fc7"
+    server: "fanasdhj.fajksvle9.fandjlsadhlkadhlkqwdsadasjhas.com"
+    port: 22509
+    uuid: "874c5e39-3a9d-44c4-bc3e-8425e798adc8"
     client-fingerprint: "chrome"
-  - name: "vless-8.220.198.29-443"
+  - name: "vless-vl-x2.qz10086.top-38105"
     type: vless
-    server: "8.220.198.29"
-    port: 443
-    uuid: "91d2a8f3-6eb0-4b6a-a8f7-0beabcf06fb7"
-    client-fingerprint: "chrome"
-  - name: "vless-91.142.79.131-443"
-    type: vless
-    server: "91.142.79.131"
-    port: 443
-    uuid: "11d14aed-3d44-4bb2-b9c0-24e661589e5a"
+    server: "vl-x2.qz10086.top"
+    port: 38105
+    uuid: "d235ad20-8f30-441e-871e-ee2695e4c430"
     client-fingerprint: "firefox"
-  - name: "vless-213.183.41.31-8459"
+  - name: "vless-krd.80782636.xyz-443"
     type: vless
-    server: "213.183.41.31"
-    port: 8459
-    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
-    network: ws
-    ws-opts:
-      "path": "/wsfp=firefox"
-  - name: "vless-78.159.240.62-2053"
-    type: vless
-    server: "78.159.240.62"
-    port: 2053
-    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
-    client-fingerprint: "chrome"
-  - name: "vless-cdn585.whitenw.net-7489"
-    type: vless
-    server: "cdn585.whitenw.net"
-    port: 7489
-    uuid: "53d229e0-3d9a-4ca8-9e2d-9be298534773"
-    client-fingerprint: "firefox"
-  - name: "vless-213.183.41.31-8463"
-    type: vless
-    server: "213.183.41.31"
-    port: 8463
-    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
-    network: ws
-    ws-opts:
-      "path": "/wsfp=firefox"
-  - name: "vless-free.server.darknetlk.com-443"
-    type: vless
-    server: "free.server.darknetlk.com"
+    server: "krd.80782636.xyz"
     port: 443
-    uuid: "076799f8-d922-4bf1-805d-e758e6eb925f"
-    client-fingerprint: "chrome"
-  - name: "vless-172.64.146.181-443"
-    type: vless
-    server: "172.64.146.181"
-    port: 443
-    uuid: "366449c5-ac1e-4314-8142-27a6b1c8c0fb"
+    uuid: "db906786-8c49-4b17-9182-cea680ef954d"
     network: ws
     ws-opts:
-      "path": "/yn-3ba202c6491cfp=chrome"
+      "path": "/kw7x2mq9fp=chrome"
       headers:
-        "Host": "sg2-cdn.rip.lgbt"
-  - name: "vless-16rgr.bblog-sbed.stagbleenodecc.com-443"
+        "Host": "krd.80782636.xyz"
+  - name: "vless-devcdn.icu-443"
     type: vless
-    server: "16rgr.bblog-sbed.stagbleenodecc.com"
+    server: "devcdn.icu"
     port: 443
-    uuid: "5c9233e1-3c55-405b-8f7e-90fb9379b72c"
-    client-fingerprint: "ios"
-  - name: "vmess-8.213.211.160-18565"
-    type: vmess
-    server: "8.213.211.160"
-    port: 18565
-    uuid: "853a251f-de85-40cc-84a6-ab8748c7258c"
-    alterId: 0
-    cipher: "auto"
-  - name: "vless-turkey-ip1.mmdaqaorg.xyz-50738"
+    uuid: "b432a23a-acff-425c-bf69-70480cd6ed09"
+    network: ws
+    ws-opts:
+      "path": "/edge/chunk/b2265efffa29/fp=chrome"
+      headers:
+        "Host": "devcdn.icu"
+  - name: "vless-leviko-ru4448.shopingggg.ir-443"
     type: vless
-    server: "turkey-ip1.mmdaqaorg.xyz"
-    port: 50738
-    uuid: "56665684-5ac0-4ba9-9d49-8b258fb57974"
+    server: "leviko-ru4448.shopingggg.ir"
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
     client-fingerprint: "chrome"
+  - name: "vless-201.51.12.98-443"
+    type: vless
+    server: "201.51.12.98"
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    client-fingerprint: "firefox"
+  - name: "vless-201.24.116.192-443"
+    type: vless
+    server: "201.24.116.192"
+    port: 443
+    uuid: "38308ff1-5aa9-494f-a25a-0f2870d56b3e"
+    client-fingerprint: "firefox"
+  - name: "vless-193.124.66.208-443"
+    type: vless
+    server: "193.124.66.208"
+    port: 443
+    uuid: "9df9ee1a-0671-4c6c-93c7-65598fb946f7"
+    client-fingerprint: "chrome"
+  - name: "vless-smartcdn.top-443"
+    type: vless
+    server: "smartcdn.top"
+    port: 443
+    uuid: "37af0181-5598-4aad-a040-d926bcb65757"
+    network: ws
+    ws-opts:
+      "path": "/useraction/collect/8a64b355ef0c/fp=chrome"
+      headers:
+        "Host": "smartcdn.top"
+  - name: "vless-vl-x2.qz10086.top-37998"
+    type: vless
+    server: "vl-x2.qz10086.top"
+    port: 37998
+    uuid: "d235ad20-8f30-441e-871e-ee2695e4c430"
+    client-fingerprint: "firefox"
+  - name: "vless-196.196.149.34-443"
+    type: vless
+    server: "196.196.149.34"
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    client-fingerprint: "qq"
   - name: "vless-179.254.92.134-443"
     type: vless
     server: "179.254.92.134"
     port: 443
     uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
     client-fingerprint: "chrome"
-  - name: "vless-162.35.101.177-443"
+  - name: "vless-153.56.230.6-443"
     type: vless
-    server: "162.35.101.177"
+    server: "153.56.230.6"
     port: 443
     uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
     client-fingerprint: "edge"
-  - name: "vless-us.kkp.us.ci-443"
-    type: vless
-    server: "us.kkp.us.ci"
-    port: 443
-    uuid: "aff1b196-478c-425a-9403-7ea15d9aafdf"
-    network: ws
-    ws-opts:
-      "path": "/487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome"
-      headers:
-        "Host": "us.kkp.us.ci"
-  - name: "vless-cos-cdn-g.alicdn.win-443"
-    type: vless
-    server: "cos-cdn-g.alicdn.win"
-    port: 443
-    uuid: "c7678d5b-d2b6-40d8-bbf7-dfbfba355f7e"
-    network: ws
-    ws-opts:
-      "path": "/newlogin/login.dofp=qq"
-      headers:
-        "Host": "mms-static-origin-e.oppocc.men"
-  - name: "vmess-kr.075661.xyz-19283-2"
-    type: vmess
-    server: "kr.075661.xyz"
-    port: 19283
-    uuid: "3153def6-eecb-414d-88aa-7e59ea525e5d"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-  - name: "vmess-8.213.211.160-18565-2"
-    type: vmess
-    server: "8.213.211.160"
-    port: 18565
-    uuid: "853a251f-de85-40cc-84a6-ab8748c7258c"
-    alterId: 0
-    cipher: "auto"
-  - name: "vless-free.fugui.lol-47396"
-    type: vless
-    server: "free.fugui.lol"
-    port: 47396
-    uuid: "ead3595f-4020-4e76-a3ec-c248e1a2f2f7"
-    client-fingerprint: "chrome"
-  - name: "ss-45.86.51.18-19999"
-    type: ss
-    server: "45.86.51.18"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-185.230.230.18-19999"
     type: ss
     server: "185.230.230.18"
@@ -1590,21 +1661,33 @@ proxies:
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-37.19.198.244-443"
-    type: ss
-    server: "37.19.198.244"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
   - name: "ss-37.19.198.243-443"
     type: ss
     server: "37.19.198.243"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-193.151.163.18-19999"
+  - name: "ss-37.19.198.160-443"
     type: ss
-    server: "193.151.163.18"
+    server: "37.19.198.160"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-37.19.198.244-443"
+    type: ss
+    server: "37.19.198.244"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-193.151.160.9-19999"
+    type: ss
+    server: "193.151.160.9"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-45.86.51.18-19999"
+    type: ss
+    server: "45.86.51.18"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -1620,75 +1703,21 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-151.241.19.29-19999-2"
-    type: ss
-    server: "151.241.19.29"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-193.151.160.9-19999"
-    type: ss
-    server: "193.151.160.9"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-151.241.19.36-19999-2"
     type: ss
     server: "151.241.19.36"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-37.19.198.160-443"
+  - name: "ss-193.151.163.18-19999"
     type: ss
-    server: "37.19.198.160"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-82.38.31.205-8080"
+    server: "193.151.163.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-82.38.31.186-8080"
     type: ss
-    server: "82.38.31.205"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-193.29.139.223-8080"
-    type: ss
-    server: "193.29.139.223"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.193-8080"
-    type: ss
-    server: "82.38.31.193"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.217-8080"
-    type: ss
-    server: "82.38.31.217"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.207-8080"
-    type: ss
-    server: "82.38.31.207"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.187-8080"
-    type: ss
-    server: "82.38.31.187"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.176-8080"
-    type: ss
-    server: "82.38.31.176"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.180-8080"
-    type: ss
-    server: "82.38.31.180"
+    server: "82.38.31.186"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
@@ -1698,105 +1727,9 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.202-8080"
-    type: ss
-    server: "82.38.31.202"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.216-8080"
-    type: ss
-    server: "82.38.31.216"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-193.29.139.147-8080"
-    type: ss
-    server: "193.29.139.147"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.179-8080"
-    type: ss
-    server: "82.38.31.179"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-193.29.139.168-8080"
-    type: ss
-    server: "193.29.139.168"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
-  - name: "ss-82.38.31.210-8080"
-    type: ss
-    server: "82.38.31.210"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.214-8080"
-    type: ss
-    server: "82.38.31.214"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-185.164.175.81-19999-2"
-    type: ss
-    server: "185.164.175.81"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-82.38.31.191-8080"
-    type: ss
-    server: "82.38.31.191"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-82.38.31.190-8080"
     type: ss
     server: "82.38.31.190"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-202.50.253.99-19999-2"
-    type: ss
-    server: "202.50.253.99"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.90-19999-2"
-    type: ss
-    server: "202.50.253.90"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.18-19999-3"
-    type: ss
-    server: "202.50.253.18"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.81-19999-3"
-    type: ss
-    server: "202.50.253.81"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-82.38.31.203-8080"
-    type: ss
-    server: "82.38.31.203"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.206-8080"
-    type: ss
-    server: "82.38.31.206"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.189-8080"
-    type: ss
-    server: "82.38.31.189"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
@@ -1806,69 +1739,177 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.194-8080"
-    type: ss
-    server: "82.38.31.194"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-202.50.253.72-19999-2"
-    type: ss
-    server: "202.50.253.72"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.63-19999-2"
-    type: ss
-    server: "202.50.253.63"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-82.38.31.184-8080"
-    type: ss
-    server: "82.38.31.184"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.186-8080"
-    type: ss
-    server: "82.38.31.186"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-82.38.31.192-8080"
-    type: ss
-    server: "82.38.31.192"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-82.38.31.212-8080"
     type: ss
     server: "82.38.31.212"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.191-8080"
+    type: ss
+    server: "82.38.31.191"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.203-8080"
+    type: ss
+    server: "82.38.31.203"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.179-8080"
+    type: ss
+    server: "82.38.31.179"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.210-8080"
+    type: ss
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.202-8080"
+    type: ss
+    server: "82.38.31.202"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.187-8080"
+    type: ss
+    server: "82.38.31.187"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.216-8080"
+    type: ss
+    server: "82.38.31.216"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.193-8080"
+    type: ss
+    server: "82.38.31.193"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.184-8080"
+    type: ss
+    server: "82.38.31.184"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.189-8080"
+    type: ss
+    server: "82.38.31.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-193.29.139.168-8080"
+    type: ss
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+  - name: "ss-82.38.31.214-8080"
+    type: ss
+    server: "82.38.31.214"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.110.60.9-19999-2"
+    type: ss
+    server: "82.110.60.9"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-82.38.31.180-8080"
+    type: ss
+    server: "82.38.31.180"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-202.50.253.90-19999-2"
+    type: ss
+    server: "202.50.253.90"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-202.50.253.27-19999-2"
     type: ss
     server: "202.50.253.27"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.45-19999-2"
+  - name: "ss-193.29.139.147-8080"
     type: ss
-    server: "202.50.253.45"
+    server: "193.29.139.147"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-202.50.253.99-19999-2"
+    type: ss
+    server: "202.50.253.99"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.54-19999-2"
+  - name: "ss-82.38.31.217-8080"
+    type: ss
+    server: "82.38.31.217"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.205-8080"
+    type: ss
+    server: "82.38.31.205"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-202.50.253.18-19999-3"
+    type: ss
+    server: "202.50.253.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-82.38.31.192-8080"
+    type: ss
+    server: "82.38.31.192"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-185.164.175.81-19999-2"
+    type: ss
+    server: "185.164.175.81"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-202.50.253.81-19999-2"
+    type: ss
+    server: "202.50.253.81"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-193.29.139.223-8080"
+    type: ss
+    server: "193.29.139.223"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-202.50.253.63-19999-2"
+    type: ss
+    server: "202.50.253.63"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-202.50.253.54-19999-3"
     type: ss
     server: "202.50.253.54"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-202.50.253.36-19999-2"
+  - name: "ss-202.50.253.72-19999-2"
     type: ss
-    server: "202.50.253.36"
+    server: "202.50.253.72"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -1878,106 +1919,9 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-172.111.36.123-19999"
+  - name: "ss-167.88.63.99-19999"
     type: ss
-    server: "172.111.36.123"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "trojan-167.88.61.52-443"
-    type: trojan
-    server: "167.88.61.52"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    tls: true
-    servername: "courses.browseseniorrolesandenhanceyourcareertoday.com#🇺🇸US-167.88.61.52-0175"
-  - name: "ss-156.146.38.169-443"
-    type: ss
-    server: "156.146.38.169"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-146.70.61.37-8080"
-    type: ss
-    server: "146.70.61.37"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-  - name: "ss-38.91.107.188-19999"
-    type: ss
-    server: "38.91.107.188"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-57.129.83.85-19999-2"
-    type: ss
-    server: "57.129.83.85"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-38.128.66.32-19999"
-    type: ss
-    server: "38.128.66.32"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-137.184.89.151-19999"
-    type: ss
-    server: "137.184.89.151"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-156.146.38.170-443"
-    type: ss
-    server: "156.146.38.170"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-156.146.38.168-443"
-    type: ss
-    server: "156.146.38.168"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-38.91.100.39-19999"
-    type: ss
-    server: "38.91.100.39"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-82.110.60.9-19999-2"
-    type: ss
-    server: "82.110.60.9"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-169.197.142.68-19999"
-    type: ss
-    server: "169.197.142.68"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-149.40.57.134-19999"
-    type: ss
-    server: "149.40.57.134"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-79.127.139.242-19999-2"
-    type: ss
-    server: "79.127.139.242"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-162.251.62.31-19999"
-    type: ss
-    server: "162.251.62.31"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-216.106.178.169-19999"
-    type: ss
-    server: "216.106.178.169"
+    server: "167.88.63.99"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -1987,15 +1931,76 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-109.201.152.181-443"
+  - name: "ss-38.121.43.225-19999"
     type: ss
-    server: "109.201.152.181"
+    server: "38.121.43.225"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-172.111.36.123-19999"
+    type: ss
+    server: "172.111.36.123"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-151.241.19.29-19999-2"
+    type: ss
+    server: "151.241.19.29"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-156.146.38.168-443"
+    type: ss
+    server: "156.146.38.168"
     port: 443
-    cipher: "aes-128-cfb"
+    cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-167.88.63.99-19999"
+  - name: "trojan-167.88.61.52-443"
+    type: trojan
+    server: "167.88.61.52"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    servername: "courses.browseseniorrolesandenhanceyourcareertoday.com#🇺🇸US-167.88.61.52-0175"
+  - name: "ss-202.50.253.36-19999-2"
     type: ss
-    server: "167.88.63.99"
+    server: "202.50.253.36"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-156.146.38.169-443"
+    type: ss
+    server: "156.146.38.169"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-156.146.38.170-443"
+    type: ss
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-202.50.253.45-19999-2"
+    type: ss
+    server: "202.50.253.45"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-57.129.83.85-19999-2"
+    type: ss
+    server: "57.129.83.85"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-82.38.31.194-8080"
+    type: ss
+    server: "82.38.31.194"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-38.121.43.18-19999"
+    type: ss
+    server: "38.121.43.18"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2005,63 +2010,39 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-149.40.57.138-19999"
+    type: ss
+    server: "149.40.57.138"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-79.127.139.242-19999-2"
+    type: ss
+    server: "79.127.139.242"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-38.22.17.219-19999"
     type: ss
     server: "38.22.17.219"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-38.121.43.18-19999"
+  - name: "ss-149.40.57.134-19999"
     type: ss
-    server: "38.121.43.18"
+    server: "149.40.57.134"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-172.99.189.142-19999-2"
+  - name: "ss-216.106.178.169-19999"
     type: ss
-    server: "172.99.189.142"
+    server: "216.106.178.169"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-38.121.43.225-19999"
+  - name: "ss-137.184.89.151-19999"
     type: ss
-    server: "38.121.43.225"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-95.215.201.18-19999"
-    type: ss
-    server: "95.215.201.18"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-38.109.228.110-19999-2"
-    type: ss
-    server: "38.109.228.110"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-186.190.215.251-19999-2"
-    type: ss
-    server: "186.190.215.251"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-167.17.64.22-19999-2"
-    type: ss
-    server: "167.17.64.22"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-198.244.201.129-19999-2"
-    type: ss
-    server: "198.244.201.129"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-149.40.57.138-19999"
-    type: ss
-    server: "149.40.57.138"
+    server: "137.184.89.151"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2071,51 +2052,33 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-138.199.55.243-19999-2"
-    type: ss
-    server: "138.199.55.243"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-149.40.57.133-19999"
-    type: ss
-    server: "149.40.57.133"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-173.244.56.9-443"
     type: ss
     server: "173.244.56.9"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-23.162.152.22-19999-2"
+  - name: "ss-172.99.189.142-19999-2"
     type: ss
-    server: "23.162.152.22"
+    server: "172.99.189.142"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-15.235.164.133-19999-2"
+  - name: "ss-38.91.107.188-19999"
     type: ss
-    server: "15.235.164.133"
+    server: "38.91.107.188"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-173.244.56.6-443"
+  - name: "ss-138.199.55.243-19999-2"
     type: ss
-    server: "173.244.56.6"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-142.202.51.22-19999-2"
-    type: ss
-    server: "142.202.51.22"
+    server: "138.199.55.243"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-23.166.88.127-19999-2"
+  - name: "ss-162.251.62.31-19999"
     type: ss
-    server: "23.166.88.127"
+    server: "162.251.62.31"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2125,15 +2088,51 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-38.109.228.110-19999-2"
+    type: ss
+    server: "38.109.228.110"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-173.244.56.6-443"
+    type: ss
+    server: "173.244.56.6"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-95.215.201.18-19999"
+    type: ss
+    server: "95.215.201.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-198.244.202.215-19999-2"
     type: ss
     server: "198.244.202.215"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-149.88.106.73-19999"
+  - name: "ss-198.244.201.129-19999-2"
     type: ss
-    server: "149.88.106.73"
+    server: "198.244.201.129"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-38.91.100.39-19999"
+    type: ss
+    server: "38.91.100.39"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-169.197.142.68-19999"
+    type: ss
+    server: "169.197.142.68"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-38.128.66.32-19999"
+    type: ss
+    server: "38.128.66.32"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2143,15 +2142,15 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-172.111.38.72-19999"
+  - name: "ss-137.184.174.93-8080"
     type: ss
-    server: "172.111.38.72"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-149.88.106.74-19999-2"
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "ss-23.162.152.22-19999-2"
     type: ss
-    server: "149.88.106.74"
+    server: "23.162.152.22"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2161,15 +2160,75 @@ proxies:
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
+  - name: "ss-149.22.95.183-443"
+    type: ss
+    server: "149.22.95.183"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-149.88.106.73-19999"
+    type: ss
+    server: "149.88.106.73"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-167.17.64.22-19999-2"
+    type: ss
+    server: "167.17.64.22"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-186.190.215.251-19999-2"
+    type: ss
+    server: "186.190.215.251"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-158.173.20.171-443"
     type: ss
     server: "158.173.20.171"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-82.38.31.49-8080"
+  - name: "ss-172.111.38.72-19999"
     type: ss
-    server: "82.38.31.49"
+    server: "172.111.38.72"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-149.40.57.133-19999"
+    type: ss
+    server: "149.40.57.133"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-149.88.106.74-19999-2"
+    type: ss
+    server: "149.88.106.74"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-142.202.51.22-19999-2"
+    type: ss
+    server: "142.202.51.22"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-109.201.152.181-443"
+    type: ss
+    server: "109.201.152.181"
+    port: 443
+    cipher: "aes-128-cfb"
+    password: "shadowsocks"
+  - name: "ss-23.166.88.127-19999-2"
+    type: ss
+    server: "23.166.88.127"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-82.38.31.48-8080"
+    type: ss
+    server: "82.38.31.48"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -2179,9 +2238,9 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.62-8080"
+  - name: "ss-82.38.31.47-8080"
     type: ss
-    server: "82.38.31.62"
+    server: "82.38.31.47"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -2191,27 +2250,15 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.48-8080"
-    type: ss
-    server: "82.38.31.48"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
   - name: "ss-82.38.31.46-8080-2"
     type: ss
     server: "82.38.31.46"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.66-8080"
+  - name: "ss-82.38.31.49-8080"
     type: ss
-    server: "82.38.31.66"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.47-8080"
-    type: ss
-    server: "82.38.31.47"
+    server: "82.38.31.49"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -2221,10 +2268,22 @@ proxies:
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-  - name: "ss-82.38.31.162-443"
+  - name: "ss-82.38.31.62-8080"
+    type: ss
+    server: "82.38.31.62"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.162-443-2"
     type: ss
     server: "82.38.31.162"
     port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "ss-82.38.31.66-8080"
+    type: ss
+    server: "82.38.31.66"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
   - name: "ss-149.22.87.241-443-2"
@@ -2245,21 +2304,9 @@ proxies:
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-167.17.64.27-19999-2"
+  - name: "ss-15.235.164.133-19999-2"
     type: ss
-    server: "167.17.64.27"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-38.114.120.221-19999-2"
-    type: ss
-    server: "38.114.120.221"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-167.17.64.175-19999-2"
-    type: ss
-    server: "167.17.64.175"
+    server: "15.235.164.133"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2269,30 +2316,56 @@ proxies:
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-38.114.120.221-19999-2"
+    type: ss
+    server: "38.114.120.221"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "vmess-47.86.90.31-443-2"
+    type: vmess
+    server: "47.86.90.31"
+    port: 443
+    uuid: "234a8041-2b4d-44a3-a8d8-523cbfd58dc4"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "bywxdhirqkjj8xaz.v.3dns.vip"
+    network: ws
+    ws-opts:
+      "path": "/ws-vmess"
+      headers:
+        "Host": "bywxdhirqkjj8xaz.v.3dns.vip"
+  - name: "ss-167.17.64.175-19999-2"
+    type: ss
+    server: "167.17.64.175"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-102.37.156.224-443-2"
     type: ss
     server: "102.37.156.224"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "aduB9HGxQHjA2SBMRjkHX6"
-  - name: "ss-149.22.95.183-443"
+  - name: "ss-167.17.64.27-19999-2"
     type: ss
-    server: "149.22.95.183"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    server: "167.17.64.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "ss-102.133.165.160-16233-2"
     type: ss
     server: "102.133.165.160"
     port: 16233
     cipher: "chacha20-ietf-poly1305"
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
-  - name: "ss-82.38.31.199-8080"
+  - name: "ss-51.222.141.125-445-2"
     type: ss
-    server: "82.38.31.199"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    server: "51.222.141.125"
+    port: 445
+    cipher: "aes-256-gcm"
+    password: "zDNVedRFPQexG9v"
   - name: "ss-51.222.12.127-445-2"
     type: ss
     server: "51.222.12.127"
@@ -2305,150 +2378,30 @@ proxies:
     port: 40647
     cipher: "aes-256-gcm"
     password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
-  - name: "ss-5.188.181.201-9003"
+  - name: "ss-p141.panda001.net-4652"
     type: ss
-    server: "5.188.181.201"
-    port: 9003
+    server: "p141.panda001.net"
+    port: 4652
     cipher: "aes-256-cfb"
-    password: "JdmRK9gMEqFgs8nP"
-  - name: "ss-217.30.10.70-9040"
+    password: "qwerREWQ@@"
+  - name: "ss-211.178.105.134-6123"
     type: ss
-    server: "217.30.10.70"
-    port: 9040
+    server: "211.178.105.134"
+    port: 6123
     cipher: "aes-256-cfb"
-    password: "p9z5BVADH2YFs3MN"
-  - name: "ss-217.30.10.70-9059"
-    type: ss
-    server: "217.30.10.70"
-    port: 9059
-    cipher: "aes-256-cfb"
-    password: "9XwYyZsK8SNzQDtY"
-  - name: "ss-51.222.141.125-445-2"
-    type: ss
-    server: "51.222.141.125"
-    port: 445
-    cipher: "aes-256-gcm"
-    password: "zDNVedRFPQexG9v"
-  - name: "ss-5.188.181.201-9042"
-    type: ss
-    server: "5.188.181.201"
-    port: 9042
-    cipher: "aes-256-cfb"
-    password: "S7KwUu7yBy58S3Ga"
-  - name: "ss-5.188.181.201-9030"
-    type: ss
-    server: "5.188.181.201"
-    port: 9030
-    cipher: "aes-256-cfb"
-    password: "GeregetR8cvQHzYr"
-  - name: "ss-5.188.181.201-9037"
-    type: ss
-    server: "5.188.181.201"
-    port: 9037
-    cipher: "aes-256-cfb"
-    password: "TN2YqghxeFDKZfLU"
-  - name: "ss-5.188.181.201-9041"
-    type: ss
-    server: "5.188.181.201"
-    port: 9041
-    cipher: "aes-256-cfb"
-    password: "U6qnYRhfyDmn8sgn"
-  - name: "ss-5.188.181.201-9031"
-    type: ss
-    server: "5.188.181.201"
-    port: 9031
-    cipher: "aes-256-cfb"
-    password: "BwcAUZk8hUFAkDGN"
-  - name: "vmess-172.67.187.145-80"
-    type: vmess
-    server: "172.67.187.145"
-    port: 80
-    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/ws"
-      headers:
-        "Host": "vmess.lbw666.dpdns.org"
-  - name: "ss-jpa.123069.xyz-53758"
-    type: ss
-    server: "jpa.123069.xyz"
-    port: 53758
-    cipher: "aes-128-gcm"
-    password: "Bwlqh7GcFB"
+    password: "qwerREWQ@@"
   - name: "ss-51.222.136.236-8882-2"
     type: ss
     server: "51.222.136.236"
     port: 8882
     cipher: "aes-256-gcm"
     password: "kDWvXYZoTBcGkC4"
-  - name: "ss-51.79.85.185-8118-2"
-    type: ss
-    server: "51.79.85.185"
-    port: 8118
-    cipher: "aes-256-gcm"
-    password: "cdBIDV42DCwnfIN"
-  - name: "vmess-132.145.80.230-80"
-    type: vmess
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/cctv13.m3u8"
-      headers:
-        "Host": "kr02.a0a.xyz"
-  - name: "ss-15.204.247.206-4444"
-    type: ss
-    server: "15.204.247.206"
-    port: 4444
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
   - name: "ss-51.79.49.116-8882-2"
     type: ss
     server: "51.79.49.116"
     port: 8882
     cipher: "aes-256-gcm"
     password: "kDWvXYZoTBcGkC4"
-  - name: "ss-51.222.200.165-5000-2"
-    type: ss
-    server: "51.222.200.165"
-    port: 5000
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-  - name: "ss-168.138.205.100-53758"
-    type: ss
-    server: "168.138.205.100"
-    port: 53758
-    cipher: "aes-128-gcm"
-    password: "Bwlqh7GcFB"
-  - name: "ss-94.156.250.148-7001-2"
-    type: ss
-    server: "94.156.250.148"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-  - name: "vmess-145.239.55.210-80"
-    type: vmess
-    server: "145.239.55.210"
-    port: 80
-    uuid: "2bc80e77-9590-4ded-a48b-0eda493f611b"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
-  - name: "ss-82.38.31.219-8080"
-    type: ss
-    server: "82.38.31.219"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "vmess-168.110.63.247-8081"
     type: vmess
     server: "168.110.63.247"
@@ -2459,6 +2412,66 @@ proxies:
     network: ws
     ws-opts:
       "path": "/vless"
+  - name: "ss-82.38.31.176-8080"
+    type: ss
+    server: "82.38.31.176"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-5.188.181.201-9041"
+    type: ss
+    server: "5.188.181.201"
+    port: 9041
+    cipher: "aes-256-cfb"
+    password: "U6qnYRhfyDmn8sgn"
+  - name: "ss-51.222.200.165-5000-2"
+    type: ss
+    server: "51.222.200.165"
+    port: 5000
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+  - name: "ss-82.38.31.199-8080"
+    type: ss
+    server: "82.38.31.199"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-51.79.85.185-8118-2"
+    type: ss
+    server: "51.79.85.185"
+    port: 8118
+    cipher: "aes-256-gcm"
+    password: "cdBIDV42DCwnfIN"
+  - name: "ss-5.188.181.201-9029"
+    type: ss
+    server: "5.188.181.201"
+    port: 9029
+    cipher: "aes-256-cfb"
+    password: "dU3DSNS8wYPXzEKw"
+  - name: "ss-5.188.181.201-9040"
+    type: ss
+    server: "5.188.181.201"
+    port: 9040
+    cipher: "aes-256-cfb"
+    password: "p9z5BVADH2YFs3MN"
+  - name: "ss-5.188.181.201-9037"
+    type: ss
+    server: "5.188.181.201"
+    port: 9037
+    cipher: "aes-256-cfb"
+    password: "TN2YqghxeFDKZfLU"
+  - name: "ss-5.188.181.201-9030"
+    type: ss
+    server: "5.188.181.201"
+    port: 9030
+    cipher: "aes-256-cfb"
+    password: "GeregetR8cvQHzYr"
+  - name: "ss-82.38.31.218-8080"
+    type: ss
+    server: "82.38.31.218"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
   - name: "ss-5.188.181.201-9027"
     type: ss
     server: "5.188.181.201"
@@ -2471,166 +2484,282 @@ proxies:
     port: 9014
     cipher: "aes-256-cfb"
     password: "KnJGad3FqTvjqbaX"
-  - name: "ss-5.188.181.201-9025"
-    type: ss
-    server: "5.188.181.201"
-    port: 9025
-    cipher: "aes-256-cfb"
-    password: "XPtzA9sCug3SPR4c"
-  - name: "ss-5.188.181.201-9001"
-    type: ss
-    server: "5.188.181.201"
-    port: 9001
-    cipher: "aes-256-cfb"
-    password: "UkXRsXvR6buDMG2Y"
   - name: "ss-5.188.181.201-9054"
     type: ss
     server: "5.188.181.201"
     port: 9054
     cipher: "aes-256-cfb"
     password: "VcFuyXvND2yQWSFY"
+  - name: "ss-5.188.181.201-9001"
+    type: ss
+    server: "5.188.181.201"
+    port: 9001
+    cipher: "aes-256-cfb"
+    password: "UkXRsXvR6buDMG2Y"
+  - name: "ss-15.204.247.206-4444"
+    type: ss
+    server: "15.204.247.206"
+    port: 4444
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
   - name: "ss-5.188.181.201-9019"
     type: ss
     server: "5.188.181.201"
     port: 9019
     cipher: "aes-256-cfb"
     password: "GA9KzeEgvfxNrgmM"
-  - name: "ss-82.38.31.218-8080"
+  - name: "ss-jpa.123069.xyz-53758"
     type: ss
-    server: "82.38.31.218"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-  - name: "ss-217.30.10.70-9084"
-    type: ss
-    server: "217.30.10.70"
-    port: 9084
-    cipher: "aes-256-cfb"
-    password: "c3NtHJ5ujV2tGDfj"
-  - name: "ss-217.30.10.70-9018"
-    type: ss
-    server: "217.30.10.70"
-    port: 9018
-    cipher: "aes-256-cfb"
-    password: "fG2artUmHfNT2cX7"
-  - name: "ss-141.98.101.179-443"
-    type: ss
-    server: "141.98.101.179"
-    port: 443
+    server: "jpa.123069.xyz"
+    port: 53758
     cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-185.213.23.63-990-2"
+    password: "Bwlqh7GcFB"
+  - name: "ss-5.188.181.201-9025"
     type: ss
-    server: "185.213.23.63"
-    port: 990
-    cipher: "chacha20-ietf-poly1305"
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-  - name: "ss-p141.panda001.net-4652"
-    type: ss
-    server: "p141.panda001.net"
-    port: 4652
+    server: "5.188.181.201"
+    port: 9025
     cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-  - name: "ss-79.127.184.104-19999-2"
-    type: ss
-    server: "79.127.184.104"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "ss-152.53.1.57-8388-2"
-    type: ss
-    server: "152.53.1.57"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
-  - name: "ss-23.230.52.119-42878-2"
-    type: ss
-    server: "23.230.52.119"
-    port: 42878
-    cipher: "chacha20-ietf-poly1305"
-    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
-  - name: "ss-198.98.53.130-443"
-    type: ss
-    server: "198.98.53.130"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "eDfN7SODQceIOmIAbtJJtK"
+    password: "XPtzA9sCug3SPR4c"
   - name: "ss-141.98.101.182-443"
     type: ss
     server: "141.98.101.182"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-  - name: "ss-141.98.101.181-443-2"
-    type: ss
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-141.98.101.178-443-2"
-    type: ss
-    server: "141.98.101.178"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "ss-156.67.120.205-51628-2"
-    type: ss
-    server: "156.67.120.205"
-    port: 51628
-    cipher: "chacha20-ietf-poly1305"
-    password: "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
-  - name: "ss-211.178.105.134-6123"
-    type: ss
-    server: "211.178.105.134"
-    port: 6123
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-  - name: "vmess-156.245.232.239-35043"
-    type: vmess
-    server: "156.245.232.239"
-    port: 35043
-    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/"
-  - name: "vmess-132.145.80.230-80-2"
-    type: vmess
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "kr02.a0a.xyz"
-  - name: "ss-217.30.10.70-9045"
+  - name: "ss-217.30.10.70-9059"
     type: ss
     server: "217.30.10.70"
-    port: 9045
+    port: 9059
     cipher: "aes-256-cfb"
-    password: "Lp27rqyJq72bZsqX"
+    password: "9XwYyZsK8SNzQDtY"
+  - name: "ss-217.30.10.70-9018"
+    type: ss
+    server: "217.30.10.70"
+    port: 9018
+    cipher: "aes-256-cfb"
+    password: "fG2artUmHfNT2cX7"
+  - name: "ss-217.30.10.70-9084"
+    type: ss
+    server: "217.30.10.70"
+    port: 9084
+    cipher: "aes-256-cfb"
+    password: "c3NtHJ5ujV2tGDfj"
   - name: "ss-217.30.10.70-9098"
     type: ss
     server: "217.30.10.70"
     port: 9098
     cipher: "aes-256-cfb"
     password: "aLpQtfEZe445QyHk"
-  - name: "ss-5.188.181.201-9029"
+  - name: "ss-217.30.10.70-9045"
+    type: ss
+    server: "217.30.10.70"
+    port: 9045
+    cipher: "aes-256-cfb"
+    password: "Lp27rqyJq72bZsqX"
+  - name: "ss-217.30.10.70-9040"
+    type: ss
+    server: "217.30.10.70"
+    port: 9040
+    cipher: "aes-256-cfb"
+    password: "p9z5BVADH2YFs3MN"
+  - name: "ss-82.38.31.219-8080"
+    type: ss
+    server: "82.38.31.219"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-185.213.23.63-990-2"
+    type: ss
+    server: "185.213.23.63"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+  - name: "ss-198.98.53.130-443"
+    type: ss
+    server: "198.98.53.130"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "eDfN7SODQceIOmIAbtJJtK"
+  - name: "ss-141.98.101.178-443-2"
+    type: ss
+    server: "141.98.101.178"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "vmess-172.67.187.145-80"
+    type: vmess
+    server: "172.67.187.145"
+    port: 80
+    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/ws"
+      headers:
+        "Host": "vmess.lbw666.dpdns.org"
+  - name: "ss-79.127.184.104-19999-2"
+    type: ss
+    server: "79.127.184.104"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "ss-130.49.189.158-43558-2"
+    type: ss
+    server: "130.49.189.158"
+    port: 43558
+    cipher: "chacha20-ietf-poly1305"
+    password: "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+  - name: "ss-23.230.52.119-42878-2"
+    type: ss
+    server: "23.230.52.119"
+    port: 42878
+    cipher: "chacha20-ietf-poly1305"
+    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
+  - name: "ss-209.248.57.105-8388-2"
+    type: ss
+    server: "209.248.57.105"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "AMok40FfaM+Ikwre16psBpVk6JHxsQZw"
+  - name: "ss-141.98.101.179-443"
+    type: ss
+    server: "141.98.101.179"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-152.53.1.57-8388-2"
+    type: ss
+    server: "152.53.1.57"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
+  - name: "ss-141.98.101.181-443-2"
+    type: ss
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "ss-168.138.205.100-53758"
+    type: ss
+    server: "168.138.205.100"
+    port: 53758
+    cipher: "aes-128-gcm"
+    password: "Bwlqh7GcFB"
+  - name: "vmess-47.244.120.197-44867-2"
+    type: vmess
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/arki"
+      headers:
+        "Host": "47.244.120.197"
+  - name: "vmess-47.244.120.197-23026"
+    type: vmess
+    server: "47.244.120.197"
+    port: 23026
+    uuid: "b9de1bc9-baa7-41ac-86f7-ccd59695cb21"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/arki"
+      headers:
+        "Host": "47.244.120.197"
+  - name: "ss-5.188.181.201-9042"
     type: ss
     server: "5.188.181.201"
-    port: 9029
+    port: 9042
     cipher: "aes-256-cfb"
-    password: "dU3DSNS8wYPXzEKw"
+    password: "S7KwUu7yBy58S3Ga"
+  - name: "vmess-145.239.55.210-80"
+    type: vmess
+    server: "145.239.55.210"
+    port: 80
+    uuid: "2bc80e77-9590-4ded-a48b-0eda493f611b"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+  - name: "ss-94.156.250.148-7001-2"
+    type: ss
+    server: "94.156.250.148"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+  - name: "ss-5.188.181.201-9003"
+    type: ss
+    server: "5.188.181.201"
+    port: 9003
+    cipher: "aes-256-cfb"
+    password: "JdmRK9gMEqFgs8nP"
   - name: "ss-217.30.10.70-9044"
     type: ss
     server: "217.30.10.70"
     port: 9044
     cipher: "aes-256-cfb"
     password: "KBGjZYcy4SyRShmA"
+  - name: "vmess-168.110.63.247-8081-2"
+    type: vmess
+    server: "168.110.63.247"
+    port: 8081
+    uuid: "c3bde296-8e44-4b8c-a325-577d5b3cc7c8"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/"
+  - name: "ss-82.38.31.206-8080"
+    type: ss
+    server: "82.38.31.206"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "ss-82.38.31.207-8080"
+    type: ss
+    server: "82.38.31.207"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+  - name: "vmess-172.66.0.1-443"
+    type: vmess
+    server: "172.66.0.1"
+    port: 443
+    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "vmess.lbw666.dpdns.org"
+  - name: "ss-146.70.61.37-8080"
+    type: ss
+    server: "146.70.61.37"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "vmess-172.67.161.144-8443"
+    type: vmess
+    server: "172.67.161.144"
+    port: 8443
+    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/"
+      headers:
+        "Host": "v2ray1.dozapp.xyz"
   - name: "vmess-gg1.tanglu.xyz-80"
     type: vmess
     server: "gg1.tanglu.xyz"
@@ -2655,16 +2784,6 @@ proxies:
       "path": "/api/v3/download.getFile"
       headers:
         "Host": "ssrsub.v01.asuka.buzz"
-  - name: "vmess-168.110.63.247-8081-2"
-    type: vmess
-    server: "168.110.63.247"
-    port: 8081
-    uuid: "c3bde296-8e44-4b8c-a325-577d5b3cc7c8"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/"
   - name: "trojan-31.72img.xyz-443"
     type: trojan
     server: "31.72img.xyz"
@@ -2694,134 +2813,13 @@ proxies:
       "path": "/"
       headers:
         "Host": "w.800876.xyz"
-  - name: "vmess-172.66.0.1-443"
-    type: vmess
-    server: "172.66.0.1"
-    port: 443
-    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "vmess.lbw666.dpdns.org"
-  - name: "vmess-172.64.148.111-443"
-    type: vmess
-    server: "172.64.148.111"
-    port: 443
-    uuid: "f33957e8-372e-4fba-99ed-f4db32cce9e5"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/ray"
-      headers:
-        "Host": "fr2.cfcdn4.xyz"
-  - name: "vmess-172.67.161.144-8443"
-    type: vmess
-    server: "172.67.161.144"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/"
-      headers:
-        "Host": "v2ray1.dozapp.xyz"
-  - name: "vmess-141.101.114.25-443"
-    type: vmess
-    server: "141.101.114.25"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/ray"
-      headers:
-        "Host": "lg30.cfcdn3.xyz"
-  - name: "trojan-60.72img.xyz-443"
-    type: trojan
-    server: "60.72img.xyz"
-    port: 443
-    password: "81d93f62-15a2-4994-adb9-0b5d906aac7e"
-  - name: "vmess-141.101.114.133-443"
-    type: vmess
-    server: "141.101.114.133"
-    port: 443
-    uuid: "fcfaec91-6096-44d8-956c-7868d9e874b1"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/ray"
-      headers:
-        "Host": "lg1.cfcdn1.xyz"
-  - name: "vmess-lu1.gogogoo.cyou-443"
-    type: vmess
-    server: "lu1.gogogoo.cyou"
-    port: 443
-    uuid: "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/go"
-      headers:
-        "Host": "lu1.gogogoo.cyou"
-  - name: "vmess-198.41.203.5-443"
-    type: vmess
-    server: "198.41.203.5"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/ray"
-      headers:
-        "Host": "lg30.cfcdn3.xyz"
-  - name: "ss-209.248.57.105-8388-2"
+  - name: "ss-156.67.120.205-51628-2"
     type: ss
-    server: "209.248.57.105"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "AMok40FfaM+Ikwre16psBpVk6JHxsQZw"
-  - name: "vmess-198.41.203.1-443"
-    type: vmess
-    server: "198.41.203.1"
-    port: 443
-    uuid: "267a9f38-40d8-4ed6-ab58-cafc67e9c933"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      "path": "/VHONOFZ3"
-      headers:
-        "Host": "lg1.cfcdn2.xyz"
-  - name: "vmess-47.88.52.220-80-2"
-    type: vmess
-    server: "47.88.52.220"
-    port: 80
-    uuid: "c9fe8359-5878-4413-c80e-3ffeabc47b02"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/?ed=2048"
-      headers:
-        "Host": "w.800876.xyz"
-  - name: "vmess-47.86.90.31-443-2"
+    server: "156.67.120.205"
+    port: 51628
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
+  - name: "vmess-47.86.90.31-443-3"
     type: vmess
     server: "47.86.90.31"
     port: 443
@@ -2835,20 +2833,33 @@ proxies:
       "path": "/"
       headers:
         "Host": "bywxdhirqkjj8xaz.v.3dns.vip"
-  - name: "vmess-198.41.203.3-443"
+  - name: "vmess-172.64.148.111-443"
     type: vmess
-    server: "198.41.203.3"
+    server: "172.64.148.111"
     port: 443
-    uuid: "33aa57df-1c93-4318-9fce-e850437ee781"
+    uuid: "f33957e8-372e-4fba-99ed-f4db32cce9e5"
     alterId: 0
     cipher: "auto"
     tls: true
     network: ws
     ws-opts:
-      "path": "/dongtaiwang.com"
+      "path": "/ray"
       headers:
-        "Host": "lg1.cfcdn3.xyz"
-  - name: "vmess-47.244.120.197-44867-2"
+        "Host": "fr2.cfcdn4.xyz"
+  - name: "vmess-141.101.114.25-443"
+    type: vmess
+    server: "141.101.114.25"
+    port: 443
+    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/ray"
+      headers:
+        "Host": "lg30.cfcdn3.xyz"
+  - name: "vmess-47.244.120.197-44867-3"
     type: vmess
     server: "47.244.120.197"
     port: 44867
@@ -2860,6 +2871,11 @@ proxies:
       "path": "/"
       headers:
         "Host": "47.244.120.197"
+  - name: "trojan-60.72img.xyz-443"
+    type: trojan
+    server: "60.72img.xyz"
+    port: 443
+    password: "81d93f62-15a2-4994-adb9-0b5d906aac7e"
   - name: "vmess-24.72img.xyz-443"
     type: vmess
     server: "24.72img.xyz"
@@ -3016,11 +3032,11 @@ proxies:
     password: "80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d"
     tls: true
     servername: "jp1.sanfen001.pics#🏁RELAY-104.21.91.112-0246"
-  - name: "vmess-138.2.122.225-443"
+  - name: "vmess-141.101.114.133-443"
     type: vmess
-    server: "138.2.122.225"
+    server: "141.101.114.133"
     port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
+    uuid: "fcfaec91-6096-44d8-956c-7868d9e874b1"
     alterId: 0
     cipher: "auto"
     tls: true
@@ -3028,7 +3044,7 @@ proxies:
     ws-opts:
       "path": "/ray"
       headers:
-        "Host": "lg30.cfcdn3.xyz"
+        "Host": "lg1.cfcdn1.xyz"
   - name: "vmess-cl-gl2d3b3310.gcdn.co-80"
     type: vmess
     server: "cl-gl2d3b3310.gcdn.co"
@@ -3041,18 +3057,19 @@ proxies:
       "path": "/"
       headers:
         "Host": "tls.weoworks.ml\\r\\ntls.weoworks.ml"
-  - name: "vmess-www.digitalocean.com-80-3"
+  - name: "vmess-lu1.gogogoo.cyou-443"
     type: vmess
-    server: "www.digitalocean.com"
-    port: 80
-    uuid: "0db0a479-8993-4e5b-a002-629e9e0b40e5"
+    server: "lu1.gogogoo.cyou"
+    port: 443
+    uuid: "db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda"
     alterId: 0
     cipher: "auto"
+    tls: true
     network: ws
     ws-opts:
-      "path": "/api/v3/download.getFile"
+      "path": "/go"
       headers:
-        "Host": "ssrsub.v02.asuka.buzz"
+        "Host": "lu1.gogogoo.cyou"
   - name: "vmess-185.162.228.229-443"
     type: vmess
     server: "185.162.228.229"
@@ -3125,7 +3142,7 @@ proxies:
     network: ws
     ws-opts:
       "path": "/A2DJOPFT"
-  - name: "vmess-198.41.203.5-443-2"
+  - name: "vmess-198.41.203.5-443"
     type: vmess
     server: "198.41.203.5"
     port: 443
@@ -3313,6 +3330,19 @@ proxies:
     network: ws
     ws-opts:
       "path": "/tandung288.click"
+  - name: "vmess-198.41.203.5-443-2"
+    type: vmess
+    server: "198.41.203.5"
+    port: 443
+    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/ray"
+      headers:
+        "Host": "lg30.cfcdn3.xyz"
   - name: "vmess-104.18.0.1-8443"
     type: vmess
     server: "104.18.0.1"
@@ -3327,43 +3357,37 @@ proxies:
       "path": "/lMnsZUN4/"
       headers:
         "Host": "v2ray1.dozapp.xyz"
-  - name: "ss-130.49.189.158-43558-2"
-    type: ss
-    server: "130.49.189.158"
-    port: 43558
-    cipher: "chacha20-ietf-poly1305"
-    password: "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
-  - name: "vmess-gg1.tanglu.xyz-80-3"
+  - name: "vmess-198.41.203.1-443"
     type: vmess
-    server: "gg1.tanglu.xyz"
-    port: 80
-    uuid: "0db0a479-8993-4e5b-a002-629e9e0b40e5"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/api/v3/download.getFile"
-      headers:
-        "Host": "o07.tgfaka.com"
-  - name: "ss-51.222.155.32-5003-2"
-    type: ss
-    server: "51.222.155.32"
-    port: 5003
-    cipher: "aes-256-gcm"
-    password: "g5MeD6Ft3CWlJId"
-  - name: "vmess-172.64.152.150-443"
-    type: vmess
-    server: "172.64.152.150"
+    server: "198.41.203.1"
     port: 443
-    uuid: "5f64fa65-7b14-49c5-954d-aa15c6bfcacd"
+    uuid: "267a9f38-40d8-4ed6-ab58-cafc67e9c933"
     alterId: 0
     cipher: "auto"
     tls: true
     network: ws
     ws-opts:
-      "path": "/dongtaiwang.com"
+      "path": "/VHONOFZ3"
       headers:
-        "Host": "clash6.ssr-free.xyz"
+        "Host": "lg1.cfcdn2.xyz"
+  - name: "vmess-47.88.52.220-80-2"
+    type: vmess
+    server: "47.88.52.220"
+    port: 80
+    uuid: "c9fe8359-5878-4413-c80e-3ffeabc47b02"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/?ed=2048"
+      headers:
+        "Host": "w.800876.xyz"
+  - name: "ss-51.222.155.32-5003"
+    type: ss
+    server: "51.222.155.32"
+    port: 5003
+    cipher: "aes-256-gcm"
+    password: "g5MeD6Ft3CWlJId"
   - name: "ss-57.131.27.21-8388-2"
     type: ss
     server: "57.131.27.21"
@@ -3376,6 +3400,19 @@ proxies:
     port: 5112
     cipher: "chacha20-ietf-poly1305"
     password: "VVlAff77CnAU43Aoc5j15Y"
+  - name: "vmess-198.41.203.3-443"
+    type: vmess
+    server: "198.41.203.3"
+    port: 443
+    uuid: "33aa57df-1c93-4318-9fce-e850437ee781"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/dongtaiwang.com"
+      headers:
+        "Host": "lg1.cfcdn3.xyz"
   - name: "trojan-nu2rb.supertoolify.com-443"
     type: trojan
     server: "nu2rb.supertoolify.com"
@@ -3411,32 +3448,31 @@ proxies:
       "path": "/socks"
       headers:
         "Host": "server47.9966338.xyz"
-  - name: "vmess-47.244.120.197-23026-2"
+  - name: "vmess-138.2.122.225-443"
     type: vmess
-    server: "47.244.120.197"
-    port: 23026
-    uuid: "b9de1bc9-baa7-41ac-86f7-ccd59695cb21"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/arki"
-      headers:
-        "Host": "47.244.120.197"
-  - name: "vmess-47.86.90.31-443-3"
-    type: vmess
-    server: "47.86.90.31"
+    server: "138.2.122.225"
     port: 443
-    uuid: "234a8041-2b4d-44a3-a8d8-523cbfd58dc4"
+    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
     alterId: 0
     cipher: "auto"
     tls: true
-    servername: "bywxdhirqkjj8xaz.v.3dns.vip"
     network: ws
     ws-opts:
-      "path": "/ws-vmess"
+      "path": "/ray"
       headers:
-        "Host": "bywxdhirqkjj8xaz.v.3dns.vip"
+        "Host": "lg30.cfcdn3.xyz"
+  - name: "vmess-www.digitalocean.com-80-3"
+    type: vmess
+    server: "www.digitalocean.com"
+    port: 80
+    uuid: "0db0a479-8993-4e5b-a002-629e9e0b40e5"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/api/v3/download.getFile"
+      headers:
+        "Host": "ssrsub.v02.asuka.buzz"
   - name: "vmess-uk3-2.998998.best-443"
     type: vmess
     server: "uk3-2.998998.best"
@@ -3465,18 +3501,6 @@ proxies:
       "path": "/rthiugoyretdsuigg?ed=2560"
       headers:
         "Host": "server10.9966338.xyz"
-  - name: "vmess-47.244.120.197-44867-3"
-    type: vmess
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/arki"
-      headers:
-        "Host": "47.244.120.197"
   - name: "vmess-161.35.229.94-443"
     type: vmess
     server: "161.35.229.94"
@@ -5820,6 +5844,18 @@ proxies:
     network: ws
     ws-opts:
       "path": "/assignment"
+  - name: "vmess-gg1.tanglu.xyz-80-3"
+    type: vmess
+    server: "gg1.tanglu.xyz"
+    port: 80
+    uuid: "0db0a479-8993-4e5b-a002-629e9e0b40e5"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/api/v3/download.getFile"
+      headers:
+        "Host": "o07.tgfaka.com"
   - name: "vmess-visa.com-443"
     type: vmess
     server: "visa.com"
@@ -12008,19 +12044,19 @@ proxies:
     server: "185.44.76.188"
     port: 443
     password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272"
-  - name: "vmess-172.64.154.222-443"
+  - name: "vmess-172.64.152.150-443"
     type: vmess
-    server: "172.64.154.222"
+    server: "172.64.152.150"
     port: 443
-    uuid: "fcfaec91-6096-44d8-956c-7868d9e874b1"
+    uuid: "5f64fa65-7b14-49c5-954d-aa15c6bfcacd"
     alterId: 0
     cipher: "auto"
     tls: true
     network: ws
     ws-opts:
-      "path": "/ray"
+      "path": "/dongtaiwang.com"
       headers:
-        "Host": "lg1.cfcdn1.xyz"
+        "Host": "clash6.ssr-free.xyz"
   - name: "vmess-422wkl.fans8.xyz-443"
     type: vmess
     server: "422wkl.fans8.xyz"
@@ -12311,11 +12347,18 @@ proxies:
       "path": "/share"
       headers:
         "Host": "us.awsbest.com"
-  - name: "trojan-45.130.125.112-443"
-    type: trojan
-    server: "45.130.125.112"
-    port: 443
-    password: "humanity"
+  - name: "vmess-RACKNERD.COM-2086-2"
+    type: vmess
+    server: "RACKNERD.COM"
+    port: 2086
+    uuid: "c2a55def-e91e-4132-c504-0f276c4c3a1e"
+    alterId: 0
+    cipher: "auto"
+    network: ws
+    ws-opts:
+      "path": "/aries"
+      headers:
+        "Host": "br.cloudflare.quest"
   - name: "vmess-104.16.56.52-2053"
     type: vmess
     server: "104.16.56.52"
@@ -12375,18 +12418,11 @@ proxies:
     server: "104.19.229.21"
     port: 443
     password: "humanity"
-  - name: "vmess-RACKNERD.COM-2086-2"
-    type: vmess
-    server: "RACKNERD.COM"
-    port: 2086
-    uuid: "c2a55def-e91e-4132-c504-0f276c4c3a1e"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      "path": "/aries"
-      headers:
-        "Host": "br.cloudflare.quest"
+  - name: "trojan-45.130.125.112-443"
+    type: trojan
+    server: "45.130.125.112"
+    port: 443
+    password: "humanity"
   - name: "trojan-188.114.97.6-443"
     type: trojan
     server: "188.114.97.6"
@@ -12494,6 +12530,19 @@ proxies:
     network: ws
     ws-opts:
       "path": "/anti13.zingfast.vn"
+  - name: "vmess-172.64.154.222-443"
+    type: vmess
+    server: "172.64.154.222"
+    port: 443
+    uuid: "fcfaec91-6096-44d8-956c-7868d9e874b1"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    network: ws
+    ws-opts:
+      "path": "/ray"
+      headers:
+        "Host": "lg1.cfcdn1.xyz"
   - name: "vmess-152.228.191.232-443"
     type: vmess
     server: "152.228.191.232"
@@ -12579,6 +12628,12 @@ proxies:
     network: ws
     ws-opts:
       "path": "/hls/cctv5phd.m3u8"
+  - name: "ss-5.188.181.201-9031"
+    type: ss
+    server: "5.188.181.201"
+    port: 9031
+    cipher: "aes-256-cfb"
+    password: "BwcAUZk8hUFAkDGN"
   - name: "vmess-www.digitalocean.com-80-5"
     type: vmess
     server: "www.digitalocean.com"
@@ -12603,17 +12658,6 @@ proxies:
       "path": "/api/v3/download.getFile"
       headers:
         "Host": "o08.tgfaka.com"
-  - name: "trojan-trs12.bolab.net-443"
-    type: trojan
-    server: "trs12.bolab.net"
-    port: 443
-    password: "14bdba6dede262387ebdebaa706e1c90"
-  - name: "ss-137.184.174.93-8080"
-    type: ss
-    server: "137.184.174.93"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
   - name: "vmess-172.67.190.164-443"
     type: vmess
     server: "172.67.190.164"
@@ -12640,6 +12684,11 @@ proxies:
       "path": "/hls/cctv5phd.m3u8"
       headers:
         "Host": "www.shopify.com"
+  - name: "trojan-trs12.bolab.net-443"
+    type: trojan
+    server: "trs12.bolab.net"
+    port: 443
+    password: "14bdba6dede262387ebdebaa706e1c90"
   - name: "vmess-172.64.145.93-443"
     type: vmess
     server: "172.64.145.93"
@@ -13368,12 +13417,6 @@ proxies:
     network: ws
     ws-opts:
       "path": "/V2RayyNGvpn"
-  - name: "ss-5.188.181.201-9040"
-    type: ss
-    server: "5.188.181.201"
-    port: 9040
-    cipher: "aes-256-cfb"
-    password: "p9z5BVADH2YFs3MN"
   - name: "vmess-47.88.104.186-80"
     type: vmess
     server: "47.88.104.186"
